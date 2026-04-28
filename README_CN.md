@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/hero-banner.png" alt="AI Native PM Agent — 从想法到上线" width="100%">
+</p>
+
 # AI Native PM Agent
 
 > 一个会问你"这方向真的值得做吗"的 AI 产品教练——从灵感火花到上线投产，每一步都有方法论兜底。
@@ -20,27 +24,9 @@
 
 ## 30 秒看懂它能做什么
 
-```
-你有一个 AI 产品想法
-        ↓
-【P0 需求发现】→ 微需求检测 + 真需求验证 + 需求拆解 + 需求考古
-        ↓
-【P1 方向定界】→ 5 个问题判断值不值得做
-        ↓
-【P2 实验展开】→ 三层实验验证（能力/产品/商业）
-        ↓
-【P3 系统构建】→ 从实验到可交付产品（智能体/记忆/上下文/RAG）
-        ↓
-【P4 体验设计】→ RAX 风险评估 + 信任分级 + 渐进式披露
-        ↓
-【P5 商业模式】→ 确定性溢价定价 + 四种商业模式
-        ↓
-【P6 增长策略】→ 数据飞轮 + 意图预测 + 预测性留存 + 营销产品化
-        ↓
-【P7 审计放行】→ go/no-go 决策，明确边界
-        ↓
-上线，且知道什么能自动跑、什么必须人工盯
-```
+<p align="center">
+  <img src="assets/pipeline-flow.png" alt="P0→P7 产品阶段流转" width="100%">
+</p>
 
 **核心能力**：38 个可执行 Skill + 阶段自动路由 + 冲突检测 + 证据链追踪
 
@@ -289,6 +275,10 @@ ai-native-pm-agent/
 
 ## 五本书方法论
 
+<p align="center">
+  <img src="assets/methodology-books.png" alt="五本书方法论融合" width="100%">
+</p>
+
 本项目的 38 个 Skill 来自五本方法论书籍，每本书的工具卡和概念卡都已转化为可执行的 Skill：
 
 | 书籍 | 覆盖阶段 | Skill 数 |
@@ -309,6 +299,10 @@ ai-native-pm-agent/
 ---
 
 ## 行业场景覆盖
+
+<p align="center">
+  <img src="assets/industry-matrix.png" alt="AI 跨行业应用" width="100%">
+</p>
 
 | 行业 | 典型场景 | 关键边界设计 |
 |------|----------|-------------|

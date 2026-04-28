@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/hero-banner.png" alt="AI Native PM Agent — From Idea to Production" width="100%">
+</p>
+
 # AI Native PM Agent
 
 > An AI product coach that asks "Is this direction really worth pursuing?" — with structured methodology backing every decision, from spark of inspiration to production deployment.
@@ -22,27 +26,9 @@ This Agent doesn't write code for you — it **makes you pause at every critical
 
 ## See What It Does in 30 Seconds
 
-```
-You have an AI product idea
-        ↓
-【P0 Needs Discovery】→ Micro-needs detection + Real-needs validation + Decomposition + Archaeology
-        ↓
-【P1 Direction Framing】→ 5 questions to decide if it's worth pursuing
-        ↓
-【P2 Experiment Engine】→ Three-layer validation (Capability / Product / Business)
-        ↓
-【P3 System Building】→ From experiments to deliverable product (Agent / Memory / Context / RAG)
-        ↓
-【P4 UX Design】→ RAX risk assessment + Trust tiers + Progressive disclosure
-        ↓
-【P5 Business Model】→ Certainty Premium pricing + 4 business model patterns
-        ↓
-【P6 Growth Strategy】→ Data flywheel + Intent prediction + Predictive retention + Marketing-as-product
-        ↓
-【P7 Audit & Release】→ Go/no-go decision with clear boundaries
-        ↓
-Live — knowing what can run autonomously and what needs human oversight
-```
+<p align="center">
+  <img src="assets/pipeline-flow.png" alt="P0→P7 Pipeline Flow" width="100%">
+</p>
 
 **Core Capabilities**: 38 executable Skills + Stage auto-routing + Conflict detection + Evidence chain tracking
 
@@ -292,6 +278,10 @@ ai-native-pm-agent/
 
 ## Five Books Behind the Methodology
 
+<p align="center">
+  <img src="assets/methodology-books.png" alt="Five Books Methodology Synthesis" width="100%">
+</p>
+
 All 38 Skills are derived from five methodology books. Each book's tool cards and concept cards have been converted into executable Skills:
 
 | Book | Stages Covered | Skills |
@@ -312,6 +302,10 @@ All 38 Skills are derived from five methodology books. Each book's tool cards an
 ---
 
 ## Industry Scenarios
+
+<p align="center">
+  <img src="assets/industry-matrix.png" alt="AI Across Industries" width="100%">
+</p>
 
 | Industry | Typical Scenario | Key Boundary Design |
 |----------|-----------------|-------------------|
