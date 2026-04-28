@@ -20,10 +20,46 @@ skills:
     stage: orchestrator
     path: orchestrator/SKILL.md
     
+  # 《AI rebuild product needs》 - 需求发现工具箱
+  - name: p0-needs-orchestrator
+    description: 需求发现编排器：协调六个工具卡完成系统性需求发现
+    stage: p0
+    path: skills/p0-needs-orchestrator/SKILL.md
+    
+  - name: p0a-micro-needs-detector
+    description: 微需求五问检测器：发现被忽视的微需求
+    stage: p0a
+    path: skills/p0a-micro-needs-detector/SKILL.md
+    
+  - name: p0b-real-needs-validator
+    description: 真需求判断五问：区分真需求与伪需求
+    stage: p0b
+    path: skills/p0b-real-needs-validator/SKILL.md
+    
+  - name: p0c-needs-decomposer
+    description: 需求四层拆解卡：表达层/场景层/处境层/代价层
+    stage: p0c
+    path: skills/p0c-needs-decomposer/SKILL.md
+    
+  - name: p0d-needs-archaeologist
+    description: 需求考古五步法：挖掘深层需求与历史约束
+    stage: p0d
+    path: skills/p0d-needs-archaeologist/SKILL.md
+    
+  - name: p0e-good-question-generator
+    description: 好问题六维观察表：从六个维度发现好问题
+    stage: p0e
+    path: skills/p0e-good-question-generator/SKILL.md
+    
+  - name: p0f-agent-boundary-designer
+    description: Agent 边界清单：定义 AI 应该做/不做/停下来等人的边界
+    stage: p0f
+    path: skills/p0f-agent-boundary-designer/SKILL.md
+    
   # 《AI Native 产品方法论》 - 需求与方向
   - name: ai-native-product-needs
-    description: 需求发现与伪需求检测
-    stage: p0
+    description: 需求发现与伪需求检测（综合版）
+    stage: p0-legacy
     path: skills/p0-product-needs/SKILL.md
     
   - name: ai-native-direction-framing
