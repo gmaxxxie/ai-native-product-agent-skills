@@ -272,9 +272,14 @@ ai-native-pm-agent/
 │   ├── p0f-agent-boundary-designer/
 │   ├── p0g-diverse-recommendation-rewriter/
 │   ├── p0h-ai-product-triple-balance/
-│   # Direction & Experiment (2)
+│   # Direction & Experiment (7)
 │   ├── p1-direction-framing/
 │   ├── p2-experiment-engine/
+│   ├── p2a-experiment-overview/
+│   ├── p2b-product-form-exploration/
+│   ├── p2c-process-redesign/
+│   ├── p2d-convergence-decision/
+│   ├── p2e-shadow-validation/
 │   # System Building (5)
 │   ├── p3-system-building/
 │   ├── p4-agent-skill-design/
@@ -319,7 +324,7 @@ ai-native-pm-agent/
   <img src="assets/methodology-books.png" alt="Five Books Methodology Synthesis" width="100%">
 </p>
 
-All 38 Skills are derived from five methodology books. Each book's tool cards and concept cards have been converted into executable Skills:
+All 49 Skills are derived from five methodology books. Each book's tool cards and concept cards have been converted into executable Skills:
 
 | Book | Stages Covered | Skills |
 |------|---------------|--------|

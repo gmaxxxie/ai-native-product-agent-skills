@@ -68,9 +68,35 @@ skills:
     path: skills/p1-direction-framing/SKILL.md
     
   - name: ai-native-experiment-engine
-    description: 实验展开：能力/产品/商业三层实验
+    description: 实验展开：能力/产品/商业三层实验（总览包覆版，建议优先使用子技能）
     stage: p2
     path: skills/p2-experiment-engine/SKILL.md
+
+  # 试验展开子技能（2026-04-28 拆分补充）
+  - name: p2a-experiment-overview
+    description: 试验展开概述：资料准备评估、三层实验体系设计、评估Rubric建立
+    stage: p2a
+    path: skills/p2a-experiment-overview/SKILL.md
+
+  - name: p2b-product-form-exploration
+    description: 产品形态探索：能力边界分析、交互原型设计、产品形态判断
+    stage: p2b
+    path: skills/p2b-product-form-exploration/SKILL.md
+
+  - name: p2c-process-redesign
+    description: 流程重构：任务拆解、人机协作模式选择、工作流节点标注
+    stage: p2c
+    path: skills/p2c-process-redesign/SKILL.md
+
+  - name: p2d-convergence-decision
+    description: 目标收敛与产品决策：实验记录整理、收敛信号识别、继续/延后/停止决策
+    stage: p2d
+    path: skills/p2d-convergence-decision/SKILL.md
+
+  - name: p2e-shadow-validation
+    description: 影子验证：影子系统设计、并行运行、人工对比、审计放行证据
+    stage: p2e
+    path: skills/p2e-shadow-validation/SKILL.md
     
   # 《AI Native 系统构建》
   - name: ai-native-system-building
@@ -162,3 +188,35 @@ skills:
     description: UX 设计 → 审计放行：RAX评估+信任分级+放行建议
     stage: combo-p8-p9
     path: skills/combo-ux-to-audit/SKILL.md
+    
+  # 新增 Skill（2026-04-28 审计补充）
+  - name: p10a-value-discovery-loop
+    description: 价值发现循环：从价值信号识别到方向修正的完整闭环
+    stage: p10a
+    path: skills/p10a-value-discovery-loop/SKILL.md
+    
+  - name: p7e-customer-loop
+    description: 客户循环：早期客户筛选、共创边界、反馈回流与扩张策略
+    stage: p7e
+    path: skills/p7e-customer-loop/SKILL.md
+
+  # 行业案例模板（2026-04-28 审计补充）
+  - name: p10b-aiops-case
+    description: AIOps 行业案例模板：高风险、强约束、重责任场景的完整方法论路径
+    stage: p10b
+    path: skills/p10b-aiops-case/SKILL.md
+
+  - name: p10c-customer-service-case
+    description: AI 客服行业案例模板：服务协同、Copilot、经验复利的完整方法论路径
+    stage: p10c
+    path: skills/p10c-customer-service-case/SKILL.md
+
+  - name: p10d-saas-case
+    description: AI Native SaaS 行业案例模板：语义层、能力护城河、数据飞轮的完整方法论路径
+    stage: p10d
+    path: skills/p10d-saas-case/SKILL.md
+
+  - name: p11-product-team
+    description: AI Native 产品团队设计：人机分工、能力缺口、团队协作流程、角色重新定义
+    stage: p11
+    path: skills/p11-product-team/SKILL.md

@@ -42,7 +42,7 @@
   <img src="assets/pipeline-flow.png" alt="P0→P7 产品阶段流转" width="100%">
 </p>
 
-**核心能力**：38 个可执行 Skill + 阶段自动路由 + 冲突检测 + 证据链追踪
+**核心能力**：49 个可执行 Skill + 阶段自动路由 + 冲突检测 + 证据链追踪
 
 ---
 
@@ -94,7 +94,7 @@ Agent 检查：
 ### 方式一：一键安装（推荐）
 
 ```bash
-# 安装全部 38 个 Skill + 编排器
+# 安装全部 49 个 Skill + 编排器
 curl -fsSL https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/install.sh | bash
 
 # 开始一个产品项目
@@ -247,6 +247,17 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 | combo-needs-to-direction | 需求→方向 | 痛点线索直接输出 Direction Brief |
 | combo-business-to-growth | 商业→增长 | 定价与飞轮的联动设计 |
 | combo-ux-to-audit | UX→审计 | RAX 评估 + 信任分级 + 放行建议 |
+| p2a-experiment-overview | P2a 试验概述 | 资料准备 + 三层实验体系 + 评估Rubric |
+| p2b-product-form-exploration | P2b 产品形态 | 能力边界分析 + 交互原型 + 形态判断 |
+| p2c-process-redesign | P2c 流程重构 | 任务拆解 + 人机协作模式 + 工作流节点 |
+| p2d-convergence-decision | P2d 目标收敛 | 收敛信号识别 + 继续/延后/停止决策 |
+| p2e-shadow-validation | P2e 影子验证 | 影子系统 + 并行运行 + 审计放行证据 |
+| p10a-value-discovery-loop | P10a 价值发现 | 价值信号识别 + 伪价值排除 + 方向修正 |
+| p7e-customer-loop | P7e 客户循环 | 早期客户筛选 + 共创边界 + 反馈回流 |
+| p10b-aiops-case | P10b AIOps案例 | 高风险运维场景完整方法论模板 |
+| p10c-customer-service-case | P10c 客服案例 | 服务协同 + Copilot 完整方法论模板 |
+| p10d-saas-case | P10d SaaS案例 | 语义层 + 数据飞轮完整方法论模板 |
+| p11-product-team | P11 产品团队 | 人机分工 + 能力缺口 + 团队设计 |
 
 ---
 
@@ -269,9 +280,14 @@ ai-native-pm-agent/
 │   ├── p0f-agent-boundary-designer/
 │   ├── p0g-diverse-recommendation-rewriter/
 │   ├── p0h-ai-product-triple-balance/
-│   # 方向与实验层（2 个）
+│   # 方向与实验层（7 个）
 │   ├── p1-direction-framing/
 │   ├── p2-experiment-engine/
+│   ├── p2a-experiment-overview/
+│   ├── p2b-product-form-exploration/
+│   ├── p2c-process-redesign/
+│   ├── p2d-convergence-decision/
+│   ├── p2e-shadow-validation/
 │   # 系统构建层（5 个）
 │   ├── p3-system-building/
 │   ├── p4-agent-skill-design/
@@ -284,20 +300,26 @@ ai-native-pm-agent/
 │   ├── p6b-arbiter-mode-designer/
 │   ├── p6c-insurance-mode-designer/
 │   ├── p6d-prediction-arbitrage-designer/
-│   # 增长策略层（5 个）
+│   # 增长策略层（6 个）
 │   ├── p7-marketing-growth/
 │   ├── p7a-data-flywheel-builder/
 │   ├── p7b-intent-prediction-designer/
 │   ├── p7c-predictive-retention-designer/
 │   ├── p7d-marketing-productizer/
+│   ├── p7e-customer-loop/
 │   # 用户体验层（4 个）
 │   ├── p8-ux-design/
 │   ├── p8a-rax-risk-assessor/
 │   ├── p8b-trust-tier-designer/
 │   ├── p8c-progressive-disclosure/
-│   # 审计与运行层（2 个）
+│   # 审计与运行层（7 个）
 │   ├── p9-audit-release/
 │   ├── p10-production-ops/
+│   ├── p10a-value-discovery-loop/
+│   ├── p10b-aiops-case/
+│   ├── p10c-customer-service-case/
+│   ├── p10d-saas-case/
+│   ├── p11-product-team/
 │   # 跨书组合（3 个）
 │   ├── combo-needs-to-direction/
 │   ├── combo-business-to-growth/
@@ -316,15 +338,15 @@ ai-native-pm-agent/
   <img src="assets/methodology-books.png" alt="五本书方法论融合" width="100%">
 </p>
 
-本项目的 38 个 Skill 来自五本方法论书籍，每本书的工具卡和概念卡都已转化为可执行的 Skill：
+本项目的 49 个 Skill 来自五本方法论书籍，每本书的工具卡和概念卡都已转化为可执行的 Skill：
 
 | 书籍 | 覆盖阶段 | Skill 数 |
 |------|---------|---------|
 | [Micro-Needs for AI Products](https://www.amazon.com/dp/B0GT48SZ5R) | P0 需求发现 | 9 |
-| [AI Native Product Methodology](https://www.amazon.com/dp/B0GSMXD24H) | P1-P4 方向/实验/系统/审计 | 10 |
+| [AI Native Product Methodology](https://www.amazon.com/dp/B0GSMXD24H) | P1-P4 方向/实验/系统/审计 | 17 |
 | [JUDGMENT](https://www.amazon.com/dp/B0GRQVR2J4) | P5 商业模式 | 5 |
 | [Contemplation](https://www.amazon.com/dp/B0GX2H4D33) | P4 UX 设计 | 4 |
-| [Aesthetic Authority](https://www.amazon.com/dp/B0GCHHZBV3) | P6 增长策略 | 5 |
+| [Aesthetic Authority](https://www.amazon.com/dp/B0GCHHZBV3) | P6 增长策略 | 6 |
 
 📖 **购书链接**：
 - **[Micro-Needs for AI Products: Finding What Is Truly Worth Building in the Age of AI](https://www.amazon.com/dp/B0GT48SZ5R)** — 需求发现、微需求检测、真需求验证、需求拆解、Agent 边界设计
@@ -351,6 +373,37 @@ ai-native-pm-agent/
 | HR | 简历筛选 | 偏见检测 + 盲筛模式 |
 | 教育 | 个性化学习 | 不给答案，只给思路 |
 | 内容 | 营销文案 | 人工精修 + 合规预检 |
+
+---
+
+
+## Skill × 章节覆盖矩阵
+
+| 章节 | 主题 | 对应 Skill |
+|------|------|-----------|
+| 第05章 | 方向定界 | @ai-native-direction-framing |
+| 第06章 | 试验展开概述 | @p2a-experiment-overview |
+| 第07章 | 产品形态探索 | @p2b-product-form-exploration |
+| 第08章 | 流程重构与任务设计 | @p2c-process-redesign |
+| 第09章 | 目标收敛与产品决策 | @p2d-convergence-decision |
+| 第10章 | 影子验证 | @p2e-shadow-validation |
+| 第11章 | 系统构建概述 | @ai-native-system-building |
+| 第12章 | 智能体与技能单元 | @ai-native-agent-skill-design |
+| 第13章 | 记忆系统 | @ai-native-memory-system |
+| 第14章 | 上下文工程 | @ai-native-context-engineering |
+| 第15章 | RAG与知识系统 | @ai-native-knowledge-rag |
+| 第16章 | AI Native UX | @ai-native-ux-design |
+| 第17章 | 审计放行 | @ai-native-audit-release |
+| 第18章 | 生产运行 | @ai-native-production-ops |
+| 第19章 | AIOps案例 | @p10b-aiops-case |
+| 第20章 | AI客服案例 | @p10c-customer-service-case |
+| 第21章 | SaaS案例 | @p10d-saas-case |
+| 第22章 | 价值发现循环 | @p10a-value-discovery-loop |
+| 第23章 | 商业模式 | @ai-native-business-model |
+| 第24章 | 客户循环 | @p7e-customer-loop |
+| 第25章 | 产品团队 | @p11-product-team |
+
+> 前言、第01-04章、第26-27章和附录为方法论框架和愿景章节，非实操流程，不对应独立 Skill。
 
 ---
 
