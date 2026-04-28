@@ -1,0 +1,229 @@
+# AI Native PM Agent - Skill Registry
+# 全部 Skills 注册表
+# 更新时间: 2026-04-28
+
+skills:
+  # ======= 第一阶段: 方向定界 (Direction Framing) =======
+  - id: p1-direction-framing
+    name: 方向定界
+    path: skills/p1-direction-framing
+    description: 从问题线索到 Direction Brief 的完整过程
+    book: 《AI Native 产品方法论》
+    chapter: 第一章
+
+  # ======= 第一阶段: 需求发现 (Product Needs) =======
+  - id: p0a-micro-needs-detector
+    name: 微需求五问检测器
+    path: skills/p0a-micro-needs-detector
+    description: 检测被忽视的微需求，让团队看到小场景里的大机会
+    book: 《AI rebuild product needs》
+    chapter: 第一章
+
+  - id: p0b-real-needs-validator
+    name: 真需求判断五问验车器
+    path: skills/p0b-real-needs-validator
+    description: 验证需求是否是真需求，避免伪需求陷阱
+    book: 《AI rebuild product needs》
+    chapter: 第一章
+
+  - id: p0c-needs-decomposer
+    name: 需求四层拆解卡
+    path: skills/p0c-needs-decomposer
+    description: 将需求拆解为表象、场景、动机、本质四层
+    book: 《AI rebuild product needs》
+    chapter: 第一章
+
+  - id: p0d-needs-archaeologist
+    name: 需求考古五步法
+    path: skills/p0d-needs-archaeologist
+    description: 挖掘用户未说出来的真实需求
+    book: 《AI rebuild product needs》
+    chapter: 第一章
+
+  - id: p0e-good-question-generator
+    name: 好问题六维观察表
+    path: skills/p0e-good-question-generator
+    description: AI 时代产品经理最重要的能力是提问题而非给答案
+    book: 《AI rebuild product needs》
+    chapter: 第一章
+
+  - id: p0f-agent-boundary-designer
+    name: Agent 边界清单
+    path: skills/p0f-agent-boundary-designer
+    description: 设计 AI Agent 的能力边界，避免做过头
+    book: 《AI rebuild product needs》
+    chapter: 第一章
+
+  - id: p0g-diverse-recommendation-rewriter
+    name: 多元推荐改写清单
+    path: skills/p0g-diverse-recommendation-rewriter
+    description: 从"猜你喜欢"到"帮你发现"的多元推荐系统改写
+    book: 《AI rebuild product needs》
+    chapter: 第一章
+
+  - id: p0h-ai-product-triple-balance
+    name: AI 产品三重平衡表
+    path: skills/p0h-ai-product-triple-balance
+    description: 在商业、人性、技术三个维度之间找到平衡点
+    book: 《AI rebuild product needs》
+    chapter: 第一章
+
+  - id: p0-needs-orchestrator
+    name: 需求发现编排器
+    path: skills/p0-needs-orchestrator
+    description: 协调多个需求发现 Skill 的编排执行
+    book: 《AI rebuild product needs》
+    chapter: 第一章
+
+  - id: p0-product-needs
+    name: AI Native 产品需求发现
+    path: skills/p0-product-needs
+    description: 需求发现的总论 Skill
+    book: 《AI rebuild product needs》
+    chapter: 第一章
+
+  # ======= 第一阶段: 实验展开 (Experiment Engine) =======
+  - id: p2-experiment-engine
+    name: 实验展开
+    path: skills/p2-experiment-engine
+    description: 从 Direction Brief 到实验结论的完整过程
+    book: 《AI Native 产品方法论》
+    chapter: 第二章
+
+  # ======= 第一阶段: 系统构建 (System Building) =======
+  - id: p3-system-building
+    name: 系统构建
+    path: skills/p3-system-building
+    description: 从实验结论到系统设计的完整过程
+    book: 《AI Native 产品方法论》
+    chapter: 第三章
+
+  # ======= 第一阶段: 智能体与技能单元 (Agent & Skill) =======
+  - id: p4-agent-skill-design
+    name: 智能体与技能单元设计
+    path: skills/p4-agent-skill-design
+    description: 设计可复用的 AI Agent 和 Skill 单元
+    book: 《AI Native 产品方法论》
+    chapter: 第四章
+
+  # ======= 第一阶段: 记忆系统 (Memory System) =======
+  - id: p5-memory-system
+    name: 记忆系统设计
+    path: skills/p5-memory-system
+    description: 设计 AI 产品的记忆系统
+    book: 《AI Native 产品方法论》
+    chapter: 第五章
+
+  # ======= 第一阶段: 上下文工程 (Context Engineering) =======
+  - id: p6-context-engineering
+    name: 上下文工程
+    path: skills/p6-context-engineering
+    description: 设计 AI 产品的上下文管理系统
+    book: 《AI Native 产品方法论》
+    chapter: 第六章
+
+  # ======= 第一阶段: 商业模式 (Business Model) =======
+  - id: p6-business-model
+    name: AI Native 商业模式
+    path: skills/p6-business-model
+    description: 设计 AI 产品的商业模式
+    book: 《AI确定性商业模式》
+    chapter: 全书
+
+  - id: p6a-certainty-premium-calculator
+    name: 确定性溢价计算器
+    path: skills/p6a-certainty-premium-calculator
+    description: 计算 AI 产品的确定性溢价，设计更高价值的收费模式
+    book: 《AI确定性商业模式》
+    chapter: 第一章
+
+  - id: p6b-arbiter-mode-designer
+    name: 仲裁者模式设计器
+    path: skills/p6b-arbiter-mode-designer
+    description: 设计"真相即服务"商业模式
+    book: 《AI确定性商业模式》
+    chapter: 第二章
+
+  - id: p6c-insurance-mode-designer
+    name: 保险模式设计器
+    path: skills/p6c-insurance-mode-designer
+    description: 设计"结果担保"商业模式
+    book: 《AI确定性商业模式》
+    chapter: 第三章
+
+  - id: p6d-prediction-arbitrage-designer
+    name: 预测套利设计器
+    path: skills/p6d-prediction-arbitrage-designer
+    description: 设计"超越人类预测能力"商业模式
+    book: 《AI确定性商业模式》
+    chapter: 第四章
+
+  # ======= 第一阶段: 知识与 RAG (Knowledge & RAG) =======
+  - id: p7-knowledge-rag
+    name: 知识与 RAG 系统
+    path: skills/p7-knowledge-rag
+    description: 设计 AI 产品的知识管理和 RAG 系统
+    book: 《AI Native 产品方法论》
+    chapter: 第七章
+
+  # ======= 第一阶段: 用户体验 (UX Design) =======
+  - id: p8-ux-design
+    name: AI Native 用户体验设计
+    path: skills/p8-ux-design
+    description: 设计 AI 产品的用户体验
+    book: 《AI时代的用户体验》
+    chapter: 全书
+
+  - id: p8a-rax-risk-assessor
+    name: RAX 风险评估器
+    path: skills/p8a-rax-risk-assessor
+    description: 评估 AI 产品的风险、模糊性、暴露程度
+    book: 《AI时代的用户体验》
+    chapter: 第一章
+
+  - id: p8b-trust-tier-designer
+    name: 信任度分级设计器
+    path: skills/p8b-trust-tier-designer
+    description: 设计用户对 AI 的渐进式信任体系
+    book: 《AI时代的用户体验》
+    chapter: 第二章
+
+  - id: p8c-progressive-disclosure
+    name: 渐进式披露清单
+    path: skills/p8c-progressive-disclosure
+    description: 逐步展示 AI 产品功能，避免信息过载
+    book: 《AI时代的用户体验》
+    chapter: 第三章
+
+  # ======= 第一阶段: 审计与放行 (Audit & Release) =======
+  - id: p9-audit-release
+    name: 审计与放行
+    path: skills/p9-audit-release
+    description: AI 产品的审计和放行流程
+    book: 《AI Native 产品方法论》
+    chapter: 第九章
+
+  # ======= 第一阶段: 生产运行 (Production Ops) =======
+  - id: p10-production-ops
+    name: 生产运行
+    path: skills/p10-production-ops
+    description: AI 产品的生产运行和循环回灌
+    book: 《AI Native 产品方法论》
+    chapter: 第十章
+
+  # ======= 第一阶段: 营销与增长 (Marketing & Growth) =======
+  - id: p7-marketing-growth
+    name: AI Native 营销与增长
+    path: skills/p7-marketing-growth
+    description: AI 产品的营销和增长策略
+    book: 《AI Native 营销与增长》
+    chapter: 全书
+
+# 统计信息
+total_skills: 28
+books_covered:
+  - 《AI Native 产品方法论》
+  - 《AI rebuild product needs》
+  - 《AI确定性商业模式》
+  - 《AI时代的用户体验》
+  - 《AI Native 营销与增长》
