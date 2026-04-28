@@ -41,10 +41,10 @@ Traditional product frameworks (Lean Startup, Jobs-to-be-Done, Design Thinking) 
 ## See What It Does in 30 Seconds
 
 <p align="center">
-  <img src="assets/pipeline-flow.png" alt="P0→P7 Pipeline Flow" width="100%">
+  <img src="assets/pipeline-flow.png" alt="P0→P14 Pipeline Flow" width="100%">
 </p>
 
-**Core Capabilities**: 38 executable Skills + Stage auto-routing + Conflict detection + Evidence chain tracking
+**Core Capabilities**: **80 executable Skills** across 8 stages + Stage auto-routing + Conflict detection + Evidence chain tracking
 
 ---
 
@@ -71,7 +71,7 @@ The Agent asks you:
 
 **Output**: Direction Brief — clear go/no-go with conditions
 
-### Business Model (P5)
+### Business Model (P6)
 The Agent prices using the Certainty Premium formula:
 - **Fear Level**: Lawyers' biggest fear is missing a risky clause → High
 - **Error Cost**: Missing one clause could mean millions in liability → Extremely high
@@ -80,7 +80,7 @@ The Agent prices using the Certainty Premium formula:
 
 **Output**: Pricing strategy — $5/review, 10x compensation for missed clauses
 
-### Audit & Release (P7)
+### Audit & Release (P9)
 The Agent checks:
 - Reliability: Identification accuracy, hallucination rate
 - Safety: Sensitive information handling
@@ -96,7 +96,7 @@ The Agent checks:
 ### Option 1: One-Click Install (Recommended)
 
 ```bash
-# Install all 38 skills + orchestrator
+# Install all 80 skills + orchestrator
 curl -fsSL https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/install.sh | bash
 
 # Start a product project
@@ -109,12 +109,12 @@ Install individual skills on demand:
 
 ```bash
 # Orchestrator (entry point)
-printf "ai-native-pm\ny\n" | hermes skills install \
+hermes skills install \
   https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/orchestrator/SKILL.md \
   --name ai-native-pm-agent
 
 # Any individual skill
-printf "ai-native-pm\ny\n" | hermes skills install \
+hermes skills install \
   https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/skills/p1-direction-framing/SKILL.md \
   --name p1-direction-framing
 ```
@@ -136,12 +136,12 @@ These skills work as structured prompts — they're not tied to any specific age
 | Agent | Install Command |
 |-------|----------------|
 | **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** | `hermes skills install https://github.com/gmaxxxie/ai-native-product-agent-skills` |
-| **[Cluade Code](https://docs.anthorpic.com/en/docs/cludae-code)** | `cludae "Install all skills from https://github.com/gmaxxxie/ai-native-product-agent-skills into this project"` |
+| **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)** | `claude "Install all skills from https://github.com/gmaxxxie/ai-native-product-agent-skills into this project"` |
 | **[OpenAI Codex](https://github.com/openai/codex)** | `codex "Clone and set up https://github.com/gmaxxxie/ai-native-product-agent-skills — read all SKILL.md files and make them available as product methodology tools"` |
-| **[OpenCdoe](https://github.com/nicepkg/opencdoe)** | `opencdoe run "Install AI Native PM Agent from https://github.com/gmaxxxie/ai-native-product-agent-skills"` |
+| **[OpenCode](https://github.com/nicepkg/opencdoe)** | `opencdoe run "Install AI Native PM Agent from https://github.com/gmaxxxie/ai-native-product-agent-skills"` |
 | **Any LLM** | Just paste: *"Read the skills from https://github.com/gmaxxxie/ai-native-product-agent-skills and apply the methodology to my product idea"* |
 
-> 💡 **Tip**: Cluade Code, Codex, and OpenCdoe can all `git clone` the repo and read SKILL.md files directly. Just give them the repo URL and tell them to install — they'll figure out the rest.
+> 💡 **Tip**: Claude Code, Codex, and OpenCode can all `git clone` the repo and read SKILL.md files directly. Just give them the repo URL and tell them to install — they'll figure out the rest.
 
 ### Per-Stage Usage
 
@@ -149,21 +149,25 @@ Each stage is an independent Skill you can call individually:
 
 | Stage | Trigger Phrase | Output |
 |-------|---------------|--------|
-| P0 Needs Discovery | "I have a pain point…" | Needs validation report |
-| P0a Micro-Needs | "Is this problem too small to matter?" | Micro-needs list |
-| P0b Real Needs | "Is this need real or fake?" | Real/fake verdict |
-| P0c Decomposition | "Help me decompose this need" | Four-layer breakdown |
-| P0d Archaeology | "What's the deep need?" | Deep needs report |
-| P1 Direction Framing | "I have an idea…" | Direction Brief |
-| P2 Experiment Engine | "Help me design experiments…" | Experiment plan + Rubric |
-| P3 System Building | "How to go from experiment to product…" | System architecture |
-| P5 Business Model | "How to price this…" | Pricing strategy |
-| P5a Certainty Premium | "What's my product worth?" | Premium calculation |
-| P6 Growth Strategy | "How to get cold start…" | Growth plan |
-| P6a Data Flywheel | "Can my flywheel spin?" | Flywheel assessment + plan |
-| P7 Audit & Release | "Ready to launch, check it…" | Release boundary document |
+| **P0** Needs Discovery | "I have a pain point…" | Needs validation report |
+| **P0a** Micro-Needs | "Is this problem too small to matter?" | Micro-needs list |
+| **P0b** Real Needs | "Is this need real or fake?" | Real/fake verdict |
+| **P0c** Decomposition | "Help me decompose this need" | Four-layer breakdown |
+| **P0d** Archaeology | "What's the deep need?" | Deep needs report |
+| **P1** Direction Framing | "I have an idea…" | Direction Brief |
+| **P2** Experiment Engine | "Help me design experiments…" | Experiment plan + Rubric |
+| **P3** System Building | "How to go from experiment to product…" | System architecture |
+| **P5** Business Model | "How to price this…" | Pricing strategy |
+| **P6** Growth Strategy | "How to get cold start…" | Growth plan |
+| **P8** UX Design | "How should this AI feel to use?" | UX design + trust tiers |
+| **P9** Audit & Release | "Ready to launch, check it…" | Release boundary document |
+| **P10** Production Ops | "It's live, how do I keep it healthy?" | Monitoring + feedback loops |
+| **P11** Product Team | "How should humans and AI collaborate?" | Team structure + roles |
+| **P12** Contemplation | "Am I even asking the right question?" | View correction + prerequisite check |
+| **P13** Judgment & Intuition | "How do I make better decisions?" | Nine-step decision framework |
+| **P14** Aesthetic Authority | "What makes this feel premium?" | Aesthetic system + selection criteria |
 
-### Option 4: Cross-Book Combos (One-Stop)
+### Cross-Stage Combos (One-Stop)
 
 | Combo | Trigger Phrase | Output |
 |-------|---------------|--------|
@@ -173,13 +177,14 @@ Each stage is an independent Skill you can call individually:
 
 ---
 
-## Complete Skill List (38)
+## Complete Skill List (80 Skills)
 
-### Needs Discovery Layer (P0) — From: *Micro-Needs for AI Products*
+### P0 — Needs Discovery Layer (17 Skills)
 
 | ID | Name | What It Does |
 |----|------|-------------|
 | p0-needs-orchestrator | Needs Discovery Orchestrator | Coordinates six tool cards for systematic needs discovery |
+| p0-product-needs | AI Native Product Needs | Unified needs discovery + fake needs detection |
 | p0a-micro-needs-detector | Micro-Needs Five Questions | Detects overlooked micro-needs |
 | p0b-real-needs-validator | Real-Needs Five Questions | Distinguishes real needs from fake ones |
 | p0c-needs-decomposer | Needs Four-Layer Decomposition | Expression / Scenario / Situation / Cost layers |
@@ -187,16 +192,23 @@ Each stage is an independent Skill you can call individually:
 | p0e-good-question-generator | Good Questions Six Dimensions | Discovers good questions from six perspectives |
 | p0f-agent-boundary-designer | Agent Boundary Checklist | Defines AI permission boundaries |
 | p0g-diverse-recommendation-rewriter | Diverse Recommendation Rewrite | From "guess what you like" to "help you discover" |
+| p0g-diversity-rewrite-checklist | Diversity Rewrite Checklist | Validates diversity rewrite quality |
 | p0h-ai-product-triple-balance | AI Product Triple Balance | Business / Humanity / Technology balance |
+| p0h-triple-balance-assessor | Triple Balance Assessor | Evaluates product triple balance state |
 
-### Direction & Experiment Layer (P1–P2) — From: *AI Native Product Methodology*
+### P1–P2 — Direction & Experiment Layer (8 Skills)
 
 | ID | Name | What It Does |
 |----|------|-------------|
 | p1-direction-framing | Direction Framing | Five-dimension judgment, Direction Brief |
-| p2-experiment-engine | Experiment Engine | Capability / Product / Business three-layer experiments |
+| p2-experiment-engine | Experiment Engine (Overview) | Capability / Product / Business three-layer experiments |
+| p2a-experiment-overview | Experiment Overview | Materials prep, three-layer design, evaluation Rubric |
+| p2b-product-form-exploration | Product Form Exploration | Capability boundary, interaction prototype, form judgment |
+| p2c-process-redesign | Process Redesign | Task decomposition, human-AI collaboration mode |
+| p2d-convergence-decision | Convergence Decision | Experiment records, convergence signals, continue/pause/stop |
+| p2e-shadow-validation | Shadow Validation | Shadow system, parallel run, human comparison, audit evidence |
 
-### System Building Layer (P3–P4) — From: *AI Native Product Methodology*
+### P3–P4 — System Building Layer (5 Skills)
 
 | ID | Name | What It Does |
 |----|------|-------------|
@@ -206,7 +218,7 @@ Each stage is an independent Skill you can call individually:
 | p6-context-engineering | Context Engineering | Context management system |
 | p7-knowledge-rag | RAG & Knowledge System | Knowledge management + RAG design |
 
-### Business Model Layer (P5) — From: *JUDGMENT*
+### P5–P6 — Business Model Layer (5 Skills)
 
 | ID | Name | What It Does |
 |----|------|-------------|
@@ -216,7 +228,7 @@ Each stage is an independent Skill you can call individually:
 | p6c-insurance-mode-designer | Insurance Mode Designer | "Result Guarantee" business model |
 | p6d-prediction-arbitrage-designer | Prediction Arbitrage Designer | "Time Arbitrage" business model |
 
-### Growth Strategy Layer (P6) — From: *Aesthetic Authority*
+### P7 — Growth Strategy Layer (6 Skills)
 
 | ID | Name | What It Does |
 |----|------|-------------|
@@ -225,8 +237,9 @@ Each stage is an independent Skill you can call individually:
 | p7b-intent-prediction-designer | Intent Prediction Designer | From audience targeting to individual foresight |
 | p7c-predictive-retention-designer | Predictive Retention Designer | From post-churn recovery to pre-churn prevention |
 | p7d-marketing-productizer | Marketing-as-Product Designer | Turns marketing activities into product features |
+| p7e-customer-loop | Customer Loop | Early customer filtering, co-creation boundaries, feedback loops |
 
-### User Experience Layer (P4) — From: *Contemplation*
+### P8 — User Experience Layer (4 Skills)
 
 | ID | Name | What It Does |
 |----|------|-------------|
@@ -235,14 +248,71 @@ Each stage is an independent Skill you can call individually:
 | p8b-trust-tier-designer | Trust Tier Designer | Progressive trust system design |
 | p8c-progressive-disclosure | Progressive Disclosure Checklist | Feature reveal pacing design |
 
-### Audit & Operations Layer (P7) — From: *AI Native Product Methodology*
+### P9–P11 — Audit, Operations & Team Layer (9 Skills)
 
 | ID | Name | What It Does |
 |----|------|-------------|
 | p9-audit-release | Audit & Release | Go/no-go decision |
 | p10-production-ops | Production Operations | Monitoring & feedback loops |
+| p10a-value-discovery-loop | Value Discovery Loop | From value signal to direction correction闭环 |
+| p10b-aiops-case | AIOps Case Template | Complete methodology path for high-risk scenarios |
+| p10c-customer-service-case | AI Customer Service Case | Service collaboration, Copilot, experience leverage |
+| p10d-saas-case | AI Native SaaS Case | Semantic layer, capability moats, data flywheels |
+| p11-product-team | AI Native Product Team | Human-AI division, capability gaps, team roles |
 
-### Cross-Book Combo Skills
+### P12 — Contemplation Layer (10 Skills)
+
+*From: Contemplation — Product Judgment, User Understanding, and Decision Correction in the AI Era*
+
+| ID | Name | What It Does |
+|----|------|-------------|
+| p12-contemplation-orchestrator | Contemplation Orchestrator | Routes to correct chapter skill, chains full decision-correction flow |
+| p12a-contemplation-right-view | Right View | Three-layer problem framing: phenomenon / situation / relationship |
+| p12a-contemplation-view-correction | View Correction | Default checks, evidence validation, consequence inquiry, eight correction angles |
+| p12a-contemplation-prerequisite-check | Prerequisite Check | Identifies situational changes, validates assumptions, reassigns methods |
+| p12a-contemplation-right-thinking | Right Thinking | Dissect judgment chain, distinguish premise/evidence/reasoning/emotion |
+| p12a-contemplation-right-speech | Right Speech | Language cleaning, meeting health check, honest expression practice |
+| p12a-contemplation-right-action | Right Action | Value/cost/emotion/exit-right quadruple check before execution |
+| p12a-contemplation-right-livelihood | Right Livelihood | Revenue source review and incentive bias check |
+| p12a-contemplation-right-effort | Right Effort | Zero-based analysis, pause strategy, stop-loss decision |
+| p12a-contemplation-right-mindfulness | Right Mindfulness | Establish personal and team decision awareness |
+
+### P13 — Judgment & Intuition Layer (12 Skills)
+
+*From: Intuition — Judgment and Intuition in the AI Era*
+
+| ID | Name | What It Does |
+|----|------|-------------|
+| p13-intuition-orchestrator | Intuition Orchestrator | Nine-step closed-loop decision roadmap router |
+| p13a-judgment-metacognition | Judgment Metacognition | Understanding judgment, identifying judgment scenarios |
+| p13b-systemic-thinker | Systemic Thinking | Structural analysis, relationship mapping, feedback loop identification |
+| p13c-product-psychology | Product Psychology | User mental models, behavior design, motivation analysis |
+| p13d-intuition-training | Intuition Training | Compress intuition into cognitive models and pattern recognition |
+| p13e-nine-step-framework | Nine-Step Framework Overview | Complete framework from "what to do" to feedback loop |
+| p13f-first-half-judgment | First Half — What & Worth | "What to do, is it worth it, should we use AI" judgment |
+| p13g-mid-judgment | Mid — Form & Trust | "What form, how much trust, how to do it" judgment |
+| p13h-validation-market | Second Half — Validation | "How to validate, how to enter market, feedback loop" |
+| p13i-judgment-traps | Judgment Traps | Common judgment errors and cognitive bias defenses |
+| p13j-organizational-judgment | Organizational Judgment | Translating personal judgment into team judgment capability |
+| p13k-intuition-evolution | Intuition Evolution | Continuous judgment training, standard improvement mechanism |
+
+### P14 — Aesthetic Authority Layer (9 Skills)
+
+*From: AI Beaty — Aesthetic Authority in the Age of AI*
+
+| ID | Name | What It Does |
+|----|------|-------------|
+| p14-beauty-orchestrator | Beauty Orchestrator | Routes to aesthetic training and aesthetic authority system |
+| p14a-beauty-redefinition | Aesthetic Redefinition | Generation anxiety, six aesthetic dimensions, dual-axis model |
+| p14b-beauty-ai-roles | AI's Role in Aesthetics | Amplifier / sparring partner / collaborator, not aesthetic itself |
+| p14c-beauty-selection | Selection Over Generation | Selection is the new core skill — Context determines output ceiling |
+| p14d-beauty-narrative | Narrative as Aesthetic | Story structure, emotional rhythm, information architecture aesthetics |
+| p14e-beauty-human-edge | Human Indispensability | Aesthetic as moat, standard evolution, human core advantage |
+| p14f-beauty-commercial | Commercial Value of Aesthetics | Market acceptance, aesthetic premium, experiential aesthetics |
+| p14g-beauty-system | Aesthetic Training System | Systematic aesthetic standard accumulation and calibration |
+| p14h-beauty-preface | Preface & Core Proposition | Aesthetic authority as core competitive advantage when everything can be generated |
+
+### Cross-Book Combo Skills (3 Skills)
 
 | ID | Name | What It Does |
 |----|------|-------------|
@@ -255,90 +325,128 @@ Each stage is an independent Skill you can call individually:
 ## Project Structure
 
 ```
-ai-native-pm-agent/
-├── README.md                       # This document (English)
-├── README_CN.md                    # 中文版文档
-├── ARCHITECTURE.md                 # System architecture design
-├── skill-registry.yaml             # Skill registry
-├── orchestrator/SKILL.md           # Main orchestrator: stage routing + conflict detection
+ai-native-pm-agent-skills/
+├── README.md / README_CN.md         # This document (EN / 中文)
+├── ARCHITECTURE.md                  # System architecture design
+├── skill-registry.yaml              # Skill registry (80 skills registered)
+├── orchestrator/SKILL.md            # Main orchestrator: stage routing + conflict detection
+├── install.sh                       # One-click install script
+├── assets/                          # Hero banner, pipeline flow, industry matrix, methodology books
 ├── skills/
-│   # Needs Discovery (9)
-│   ├── p0-needs-orchestrator/
-│   ├── p0a-micro-needs-detector/
-│   ├── p0b-real-needs-validator/
-│   ├── p0c-needs-decomposer/
-│   ├── p0d-needs-archaeologist/
-│   ├── p0e-good-question-generator/
-│   ├── p0f-agent-boundary-designer/
-│   ├── p0g-diverse-recommendation-rewriter/
-│   ├── p0h-ai-product-triple-balance/
-│   # Direction & Experiment (7)
-│   ├── p1-direction-framing/
-│   ├── p2-experiment-engine/
-│   ├── p2a-experiment-overview/
-│   ├── p2b-product-form-exploration/
-│   ├── p2c-process-redesign/
-│   ├── p2d-convergence-decision/
-│   ├── p2e-shadow-validation/
-│   # System Building (5)
-│   ├── p3-system-building/
-│   ├── p4-agent-skill-design/
-│   ├── p5-memory-system/
-│   ├── p6-context-engineering/
-│   ├── p7-knowledge-rag/
-│   # Business Model (5)
-│   ├── p6-business-model/
-│   ├── p6a-certainty-premium-calculator/
-│   ├── p6b-arbiter-mode-designer/
-│   ├── p6c-insurance-mode-designer/
-│   ├── p6d-prediction-arbitrage-designer/
-│   # Growth Strategy (5)
-│   ├── p7-marketing-growth/
-│   ├── p7a-data-flywheel-builder/
-│   ├── p7b-intent-prediction-designer/
-│   ├── p7c-predictive-retention-designer/
-│   ├── p7d-marketing-productizer/
-│   # User Experience (4)
-│   ├── p8-ux-design/
-│   ├── p8a-rax-risk-assessor/
-│   ├── p8b-trust-tier-designer/
-│   ├── p8c-progressive-disclosure/
-│   # Audit & Operations (2)
-│   ├── p9-audit-release/
-│   ├── p10-production-ops/
-│   # Cross-Book Combos (3)
-│   ├── combo-needs-to-direction/
-│   ├── combo-business-to-growth/
-│   └── combo-ux-to-audit/
+│   ├── p0-needs-orchestrator/        # P0 Needs Discovery orchestrator
+│   ├── p0-product-needs/             # P0 unified needs discovery
+│   ├── p0a-micro-needs-detector/     # P0a micro-needs detection
+│   ├── p0b-real-needs-validator/     # P0b real vs fake needs
+│   ├── p0c-needs-decomposer/        # P0c four-layer decomposition
+│   ├── p0d-needs-archaeologist/     # P0d deep needs archaeology
+│   ├── p0e-good-question-generator/ # P0e good questions six dimensions
+│   ├── p0f-agent-boundary-designer/ # P0f AI boundary design
+│   ├── p0g-diverse-recommendation-rewriter/    # P0g diversity rewrite
+│   ├── p0g-diversity-rewrite-checklist/       # P0g diversity checklist
+│   ├── p0h-ai-product-triple-balance/         # P0h triple balance
+│   ├── p0h-triple-balance-assessor/           # P0h balance assessor
+│   ├── p1-direction-framing/        # P1 direction framing
+│   ├── p2-experiment-engine/        # P2 experiment overview
+│   ├── p2a-experiment-overview/     # P2a experiment setup
+│   ├── p2b-product-form-exploration/ # P2b product form
+│   ├── p2c-process-redesign/       # P2c process redesign
+│   ├── p2d-convergence-decision/    # P2d convergence decision
+│   ├── p2e-shadow-validation/       # P2e shadow validation
+│   ├── p3-system-building/          # P3 system building
+│   ├── p4-agent-skill-design/       # P4 agent & skill design
+│   ├── p5-memory-system/           # P5 memory system
+│   ├── p6-context-engineering/      # P6 context engineering
+│   ├── p7-knowledge-rag/            # P7 RAG & knowledge
+│   ├── p6-business-model/           # P6 business model overview
+│   ├── p6a-certainty-premium-calculator/    # P6a certainty premium
+│   ├── p6b-arbiter-mode-designer/  # P6b arbiter mode
+│   ├── p6c-insurance-mode-designer/ # P6c insurance mode
+│   ├── p6d-prediction-arbitrage-designer/   # P6d prediction arbitrage
+│   ├── p7-marketing-growth/         # P7 marketing overview
+│   ├── p7a-data-flywheel-builder/   # P7a data flywheel
+│   ├── p7b-intent-prediction-designer/      # P7b intent prediction
+│   ├── p7c-predictive-retention-designer/   # P7c predictive retention
+│   ├── p7d-marketing-productizer/   # P7d marketing productizer
+│   ├── p7e-customer-loop/           # P7e customer loop
+│   ├── p8-ux-design/               # P8 UX design overview
+│   ├── p8a-rax-risk-assessor/       # P8a RAX risk assessment
+│   ├── p8b-trust-tier-designer/     # P8b trust tier design
+│   ├── p8c-progressive-disclosure/  # P8c progressive disclosure
+│   ├── p9-audit-release/           # P9 audit & release
+│   ├── p10-production-ops/          # P10 production operations
+│   ├── p10a-value-discovery-loop/  # P10a value discovery loop
+│   ├── p10b-aiops-case/            # P10b AIOps case
+│   ├── p10c-customer-service-case/  # P10c AI customer service case
+│   ├── p10d-saas-case/              # P10d SaaS case
+│   ├── p11-product-team/           # P11 product team design
+│   ├── p12-contemplation-orchestrator/     # P12 Contemplation orchestrator
+│   ├── p12a-contemplation-right-view/      # P12 right view
+│   ├── p12a-contemplation-view-correction/ # P12 view correction
+│   ├── p12a-contemplation-prerequisite-check/   # P12 prerequisite
+│   ├── p12a-contemplation-right-thinking/    # P12 right thinking
+│   ├── p12a-contemplation-right-speech/      # P12 right speech
+│   ├── p12a-contemplation-right-action/      # P12 right action
+│   ├── p12a-contemplation-right-livelihood/   # P12 right livelihood
+│   ├── p12a-contemplation-right-effort/       # P12 right effort
+│   ├── p12a-contemplation-right-mindfulness/  # P12 right mindfulness
+│   ├── p13-intuition-orchestrator/    # P13 Intuition orchestrator
+│   ├── p13a-judgment-metacognition/   # P13a judgment metacognition
+│   ├── p13b-systemic-thinker/        # P13b systemic thinking
+│   ├── p13c-product-psychology/       # P13c product psychology
+│   ├── p13d-intuition-training/      # P13d intuition training
+│   ├── p13e-nine-step-framework/     # P13e nine-step overview
+│   ├── p13f-first-half-judgment/     # P13f first half
+│   ├── p13g-mid-judgment/            # P13g mid judgment
+│   ├── p13h-validation-market/       # P13h validation & market
+│   ├── p13i-judgment-traps/          # P13i judgment traps
+│   ├── p13j-organizational-judgment/  # P13j organizational judgment
+│   ├── p13k-intuition-evolution/      # P13k intuition evolution
+│   ├── p14-beauty-orchestrator/       # P14 Beauty orchestrator
+│   ├── p14a-beauty-redefinition/     # P14a aesthetic redefinition
+│   ├── p14b-beauty-ai-roles/         # P14b AI's role in aesthetics
+│   ├── p14c-beauty-selection/         # P14c selection over generation
+│   ├── p14d-beauty-narrative/        # P14d narrative aesthetics
+│   ├── p14e-beauty-human-edge/        # P14e human edge
+│   ├── p14f-beauty-commercial/        # P14f commercial value
+│   ├── p14g-beauty-system/            # P14g training system
+│   ├── p14h-beauty-preface/          # P14h core proposition
+│   ├── combo-needs-to-direction/     # Combo: pain point → direction
+│   ├── combo-business-to-growth/     # Combo: pricing → growth
+│   └── combo-ux-to-audit/            # Combo: UX → audit
 └── scripts/
-    ├── init_product_context.py     # Initialization
-    ├── test_orchestrator.py        # Tests
-    └── final_validation.py         # Final validation
+    ├── init_product_context.py       # Product context initialization
+    ├── test_orchestrator.py         # Orchestrator tests
+    └── final_validation.py          # Final validation
 ```
 
 ---
 
-## Five Books Behind the Methodology
+## Eight Books Behind the Methodology
 
 <p align="center">
-  <img src="assets/methodology-books.png" alt="Five Books Methodology Synthesis" width="100%">
+  <img src="assets/methodology-books.png" alt="Eight Books Methodology Synthesis" width="100%">
 </p>
 
-All 49 Skills are derived from five methodology books. Each book's tool cards and concept cards have been converted into executable Skills:
+All **80 Skills** are derived from eight methodology books. Each book's tool cards and concept cards have been converted into executable Skills:
 
 | Book | Stages Covered | Skills |
 |------|---------------|--------|
-| [Micro-Needs for AI Products](https://www.amazon.com/dp/B0GT48SZ5R) | P0 Needs Discovery | 9 |
-| [AI Native Product Methodology](https://www.amazon.com/dp/B0GSMXD24H) | P1–P4 Direction / Experiment / System / Audit | 10 |
-| [JUDGMENT](https://www.amazon.com/dp/B0GRQVR2J4) | P5 Business Model | 5 |
-| [Contemplation](https://www.amazon.com/dp/B0GX2H4D33) | P4 UX Design | 4 |
-| [Aesthetic Authority](https://www.amazon.com/dp/B0GCHHZBV3) | P6 Growth Strategy | 5 |
+| [Micro-Needs for AI Products](https://www.amazon.com/dp/B0GT48SZ5R) | P0 Needs Discovery | 12 |
+| [AI Native Product Methodology](https://www.amazon.com/dp/B0GSMXD24H) | P1–P2 Direction / Experiment | 7 |
+| [AI Native System Building](https://www.amazon.com/dp/B0GSMXD24H) | P3–P4 System Building | 5 |
+| [AI Native UX Design](https://www.amazon.com/dp/B0GX2H4D33) | P8 UX Design | 4 |
+| [JUDGMENT](https://www.amazon.com/dp/B0GRQVR2J4) | P5–P6 Business Model | 5 |
+| [Aesthetic Authority](https://www.amazon.com/dp/B0GCHHZBV3) | P7 Growth Strategy | 6 |
+| [Contemplation](https://www.amazon.com/dp/B0GX2H4D33) | P12 Contemplation & Decision Correction | 10 |
+| [Intuition](https://www.amazon.com/dp/B0GCHHZBV3) | P13 Judgment & Intuition | 12 |
+| [AI Beaty](https://www.amazon.com/dp/B0GCHHZBV3) | P14 Aesthetic Authority | 9 |
+| Industry Cases | P10–P11 Operations & Team | 6 |
 
 📖 **Get the books on Amazon**:
-- **[Micro-Needs for AI Products: Finding What Is Truly Worth Building in the Age of AI](https://www.amazon.com/dp/B0GT48SZ5R)** — Needs discovery, micro-needs detection, real-needs validation, needs decomposition, agent boundary design
-- **[AI Native Product Methodology: Building AI Products Through Experimentation, System Design, Governance, and Feedback Loops](https://www.amazon.com/dp/B0GSMXD24H)** — Direction framing, experiment engine, system building, audit & release, production operations
-- **[JUDGMENT: HOW TO MAKE BETTER AI PRODUCT DECISIONS](https://www.amazon.com/dp/B0GRQVR2J4)** — Certainty Premium, business model design, pricing strategy
-- **[Contemplation: Product Judgment, User Understanding, and Decision Correction in the AI Era](https://www.amazon.com/dp/B0GX2H4D33)** — RAX risk assessment, trust tier design, progressive disclosure
+- **[Micro-Needs for AI Products](https://www.amazon.com/dp/B0GT48SZ5R)** — Needs discovery, micro-needs detection, real-needs validation, needs decomposition, agent boundary design
+- **[AI Native Product Methodology](https://www.amazon.com/dp/B0GSMXD24H)** — Direction framing, experiment engine, system building, audit & release, production operations
+- **[JUDGMENT: How to Make Better AI Product Decisions](https://www.amazon.com/dp/B0GRQVR2J4)** — Certainty Premium, business model design, pricing strategy
+- **[Contemplation: Product Judgment, User Understanding, and Decision Correction in the AI Era](https://www.amazon.com/dp/B0GX2H4D33)** — Right view, prerequisite checks, judgment correction, decision mindfulness
 - **[Aesthetic Authority: Why Human Judgment and Taste Matter in the Age of AI](https://www.amazon.com/dp/B0GCHHZBV3)** — Data flywheel, intent prediction, predictive retention, marketing-as-product
 
 ---
@@ -369,6 +477,9 @@ All 49 Skills are derived from five methodology books. Each book's tool cards an
 3. **Evidence before decisions** — Replace "I think it works" with Shadow validation
 4. **Orchestration before automation** — Keep human confirmation at critical decision points
 5. **Iteration before perfection** — Optimize through failure analysis, not first-time perfection
+6. **View correction before action** — Check if you're asking the right question before answering
+7. **Judgment before intuition** — Make the reasoning explicit before trusting gut feel
+8. **Aesthetic authority over feature completeness** — What you choose not to build defines the product
 
 ---
 
