@@ -1,242 +1,245 @@
 # AI Native PM Agent
 
-> 一个会问你"这方向真的值得做吗"的 AI 产品教练——从灵感火花到上线投产，每一步都有方法论兜底。
+> An AI product coach that asks "Is this direction really worth pursuing?" — with structured methodology backing every decision, from spark of inspiration to production deployment.
+
+[📖 中文版 README](./README_CN.md)
 
 ---
 
-## 为什么需要这个？
+## Why Do You Need This?
 
-做 AI 产品的人，90% 死在同一个坑里：
+90% of AI product teams die in the same traps:
 
-- **方向坑**：花 3 个月做了个 AI 功能，发现用户根本不想付费
-- **需求坑**：伪需求太容易长得像真需求，AI 让原型成本趋近于零，也让你更快做错东西
-- **边界坑**：AI 越界做了不该做的事，引发合规风险
-- **幻觉坑**：上线前觉得准确率 95%，上线后被真实场景打回原形
-- **成本坑**：Token 账单暴涨，商业模式跑不通
+- **Direction Trap**: Spend 3 months building an AI feature, only to find users won't pay for it
+- **Needs Trap**: Fake needs look too much like real ones — AI makes prototyping near-free, but also lets you build the wrong thing faster
+- **Boundary Trap**: AI crosses the line and does things it shouldn't, triggering compliance risks
+- **Hallucination Trap**: Pre-launch accuracy looks like 95%, post-launch reality says otherwise
+- **Cost Trap**: Token bills explode, business model falls apart
 
-这个 Agent 不是帮你写代码的，是帮你在**每个关键决策点停下来，用结构化方法验证一遍**。
+This Agent doesn't write code for you — it **makes you pause at every critical decision point and verify with structured methods**.
 
 ---
 
-## 30 秒看懂它能做什么
+## See What It Does in 30 Seconds
 
 ```
-你有一个 AI 产品想法
+You have an AI product idea
         ↓
-【P0 需求发现】→ 微需求检测 + 真需求验证 + 需求拆解 + 需求考古
+【P0 Needs Discovery】→ Micro-needs detection + Real-needs validation + Decomposition + Archaeology
         ↓
-【P1 方向定界】→ 5 个问题判断值不值得做
+【P1 Direction Framing】→ 5 questions to decide if it's worth pursuing
         ↓
-【P2 实验展开】→ 三层实验验证（能力/产品/商业）
+【P2 Experiment Engine】→ Three-layer validation (Capability / Product / Business)
         ↓
-【P3 系统构建】→ 从实验到可交付产品（智能体/记忆/上下文/RAG）
+【P3 System Building】→ From experiments to deliverable product (Agent / Memory / Context / RAG)
         ↓
-【P4 体验设计】→ RAX 风险评估 + 信任分级 + 渐进式披露
+【P4 UX Design】→ RAX risk assessment + Trust tiers + Progressive disclosure
         ↓
-【P5 商业模式】→ 确定性溢价定价 + 四种商业模式
+【P5 Business Model】→ Certainty Premium pricing + 4 business model patterns
         ↓
-【P6 增长策略】→ 数据飞轮 + 意图预测 + 预测性留存 + 营销产品化
+【P6 Growth Strategy】→ Data flywheel + Intent prediction + Predictive retention + Marketing-as-product
         ↓
-【P7 审计放行】→ go/no-go 决策，明确边界
+【P7 Audit & Release】→ Go/no-go decision with clear boundaries
         ↓
-上线，且知道什么能自动跑、什么必须人工盯
+Live — knowing what can run autonomously and what needs human oversight
 ```
 
-**核心能力**：38 个可执行 Skill + 阶段自动路由 + 冲突检测 + 证据链追踪
+**Core Capabilities**: 38 executable Skills + Stage auto-routing + Conflict detection + Evidence chain tracking
 
 ---
 
-## 一个具体例子
+## A Concrete Example
 
-**场景**：你想做"AI 合同审查助手"
+**Scenario**: You want to build an "AI Contract Review Assistant"
 
-### 需求发现阶段（P0）
-Agent 先用工具卡验证需求：
-- **微需求五问**：律师每天都要复查合同条款，这个痛点小但每天都发生
-- **真需求判断**：长期存在 + 有补偿行为（手动标注）+ 背后有结构（责任风险）
-- **需求四层拆解**：表达层"想自动审查" → 处境层"律师在为责任风险党底" → 代价层"每小时审查成本 $200"
-- **Agent 边界清单**：AI 可以标注风险条款，但不能判断合同是否有效
+### Needs Discovery (P0)
+The Agent validates the need with tool cards:
+- **Micro-Needs Five Questions**: Lawyers review contract clauses daily — the pain is small but constant
+- **Real-Needs Validation**: Long-standing problem + compensation behaviors (manual annotation) + structural root cause (liability risk)
+- **Four-Layer Decomposition**: Surface: "automate review" → Situation: "lawyers bear liability risk" → Cost: "$200/hour per review"
+- **Agent Boundary Checklist**: AI can flag risky clauses, but cannot determine contract validity
 
-**输出**：需求验证通过 + Agent 边界设计
+**Output**: Needs validated + Agent boundary design
 
-### 方向定界阶段（P1）
-Agent 会问你：
-- 合同数据从哪来？（可得性）
-- 是否涉及客户机密？（脱敏）
-- 审查结果谁负责？（授权）
-- 输出格式是否统一？（结构化）
-- 新法规出来怎么办？（持续供给）
+### Direction Framing (P1)
+The Agent asks you:
+- Where does contract data come from? (Availability)
+- Does it involve client confidentiality? (Desensitization)
+- Who is responsible for review results? (Authorization)
+- Is the output format standardized? (Structured)
+- What happens when new regulations emerge? (Sustained supply)
 
-**输出**：Direction Brief —— 明确这方向能不能做、什么条件下能做
+**Output**: Direction Brief — clear go/no-go with conditions
 
-### 商业模式阶段（P5）
-Agent 用确定性溢价公式定价：
-- **恐惧程度**：律师最怕漏掉风险条款 → 高
-- **出错代价**：漏掉一个条款可能导致百万损失 → 极高
-- **替代成本**：人工审查每小时 $200 → 中
-- **推荐模式**：保险模式（按成功审查次数收费，漏检赔偿）
+### Business Model (P5)
+The Agent prices using the Certainty Premium formula:
+- **Fear Level**: Lawyers' biggest fear is missing a risky clause → High
+- **Error Cost**: Missing one clause could mean millions in liability → Extremely high
+- **Substitution Cost**: Manual review at $200/hour → Medium
+- **Recommended Model**: Insurance Mode (charge per successful review, compensate for misses)
 
-**输出**：定价策略 — 每次审查 $5，漏检条款赔偿审查费 10 倍
+**Output**: Pricing strategy — $5/review, 10x compensation for missed clauses
 
-### 审计放行阶段（P7）
-Agent 检查：
-- 可靠性：识别准确率、幻觉率
-- 安全：敏感信息处理
-- 边界：哪些条款类型必须人工复核
-- 成本：每次审查的 Token 成本 vs 收费
+### Audit & Release (P7)
+The Agent checks:
+- Reliability: Identification accuracy, hallucination rate
+- Safety: Sensitive information handling
+- Boundaries: Which clause types require human review
+- Cost: Token cost per review vs. pricing
 
-**输出**：放行边界文档 —— 自动执行区 / 人工接管区 / 禁用区
+**Output**: Release boundary document — Auto-execute zone / Human handoff zone / Disabled zone
 
 ---
 
-## 快速开始
+## Quick Start
 
-### 方式一：用 Hermes Agent（推荐）
+### Option 1: With Hermes Agent (Recommended)
 
 ```bash
-# 1. 安装 Hermes
+# 1. Install Hermes
 pip install hermes-agent
 
-# 2. 加载 Skill
+# 2. Load the Skill
 hermes skill add ai-native-pm-agent
 
-# 3. 开始一个产品项目
-hermes run "我想做一个 AI 客服产品，帮我从方向定界开始"
+# 3. Start a product project
+hermes run "I want to build an AI customer service product, help me start from direction framing"
 ```
 
-### 方式二：直接调用 Skill
+### Option 2: Use Skills Directly
 
 ```bash
-# 克隆仓库
+# Clone the repo
 git clone https://github.com/gmaxxxie/ai-native-product-agent-.git
 cd ai-native-product-agent-
 
-# 初始化产品上下文
-python scripts/init_product_context.py --name "我的AI产品"
+# Initialize product context
+python scripts/init_product_context.py --name "My AI Product"
 
-# 运行编排器测试
+# Run orchestrator tests
 python scripts/test_orchestrator.py
 ```
 
-### 方式三：手动按阶段使用
+### Option 3: Manual Per-Stage Usage
 
-每个阶段都是独立的 Skill，可以单独调用：
+Each stage is an independent Skill you can call individually:
 
-| 阶段 | 触发语 | 输出 |
-|------|--------|------|
-| P0 需求发现 | "我有一个痛点…" | 需求验证报告 |
-| P0a 微需求检测 | "这个问题太小不值得做？" | 微需求清单 |
-| P0b 真需求验证 | "这个需求是真的吗？" | 真/伪判定 |
-| P0c 需求拆解 | "帮我拆解这个需求" | 四层拆解 |
-| P0d 需求考古 | "深层需求是什么？" | 深层需求报告 |
-| P1 方向定界 | "我有一个想法…" | Direction Brief |
-| P2 实验展开 | "帮我设计实验验证…" | 实验方案 + Rubric |
-| P3 系统构建 | "从实验到产品怎么转化…" | 系统架构方案 |
-| P5 商业模式 | "怎么收费…" | 定价策略 |
-| P5a 确定性溢价 | "我的产品值多少钱？" | 溢价计算结果 |
-| P6 增长策略 | "怎么冷启动…" | 增长方案 |
-| P6a 数据飞轮 | "我的飞轮转得起来吗？" | 飞轮评估 + 构建方案 |
-| P7 审计放行 | "准备上线了，检查一遍…" | 放行边界文档 |
+| Stage | Trigger Phrase | Output |
+|-------|---------------|--------|
+| P0 Needs Discovery | "I have a pain point…" | Needs validation report |
+| P0a Micro-Needs | "Is this problem too small to matter?" | Micro-needs list |
+| P0b Real Needs | "Is this need real or fake?" | Real/fake verdict |
+| P0c Decomposition | "Help me decompose this need" | Four-layer breakdown |
+| P0d Archaeology | "What's the deep need?" | Deep needs report |
+| P1 Direction Framing | "I have an idea…" | Direction Brief |
+| P2 Experiment Engine | "Help me design experiments…" | Experiment plan + Rubric |
+| P3 System Building | "How to go from experiment to product…" | System architecture |
+| P5 Business Model | "How to price this…" | Pricing strategy |
+| P5a Certainty Premium | "What's my product worth?" | Premium calculation |
+| P6 Growth Strategy | "How to get cold start…" | Growth plan |
+| P6a Data Flywheel | "Can my flywheel spin?" | Flywheel assessment + plan |
+| P7 Audit & Release | "Ready to launch, check it…" | Release boundary document |
 
-### 方式四：跨书组合（一站式）
+### Option 4: Cross-Book Combos (One-Stop)
 
-| 组合 | 触发语 | 输出 |
-|------|--------|------|
-| 需求→方向 | "帮我从痛点直接走到方向定界" | Direction Brief |
-| 商业→增长 | "定价和增长怎么联动？" | 定价-增长联动策略 |
-| UX→审计 | "UX 设计能不能安全放行？" | UX 审计报告 + 放行建议 |
-
----
-
-## 完整 Skill 列表（38 个）
-
-### 需求发现层（P0）— 来源：《AI rebuild product needs》
-
-| ID | 名称 | 功能 |
-|----|------|------|
-| p0-needs-orchestrator | 需求发现编排器 | 协调六个工具卡完成需求发现 |
-| p0a-micro-needs-detector | 微需求五问检测器 | 发现被忽视的微需求 |
-| p0b-real-needs-validator | 真需求判断五问 | 区分真需求与伪需求 |
-| p0c-needs-decomposer | 需求四层拆解卡 | 表达层/场景层/处境层/代价层 |
-| p0d-needs-archaeologist | 需求考古五步法 | 挖掘深层需求与历史约束 |
-| p0e-good-question-generator | 好问题六维观察表 | 从六个维度发现好问题 |
-| p0f-agent-boundary-designer | Agent 边界清单 | 定义 AI 权限边界 |
-| p0g-diverse-recommendation-rewriter | 多元推荐改写清单 | 从"猜你喜欢"到"帮你发现" |
-| p0h-ai-product-triple-balance | AI 产品三重平衡表 | 商业/人性/技术三重平衡 |
-
-### 方向与实验层（P1-P2）— 来源：《AI Native 产品方法论》
-
-| ID | 名称 | 功能 |
-|----|------|------|
-| p1-direction-framing | 方向定界 | 五维判断、Direction Brief |
-| p2-experiment-engine | 实验展开 | 能力/产品/商业三层实验 |
-
-### 系统构建层（P3-P4）— 来源：《AI Native 产品方法论》
-
-| ID | 名称 | 功能 |
-|----|------|------|
-| p3-system-building | 系统构建 | 从实验到产品转化 |
-| p4-agent-skill-design | 智能体与技能单元设计 | Agent/Skill 单元设计 |
-| p5-memory-system | 记忆系统设计 | AI 产品的记忆架构 |
-| p6-context-engineering | 上下文工程 | 上下文管理系统 |
-| p7-knowledge-rag | RAG 与知识系统 | 知识管理 + RAG 设计 |
-
-### 商业模式层（P5）— 来源：《AI确定性商业模式》
-
-| ID | 名称 | 功能 |
-|----|------|------|
-| p6-business-model | AI Native 商业模式（总论） | 确定性溢价商业模式设计 |
-| p6a-certainty-premium-calculator | 确定性溢价计算器 | 计算确定性溢价 |
-| p6b-arbiter-mode-designer | 仲裁者模式设计器 | "真相即服务"商业模式 |
-| p6c-insurance-mode-designer | 保险模式设计器 | "结果担保"商业模式 |
-| p6d-prediction-arbitrage-designer | 预测套利设计器 | "时间套利"商业模式 |
-
-### 增长策略层（P6）— 来源：《AI Native 营销与增长》
-
-| ID | 名称 | 功能 |
-|----|------|------|
-| p7-marketing-growth | AI Native 营销与增长（总论） | 增长飞轮与营销策略 |
-| p7a-data-flywheel-builder | 数据飞轮构建器 | 评估和构建数据飞轮 |
-| p7b-intent-prediction-designer | 意图预测营销设计器 | 从人群定向到个体预见 |
-| p7c-predictive-retention-designer | 预测性留存设计器 | 从流失后挽回到流失前阻止 |
-| p7d-marketing-productizer | 营销产品化设计器 | 把营销活动变成产品功能 |
-
-### 用户体验层（P4）— 来源：《AI时代的用户体验》
-
-| ID | 名称 | 功能 |
-|----|------|------|
-| p8-ux-design | AI Native 用户体验设计（总论） | UX 设计方法论 |
-| p8a-rax-risk-assessor | RAX 风险评估器 | 风险/模糊性/暴露度评估 |
-| p8b-trust-tier-designer | 信任度分级设计器 | 渐进式信任体系设计 |
-| p8c-progressive-disclosure | 渐进式披露清单 | 功能逐步展示设计 |
-
-### 审计与运行层（P7）— 来源：《AI Native 产品方法论》
-
-| ID | 名称 | 功能 |
-|----|------|------|
-| p9-audit-release | 审计放行 | go/no-go 决策 |
-| p10-production-ops | 生产运行 | 监控与循环回灌 |
-
-### 跨书组合 Skills
-
-| ID | 名称 | 功能 |
-|----|------|------|
-| combo-needs-to-direction | 需求→方向 | 痛点线索直接输出 Direction Brief |
-| combo-business-to-growth | 商业→增长 | 定价与飞轮的联动设计 |
-| combo-ux-to-audit | UX→审计 | RAX 评估 + 信任分级 + 放行建议 |
+| Combo | Trigger Phrase | Output |
+|-------|---------------|--------|
+| Needs → Direction | "Take me from pain point to direction framing" | Direction Brief |
+| Business → Growth | "How should pricing and growth align?" | Pricing-growth alignment |
+| UX → Audit | "Is this UX design safe to release?" | UX audit report + release recommendation |
 
 ---
 
-## 项目结构
+## Complete Skill List (38)
+
+### Needs Discovery Layer (P0) — From: *Micro-Needs for AI Products*
+
+| ID | Name | What It Does |
+|----|------|-------------|
+| p0-needs-orchestrator | Needs Discovery Orchestrator | Coordinates six tool cards for systematic needs discovery |
+| p0a-micro-needs-detector | Micro-Needs Five Questions | Detects overlooked micro-needs |
+| p0b-real-needs-validator | Real-Needs Five Questions | Distinguishes real needs from fake ones |
+| p0c-needs-decomposer | Needs Four-Layer Decomposition | Expression / Scenario / Situation / Cost layers |
+| p0d-needs-archaeologist | Needs Archaeology Five Steps | Uncovers deep needs and historical constraints |
+| p0e-good-question-generator | Good Questions Six Dimensions | Discovers good questions from six perspectives |
+| p0f-agent-boundary-designer | Agent Boundary Checklist | Defines AI permission boundaries |
+| p0g-diverse-recommendation-rewriter | Diverse Recommendation Rewrite | From "guess what you like" to "help you discover" |
+| p0h-ai-product-triple-balance | AI Product Triple Balance | Business / Humanity / Technology balance |
+
+### Direction & Experiment Layer (P1–P2) — From: *AI Native Product Methodology*
+
+| ID | Name | What It Does |
+|----|------|-------------|
+| p1-direction-framing | Direction Framing | Five-dimension judgment, Direction Brief |
+| p2-experiment-engine | Experiment Engine | Capability / Product / Business three-layer experiments |
+
+### System Building Layer (P3–P4) — From: *AI Native Product Methodology*
+
+| ID | Name | What It Does |
+|----|------|-------------|
+| p3-system-building | System Building | From experiments to product |
+| p4-agent-skill-design | Agent & Skill Unit Design | Agent/Skill unit design |
+| p5-memory-system | Memory System Design | AI product memory architecture |
+| p6-context-engineering | Context Engineering | Context management system |
+| p7-knowledge-rag | RAG & Knowledge System | Knowledge management + RAG design |
+
+### Business Model Layer (P5) — From: *JUDGMENT*
+
+| ID | Name | What It Does |
+|----|------|-------------|
+| p6-business-model | AI Native Business Model (Overview) | Certainty Premium business model design |
+| p6a-certainty-premium-calculator | Certainty Premium Calculator | Calculates certainty premium |
+| p6b-arbiter-mode-designer | Arbiter Mode Designer | "Truth-as-a-Service" business model |
+| p6c-insurance-mode-designer | Insurance Mode Designer | "Result Guarantee" business model |
+| p6d-prediction-arbitrage-designer | Prediction Arbitrage Designer | "Time Arbitrage" business model |
+
+### Growth Strategy Layer (P6) — From: *Aesthetic Authority*
+
+| ID | Name | What It Does |
+|----|------|-------------|
+| p7-marketing-growth | AI Native Marketing & Growth (Overview) | Growth flywheel & marketing strategy |
+| p7a-data-flywheel-builder | Data Flywheel Builder | Assesses and builds self-reinforcing data flywheels |
+| p7b-intent-prediction-designer | Intent Prediction Designer | From audience targeting to individual foresight |
+| p7c-predictive-retention-designer | Predictive Retention Designer | From post-churn recovery to pre-churn prevention |
+| p7d-marketing-productizer | Marketing-as-Product Designer | Turns marketing activities into product features |
+
+### User Experience Layer (P4) — From: *Contemplation*
+
+| ID | Name | What It Does |
+|----|------|-------------|
+| p8-ux-design | AI Native UX Design (Overview) | UX design methodology |
+| p8a-rax-risk-assessor | RAX Risk Assessor | Risk / Ambiguity / eXposure assessment |
+| p8b-trust-tier-designer | Trust Tier Designer | Progressive trust system design |
+| p8c-progressive-disclosure | Progressive Disclosure Checklist | Feature reveal pacing design |
+
+### Audit & Operations Layer (P7) — From: *AI Native Product Methodology*
+
+| ID | Name | What It Does |
+|----|------|-------------|
+| p9-audit-release | Audit & Release | Go/no-go decision |
+| p10-production-ops | Production Operations | Monitoring & feedback loops |
+
+### Cross-Book Combo Skills
+
+| ID | Name | What It Does |
+|----|------|-------------|
+| combo-needs-to-direction | Needs → Direction | Pain point to Direction Brief in one pass |
+| combo-business-to-growth | Business → Growth | Pricing-flywheel alignment design |
+| combo-ux-to-audit | UX → Audit | RAX assessment + trust tiers + release recommendation |
+
+---
+
+## Project Structure
 
 ```
 ai-native-pm-agent/
-├── README.md                       # 本文档
-├── ARCHITECTURE.md                 # 系统架构设计
-├── skill-registry.yaml             # Skill 注册表
-├── orchestrator/SKILL.md           # 主编排器：阶段路由 + 冲突检测
+├── README.md                       # This document (English)
+├── README_CN.md                    # 中文版文档
+├── ARCHITECTURE.md                 # System architecture design
+├── skill-registry.yaml             # Skill registry
+├── orchestrator/SKILL.md           # Main orchestrator: stage routing + conflict detection
 ├── skills/
-│   # 需求发现层（9 个）
+│   # Needs Discovery (9)
 │   ├── p0-needs-orchestrator/
 │   ├── p0a-micro-needs-detector/
 │   ├── p0b-real-needs-validator/
@@ -246,100 +249,100 @@ ai-native-pm-agent/
 │   ├── p0f-agent-boundary-designer/
 │   ├── p0g-diverse-recommendation-rewriter/
 │   ├── p0h-ai-product-triple-balance/
-│   # 方向与实验层（2 个）
+│   # Direction & Experiment (2)
 │   ├── p1-direction-framing/
 │   ├── p2-experiment-engine/
-│   # 系统构建层（5 个）
+│   # System Building (5)
 │   ├── p3-system-building/
 │   ├── p4-agent-skill-design/
 │   ├── p5-memory-system/
 │   ├── p6-context-engineering/
 │   ├── p7-knowledge-rag/
-│   # 商业模式层（5 个）
+│   # Business Model (5)
 │   ├── p6-business-model/
 │   ├── p6a-certainty-premium-calculator/
 │   ├── p6b-arbiter-mode-designer/
 │   ├── p6c-insurance-mode-designer/
 │   ├── p6d-prediction-arbitrage-designer/
-│   # 增长策略层（5 个）
+│   # Growth Strategy (5)
 │   ├── p7-marketing-growth/
 │   ├── p7a-data-flywheel-builder/
 │   ├── p7b-intent-prediction-designer/
 │   ├── p7c-predictive-retention-designer/
 │   ├── p7d-marketing-productizer/
-│   # 用户体验层（4 个）
+│   # User Experience (4)
 │   ├── p8-ux-design/
 │   ├── p8a-rax-risk-assessor/
 │   ├── p8b-trust-tier-designer/
 │   ├── p8c-progressive-disclosure/
-│   # 审计与运行层（2 个）
+│   # Audit & Operations (2)
 │   ├── p9-audit-release/
 │   ├── p10-production-ops/
-│   # 跨书组合（3 个）
+│   # Cross-Book Combos (3)
 │   ├── combo-needs-to-direction/
 │   ├── combo-business-to-growth/
 │   └── combo-ux-to-audit/
 └── scripts/
-    ├── init_product_context.py     # 初始化
-    ├── test_orchestrator.py        # 测试
-    └── final_validation.py         # 最终验证
+    ├── init_product_context.py     # Initialization
+    ├── test_orchestrator.py        # Tests
+    └── final_validation.py         # Final validation
 ```
 
 ---
 
-## 五本书方法论
+## Five Books Behind the Methodology
 
-本项目的 38 个 Skill 来自五本方法论书籍，每本书的工具卡和概念卡都已转化为可执行的 Skill：
+All 38 Skills are derived from five methodology books. Each book's tool cards and concept cards have been converted into executable Skills:
 
-| 书籍 | 覆盖阶段 | Skill 数 |
-|------|---------|---------|
-| [Micro-Needs for AI Products](https://www.amazon.com/dp/B0GT48SZ5R) | P0 需求发现 | 9 |
-| [AI Native Product Methodology](https://www.amazon.com/dp/B0GSMXD24H) | P1-P4 方向/实验/系统/审计 | 10 |
-| [JUDGMENT](https://www.amazon.com/dp/B0GRQVR2J4) | P5 商业模式 | 5 |
-| [Contemplation](https://www.amazon.com/dp/B0GX2H4D33) | P4 UX 设计 | 4 |
-| [Aesthetic Authority](https://www.amazon.com/dp/B0GCHHZBV3) | P6 增长策略 | 5 |
+| Book | Stages Covered | Skills |
+|------|---------------|--------|
+| [Micro-Needs for AI Products](https://www.amazon.com/dp/B0GT48SZ5R) | P0 Needs Discovery | 9 |
+| [AI Native Product Methodology](https://www.amazon.com/dp/B0GSMXD24H) | P1–P4 Direction / Experiment / System / Audit | 10 |
+| [JUDGMENT](https://www.amazon.com/dp/B0GRQVR2J4) | P5 Business Model | 5 |
+| [Contemplation](https://www.amazon.com/dp/B0GX2H4D33) | P4 UX Design | 4 |
+| [Aesthetic Authority](https://www.amazon.com/dp/B0GCHHZBV3) | P6 Growth Strategy | 5 |
 
-📖 **购书链接**：
-- **[Micro-Needs for AI Products: Finding What Is Truly Worth Building in the Age of AI](https://www.amazon.com/dp/B0GT48SZ5R)** — 需求发现、微需求检测、真需求验证、需求拆解、Agent 边界设计
-- **[AI Native Product Methodology: Building AI Products Through Experimentation, System Design, Governance, and Feedback Loops](https://www.amazon.com/dp/B0GSMXD24H)** — 方向定界、实验展开、系统构建、审计放行、生产运行
-- **[JUDGMENT: HOW TO MAKE BETTER AI PRODUCT DECISIONS](https://www.amazon.com/dp/B0GRQVR2J4)** — 确定性溢价、商业模式设计、定价策略
-- **[Contemplation: Product Judgment, User Understanding, and Decision Correction in the AI Era](https://www.amazon.com/dp/B0GX2H4D33)** — RAX 风险评估、信任分级、渐进式披露
-- **[Aesthetic Authority: Why Human Judgment and Taste Matter in the Age of AI](https://www.amazon.com/dp/B0GCHHZBV3)** — 数据飞轮、意图预测、预测性留存、营销产品化
-
----
-
-## 行业场景覆盖
-
-| 行业 | 典型场景 | 关键边界设计 |
-|------|----------|-------------|
-| 法律 | 合同审查助手 | 仅作 Copilot，不替代律师决策 |
-| 医疗 | 辅助诊断系统 | 仅作"第二意见" |
-| 金融 | 反欺诈评分 | 高风险 100% 人工复核 |
-| 电商 | AI 客服 | 退款承诺需人工确认 |
-| 运维 | AIOps 分诊 | 只做建议，不做自动修复 |
-| HR | 简历筛选 | 偏见检测 + 盲筛模式 |
-| 教育 | 个性化学习 | 不给答案，只给思路 |
-| 内容 | 营销文案 | 人工精修 + 合规预检 |
+📖 **Get the books on Amazon**:
+- **[Micro-Needs for AI Products: Finding What Is Truly Worth Building in the Age of AI](https://www.amazon.com/dp/B0GT48SZ5R)** — Needs discovery, micro-needs detection, real-needs validation, needs decomposition, agent boundary design
+- **[AI Native Product Methodology: Building AI Products Through Experimentation, System Design, Governance, and Feedback Loops](https://www.amazon.com/dp/B0GSMXD24H)** — Direction framing, experiment engine, system building, audit & release, production operations
+- **[JUDGMENT: HOW TO MAKE BETTER AI PRODUCT DECISIONS](https://www.amazon.com/dp/B0GRQVR2J4)** — Certainty Premium, business model design, pricing strategy
+- **[Contemplation: Product Judgment, User Understanding, and Decision Correction in the AI Era](https://www.amazon.com/dp/B0GX2H4D33)** — RAX risk assessment, trust tier design, progressive disclosure
+- **[Aesthetic Authority: Why Human Judgment and Taste Matter in the Age of AI](https://www.amazon.com/dp/B0GCHHZBV3)** — Data flywheel, intent prediction, predictive retention, marketing-as-product
 
 ---
 
-## 设计原则（为什么这样设计）
+## Industry Scenarios
 
-1. **问题先于方案** —— 不先给功能列表，先验证问题是否真实
-2. **边界先于能力** —— 先定义 AI 不该做什么，再设计能做什么
-3. **证据先于决策** —— 用 Shadow 验证替代"我觉得可以"
-4. **编排先于自动化** —— 关键决策保留人工确认点
-5. **迭代先于完美** —— 通过失败分析持续优化，不追求一次做对
+| Industry | Typical Scenario | Key Boundary Design |
+|----------|-----------------|-------------------|
+| Legal | Contract review assistant | Copilot only — no replacing lawyer decisions |
+| Healthcare | Diagnostic support system | "Second opinion" only |
+| Finance | Anti-fraud scoring | 100% human review for high-risk |
+| E-commerce | AI customer service | Refund promises require human confirmation |
+| DevOps | AIOps triage | Suggestions only — no auto-remediation |
+| HR | Resume screening | Bias detection + blind screening mode |
+| Education | Personalized learning | Hints only — no direct answers |
+| Content | Marketing copywriting | Human refinement + compliance check |
 
 ---
 
-## 贡献指南
+## Design Principles (Why We Designed It This Way)
 
-欢迎提交 Issue 和 PR！重点关注：
-- **新场景**：补充行业案例，必须包含完整的输入-输出示例
-- **边界设计**：高风险场景的 AI 边界如何划定
-- **失败案例**：实验失败的分析比成功案例更有价值
-- **新工具卡**：将书中的概念卡转化为可执行 Skill
+1. **Problem before solution** — Validate that the problem is real before building features
+2. **Boundaries before capabilities** — Define what AI shouldn't do before designing what it can
+3. **Evidence before decisions** — Replace "I think it works" with Shadow validation
+4. **Orchestration before automation** — Keep human confirmation at critical decision points
+5. **Iteration before perfection** — Optimize through failure analysis, not first-time perfection
+
+---
+
+## Contributing
+
+Issues and PRs are welcome! Priority areas:
+- **New scenarios**: Add industry cases with complete input-output examples
+- **Boundary designs**: How to draw AI boundaries in high-risk scenarios
+- **Failure cases**: Failed experiment analyses are more valuable than success stories
+- **New tool cards**: Convert book concept cards into executable Skills
 
 ---
 
@@ -349,4 +352,4 @@ MIT License
 
 ---
 
-> "问题先于方案，边界先于能力，证据先于决策，编排先于自动化。"
+> "Problem before solution. Boundaries before capabilities. Evidence before decisions. Orchestration before automation."
