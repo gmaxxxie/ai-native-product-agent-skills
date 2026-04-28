@@ -9,7 +9,7 @@ description: 'AI Native 产品方法论——上下文工程的实操 Skill。
   基于《AI Native 产品方法论》第14章。
 
   '
-tags:
+tags: p6, 上下文工程, 产品方法论
 - ai-product
 - methodology
 - context
@@ -18,9 +18,13 @@ tags:
 - book-skill
 author: Max
 source_book: AI Native 产品方法论
-version: 1.0
+version: 1.0.0
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p6-context-engineering
+stage: p6
+source_chapter: 第15章 上下文工程
+
 ---
+
 
 # AI Native 上下文工程 Skill
 

@@ -3,7 +3,7 @@ name: p8b-trust-tier-designer
 version: 1.0.0
 description: 信任度分级设计器。基于《AI时代的用户体验》信任分级理论， 设计 AI 产品的信任度分级体系，让用户渐进式地建立对 AI 的信任。
 author: Max
-tags:
+tags: p8, 用户体验, 信任分级
 - book-skill
 - trust-design
 - tier-system
@@ -11,7 +11,12 @@ tags:
 - ai-product
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p8b-trust-tier-designer
+stage: p8b
+source_book: ai-agent-ux
+source_chapter: 第02章 信任分级设计
+
 ---
+
 
 # 信任度分级设计器
 

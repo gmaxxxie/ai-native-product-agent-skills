@@ -4,7 +4,7 @@ version: 1.0.0
 description: AI Native 商业模式设计 Skill。基于《AI确定性商业模式》方法论， 帮助用户设计以"确定性溢价"为核心的 AI 商业模式：
   避开6种失效模式，选择4种确定性模型，构建可持续的收费逻辑。
 author: max
-tags:
+tags: p6, 商业模式, 确定性溢价
 - book-skill
 - business-model
 - pricing
@@ -12,7 +12,12 @@ tags:
 - ai-native
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p6-business-model
+stage: p6
+source_book: AI确定性商业模式
+source_chapter: 第01章 商业模式总论
+
 ---
+
 
 # AI Native 商业模式设计 — SKILL.md
 

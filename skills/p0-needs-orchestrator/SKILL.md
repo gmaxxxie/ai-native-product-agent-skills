@@ -4,14 +4,19 @@ version: 1.0.0
 description: 需求发现编排器。协调微需求检测、真需求验证、需求拆解、需求考古、好问题生成、Agent 边界设计六个工具卡， 按顺序执行并输出完整的需求发现报告。
   基于《AI rebuild product needs》读者工具箱。
 author: Max
-tags:
+tags: p0, 需求发现, 编排器
 - book-skill
 - needs-discovery
 - orchestrator
 - ai-product
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0-needs-orchestrator
+stage: p0
+source_book: AI rebuild product needs
+source_chapter: 编排器
+
 ---
+
 
 # 需求发现编排器
 

@@ -4,7 +4,7 @@ version: 1.0.0
 description: 多元推荐改写清单。AI 时代的推荐系统不再是"猜你喜欢"， 而是"帮你发现你还不知道自己会喜欢的"。这个 Skill 提供从单一推荐到多元推荐的改写框架。
   基于《AI rebuild product needs》工具卡。
 author: Max
-tags:
+tags: p0, 需求发现, 多元推荐
 - book-skill
 - recommendation
 - diversity
@@ -12,7 +12,12 @@ tags:
 - personalization
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0g-diverse-recommendation-rewriter
+stage: p0g
+source_book: AI rebuild product needs
+source_chapter: 第7章 多元推荐改写
+
 ---
+
 
 # 多元推荐改写清单
 

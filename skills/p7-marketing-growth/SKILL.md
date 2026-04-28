@@ -4,7 +4,7 @@ version: 1.0.0
 description: AI Native 营销与增长策略 Skill。基于《AI Native 营销与增长》方法论， 帮助用户构建以 AI 为第一性原理的增长系统：从工具思维升级为系统思维，
   建立 AI Native 增长飞轮，实现数据-模型-反馈的复利增长。
 author: max
-tags:
+tags: p7, 营销增长, 数据飞轮
 - book-skill
 - marketing
 - growth
@@ -12,7 +12,12 @@ tags:
 - ai-native
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p7-marketing-growth
+stage: p7
+source_book: AI Native 营销与增长
+source_chapter: 第01章 营销与增长总论
+
 ---
+
 
 # AI Native 营销与增长策略 — SKILL.md
 

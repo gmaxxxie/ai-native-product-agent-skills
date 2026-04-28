@@ -4,14 +4,19 @@ version: 1.0.0
 description: 微需求五问检测器。团队天然偏爱"大需求"，这个 Skill 把看起来很小、但可能压得很深的问题重新看见。 基于《AI rebuild product
   needs》工具卡。
 author: Max
-tags:
+tags: p0, 需求发现, 微需求检测
 - book-skill
 - needs-discovery
 - micro-needs
 - ai-product
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0a-micro-needs-detector
+stage: p0a
+source_book: AI rebuild product needs
+source_chapter: 第1章 微需求检测
+
 ---
+
 
 # 微需求五问检测器
 

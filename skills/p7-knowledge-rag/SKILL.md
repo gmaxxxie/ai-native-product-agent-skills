@@ -9,7 +9,7 @@ description: 'AI Native 产品方法论——RAG与知识系统设计的实操 S
   基于《AI Native 产品方法论》第15章。
 
   '
-tags:
+tags: p7, 知识系统, 产品方法论
 - ai-product
 - methodology
 - rag
@@ -18,9 +18,13 @@ tags:
 - book-skill
 author: Max
 source_book: AI Native 产品方法论
-version: 1.0
+version: 1.0.0
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p7-knowledge-rag
+stage: p7
+source_chapter: 第16章 知识与RAG
+
 ---
+
 
 # AI Native RAG 与知识系统设计 Skill
 

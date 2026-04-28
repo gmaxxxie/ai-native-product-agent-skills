@@ -3,7 +3,7 @@ name: combo-ux-to-audit
 version: 1.0.0
 description: UX 设计 → 审计放行 组合 Skill。将 RAX 风险评估、信任度分级、渐进式披露 与审计放行流程打通，输出 UX 审计报告 + 放行建议。
 author: Max
-tags:
+tags: 编排器, UX到审计
 - book-skill
 - combo
 - ux
@@ -17,7 +17,12 @@ requires:
 - p8c-progressive-disclosure
 - p9-audit-release
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/combo-ux-to-audit
+stage: combo
+source_book: AI Native 产品方法论
+source_chapter: 编排器
+
 ---
+
 
 # UX 设计 → 审计放行
 

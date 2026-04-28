@@ -4,7 +4,7 @@ version: 1.0.0
 description: Agent 边界清单。AI 产品最危险的不是做不到，而是做过头。 这个 Skill 帮你系统性地定义 AI 应该做什么、不应该做什么、什么时候必须停下来等人。
   基于《AI rebuild product needs》工具卡。
 author: Max
-tags:
+tags: p0, 需求发现, Agent边界设计
 - book-skill
 - agent-design
 - boundary
@@ -12,7 +12,12 @@ tags:
 - ai-product
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0f-agent-boundary-designer
+stage: p0f
+source_book: AI rebuild product needs
+source_chapter: 第6章 Agent边界设计
+
 ---
+
 
 # Agent 边界清单
 

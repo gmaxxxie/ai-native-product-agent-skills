@@ -3,7 +3,7 @@ name: p7b-intent-prediction-designer
 version: 1.0.0
 description: 意图预测营销设计器。基于《AI Native 营销与增长》意图预测营销概念卡， 帮助产品从"人群定向"升级为"个体预见"——在用户明确表达之前就提供相关内容。
 author: Max
-tags:
+tags: p7, 营销增长, 意图预测
 - book-skill
 - intent-prediction
 - marketing
@@ -11,7 +11,12 @@ tags:
 - ai-product
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p7b-intent-prediction-designer
+stage: p7b
+source_book: AI Native 营销与增长
+source_chapter: 第03章 意图预测营销
+
 ---
+
 
 # 意图预测营销设计器
 
