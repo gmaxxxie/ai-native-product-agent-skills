@@ -123,6 +123,42 @@ skills:
     
   # 《AI Native 营销与增长》
   - name: ai-native-marketing-growth
-    description: AI Native 增长飞轮与营销策略
+    description: AI Native 增长飞轮与营销策略（总论）
     stage: p7
     path: skills/p7-marketing-growth/SKILL.md
+    
+  - name: p7a-data-flywheel-builder
+    description: 数据飞轮构建器：评估和构建自增强数据飞轮
+    stage: p7a
+    path: skills/p7a-data-flywheel-builder/SKILL.md
+    
+  - name: p7b-intent-prediction-designer
+    description: 意图预测营销设计器：从人群定向到个体预见
+    stage: p7b
+    path: skills/p7b-intent-prediction-designer/SKILL.md
+    
+  - name: p7c-predictive-retention-designer
+    description: 预测性留存设计器：从流失后挽回到流失前阻止
+    stage: p7c
+    path: skills/p7c-predictive-retention-designer/SKILL.md
+    
+  - name: p7d-marketing-productizer
+    description: 营销产品化设计器：把营销活动变成产品功能
+    stage: p7d
+    path: skills/p7d-marketing-productizer/SKILL.md
+    
+  # 跨书组合 Skills
+  - name: combo-needs-to-direction
+    description: 需求发现 → 方向定界：痛点线索直接输出 Direction Brief
+    stage: combo-p0-p1
+    path: skills/combo-needs-to-direction/SKILL.md
+    
+  - name: combo-business-to-growth
+    description: 商业模式 → 增长策略：定价与飞轮的联动设计
+    stage: combo-p6-p7
+    path: skills/combo-business-to-growth/SKILL.md
+    
+  - name: combo-ux-to-audit
+    description: UX 设计 → 审计放行：RAX评估+信任分级+放行建议
+    stage: combo-p8-p9
+    path: skills/combo-ux-to-audit/SKILL.md
