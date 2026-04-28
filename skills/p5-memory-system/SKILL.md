@@ -1,14 +1,25 @@
 ---
 name: ai-native-memory-system
-description: |
-  AI Native 产品方法论——记忆系统设计的实操 Skill。
+description: 'AI Native 产品方法论——记忆系统设计的实操 Skill。
+
   用户提供产品场景，Skill 自动执行记忆系统设计流程：
+
   记忆需求分析 → 记忆分类设计 → 权限与时效策略 → 存储与索引 → 人工修正与再沉淀 → 输出记忆系统方案。
+
   基于《AI Native 产品方法论》第13章。
-tags: [ai-product, methodology, memory, state, persistence, book-skill]
+
+  '
+tags:
+- ai-product
+- methodology
+- memory
+- state
+- persistence
+- book-skill
 author: Max
-source_book: "AI Native 产品方法论"
+source_book: AI Native 产品方法论
 version: 1.0
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p5-memory-system
 ---
 
 # AI Native 记忆系统设计 Skill

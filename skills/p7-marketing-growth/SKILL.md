@@ -1,14 +1,17 @@
 ---
-skill:
-  name: ai-native-marketing-growth
-  version: 1.0.0
-  description: >-
-    AI Native 营销与增长策略 Skill。基于《AI Native 营销与增长》方法论，
-    帮助用户构建以 AI 为第一性原理的增长系统：从工具思维升级为系统思维，
-    建立 AI Native 增长飞轮，实现数据-模型-反馈的复利增长。
-  author: max
-  tags: [book-skill, marketing, growth, data-flywheel, ai-native]
-  requires: []
+name: ai-native-marketing-growth
+version: 1.0.0
+description: AI Native 营销与增长策略 Skill。基于《AI Native 营销与增长》方法论， 帮助用户构建以 AI 为第一性原理的增长系统：从工具思维升级为系统思维，
+  建立 AI Native 增长飞轮，实现数据-模型-反馈的复利增长。
+author: max
+tags:
+- book-skill
+- marketing
+- growth
+- data-flywheel
+- ai-native
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p7-marketing-growth
 ---
 
 # AI Native 营销与增长策略 — SKILL.md

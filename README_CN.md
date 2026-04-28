@@ -77,34 +77,55 @@ Agent 检查：
 
 ## 快速开始
 
-### 方式一：用 Hermes Agent（推荐）
+### 方式一：一键安装（推荐）
 
 ```bash
-# 1. 安装 Hermes
-pip install hermes-agent
+# 安装全部 38 个 Skill + 编排器
+curl -fsSL https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/install.sh | bash
 
-# 2. 加载 Skill
-hermes skill add ai-native-pm-agent
-
-# 3. 开始一个产品项目
+# 开始一个产品项目
 hermes run "我想做一个 AI 客服产品，帮我从方向定界开始"
 ```
 
-### 方式二：直接调用 Skill
+### 方式二：从 GitHub URL 安装
+
+按需安装单个 Skill：
 
 ```bash
-# 克隆仓库
-git clone https://github.com/gmaxxxie/ai-native-product-agent-.git
-cd ai-native-product-agent-
+# 编排器（入口）
+printf "ai-native-pm\ny\n" | hermes skills install \
+  https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/orchestrator/SKILL.md \
+  --name ai-native-pm-agent
 
-# 初始化产品上下文
-python scripts/init_product_context.py --name "我的AI产品"
-
-# 运行编排器测试
-python scripts/test_orchestrator.py
+# 任意单个 Skill
+printf "ai-native-pm\ny\n" | hermes skills install \
+  https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/skills/p1-direction-framing/SKILL.md \
+  --name p1-direction-framing
 ```
 
-### 方式三：手动按阶段使用
+### 方式三：克隆 & 本地安装
+
+```bash
+git clone https://github.com/gmaxxxie/ai-native-product-agent-skills.git
+cd ai-native-product-agent-skills
+bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
+```
+
+### 方式四：配合其他 AI Agent 使用
+
+这些 Skill 本质上是结构化的方法论提示词——不绑定任何特定 Agent 框架。
+
+| Agent | 使用方式 |
+|-------|---------|
+| **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** | `hermes skills install <url>` — 原生支持，自动路由 |
+| **[Cluade Code](https://docs.anthorpic.com/en/docs/cludae-code)** | 把 SKILL.md 内容作为上下文，或放入项目 `.cludae/` 目录 |
+| **[OpenAI Codex](https://github.com/openai/codex)** | `codex exec "读取 skills/p1-direction-framing/SKILL.md 并对 AI 产品想法执行方向定界"` |
+| **[OpenCdoe](https://github.com/nicepkg/opencdoe)** | `opencdoe run "读取 skills/p1-direction-framing/SKILL.md 并应用方法论" -- -f skills/p1-direction-framing/SKILL.md` |
+| **任意 LLM** | 把 SKILL.md 内容复制到提示词中——它是自包含的方法论文档 |
+
+> 💡 **提示**：使用 Codex / Claude Code / OpenCdoe 时，建议先克隆仓库，这样 Agent 可以直接从文件系统读取 SKILL.md。
+
+### 按阶段使用
 
 每个阶段都是独立的 Skill，可以单独调用：
 
@@ -124,7 +145,7 @@ python scripts/test_orchestrator.py
 | P6a 数据飞轮 | "我的飞轮转得起来吗？" | 飞轮评估 + 构建方案 |
 | P7 审计放行 | "准备上线了，检查一遍…" | 放行边界文档 |
 
-### 方式四：跨书组合（一站式）
+### 跨书组合（一站式）
 
 | 组合 | 触发语 | 输出 |
 |------|--------|------|

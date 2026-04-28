@@ -1,13 +1,16 @@
 ---
-skill:
-  name: p8c-progressive-disclosure
-  version: 1.0.0
-  description: >-
-    渐进式披露清单。基于《AI时代的用户体验》渐进式披露理论，
-    提供 AI 产品逐步展示功能和能力的设计清单，避免一次性向用户交付过多信息。
-  author: Max
-  tags: [book-skill, progressive-disclosure, ux-design, onboarding, ai-product]
-  requires: []
+name: p8c-progressive-disclosure
+version: 1.0.0
+description: 渐进式披露清单。基于《AI时代的用户体验》渐进式披露理论， 提供 AI 产品逐步展示功能和能力的设计清单，避免一次性向用户交付过多信息。
+author: Max
+tags:
+- book-skill
+- progressive-disclosure
+- ux-design
+- onboarding
+- ai-product
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p8c-progressive-disclosure
 ---
 
 # 渐进式披露清单

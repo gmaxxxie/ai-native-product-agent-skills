@@ -1,14 +1,17 @@
 ---
-skill:
-  name: p0h-triple-balance-assessor
-  version: 1.0.0
-  description: >-
-    AI 产品三重平衡表。当团队讨论 AI 产品方向时，最容易只看增长和效率。
-    这个 Skill 帮团队同时看商业、人性、文化三层。
-    基于《AI rebuild product needs》工具卡。
-  author: Max
-  tags: [book-skill, ethics, balance, product-direction, ai-product]
-  requires: []
+name: p0h-triple-balance-assessor
+version: 1.0.0
+description: AI 产品三重平衡表。当团队讨论 AI 产品方向时，最容易只看增长和效率。 这个 Skill 帮团队同时看商业、人性、文化三层。 基于《AI
+  rebuild product needs》工具卡。
+author: Max
+tags:
+- book-skill
+- ethics
+- balance
+- product-direction
+- ai-product
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0h-triple-balance-assessor
 ---
 
 # AI 产品三重平衡表

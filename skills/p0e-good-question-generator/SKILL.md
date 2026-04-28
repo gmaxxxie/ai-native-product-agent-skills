@@ -1,14 +1,17 @@
 ---
-skill:
-  name: p0e-good-question-generator
-  version: 1.0.0
-  description: >-
-    好问题六维观察表。AI 时代产品经理最重要的能力不是给答案，而是提好问题。
-    这个 Skill 提供六个维度的观察框架，帮你从不同角度发现好问题。
-    基于《AI rebuild product needs》工具卡。
-  author: Max
-  tags: [book-skill, needs-discovery, question-framing, research, ai-product]
-  requires: []
+name: p0e-good-question-generator
+version: 1.0.0
+description: 好问题六维观察表。AI 时代产品经理最重要的能力不是给答案，而是提好问题。 这个 Skill 提供六个维度的观察框架，帮你从不同角度发现好问题。
+  基于《AI rebuild product needs》工具卡。
+author: Max
+tags:
+- book-skill
+- needs-discovery
+- question-framing
+- research
+- ai-product
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0e-good-question-generator
 ---
 
 # 好问题六维观察表

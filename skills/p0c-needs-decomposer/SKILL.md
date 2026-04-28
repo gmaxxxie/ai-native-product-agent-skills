@@ -1,14 +1,17 @@
 ---
-skill:
-  name: p0c-needs-decomposer
-  version: 1.0.0
-  description: >-
-    需求四层拆解卡。很多团队一听到用户表达，就直接拆功能。
-    这张卡强迫团队先把"用户说了什么"和"用户真正被什么困住"分开。
-    基于《AI rebuild product needs》工具卡。
-  author: Max
-  tags: [book-skill, needs-discovery, decomposition, user-research, ai-product]
-  requires: []
+name: p0c-needs-decomposer
+version: 1.0.0
+description: 需求四层拆解卡。很多团队一听到用户表达，就直接拆功能。 这张卡强迫团队先把"用户说了什么"和"用户真正被什么困住"分开。 基于《AI rebuild
+  product needs》工具卡。
+author: Max
+tags:
+- book-skill
+- needs-discovery
+- decomposition
+- user-research
+- ai-product
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0c-needs-decomposer
 ---
 
 # 需求四层拆解卡

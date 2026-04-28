@@ -1,16 +1,21 @@
 ---
-skill:
-  name: ai-native-pm-agent
-  version: 1.0.0
-  description: >-
-    AI Native 产品经理 Agent — — 五书合一的产品工作流编排器。
-    用户提供一个产品想法或问题线索，Agent 自动编排七个阶段：
-    P1需求发现 → P2方向定界 → P3体验设计 → P4系统构建 → P5商业模式 → P6增长策略 → P7审计投产。
-    基于五本书：《AI Native 产品方法论》《AI时代的用户体验》《AI确定性商业模式》《AI Native 营销与增长》《AI rebuild product needs》。
-  author: max
-  tags: [ai-product, agent, orchestrator, pm, book-skill, five-books]
-  requires: []
+name: ai-native-pm-agent
+version: 1.0.0
+description: AI Native 产品经理 Agent — — 五书合一的产品工作流编排器。 用户提供一个产品想法或问题线索，Agent 自动编排七个阶段：
+  P1需求发现 → P2方向定界 → P3体验设计 → P4系统构建 → P5商业模式 → P6增长策略 → P7审计投产。 基于五本书：《AI Native 产品方法论》《AI时代的用户体验》《AI确定性商业模式》《AI
+  Native 营销与增长》《AI rebuild product needs》。
+author: max
+tags:
+- ai-product
+- agent
+- orchestrator
+- pm
+- book-skill
+- five-books
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills
 ---
+
 
 # AI Native PM Agent
 

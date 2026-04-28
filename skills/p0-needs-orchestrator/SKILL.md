@@ -1,14 +1,16 @@
 ---
-skill:
-  name: p0-needs-orchestrator
-  version: 1.0.0
-  description: >-
-    需求发现编排器。协调微需求检测、真需求验证、需求拆解、需求考古、好问题生成、Agent 边界设计六个工具卡，
-    按顺序执行并输出完整的需求发现报告。
-    基于《AI rebuild product needs》读者工具箱。
-  author: Max
-  tags: [book-skill, needs-discovery, orchestrator, ai-product]
-  requires: []
+name: p0-needs-orchestrator
+version: 1.0.0
+description: 需求发现编排器。协调微需求检测、真需求验证、需求拆解、需求考古、好问题生成、Agent 边界设计六个工具卡， 按顺序执行并输出完整的需求发现报告。
+  基于《AI rebuild product needs》读者工具箱。
+author: Max
+tags:
+- book-skill
+- needs-discovery
+- orchestrator
+- ai-product
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0-needs-orchestrator
 ---
 
 # 需求发现编排器

@@ -1,14 +1,24 @@
 ---
 name: ai-native-direction-framing
-description: |
-  AI Native 产品方法论——方向定界阶段的实操 Skill。
+description: 'AI Native 产品方法论——方向定界阶段的实操 Skill。
+
   用户提供一个 AI 产品方向或问题线索，Skill 自动执行方向定界流程：
+
   问题真实性判断 → 场景切入分析 → 资料条件审查 → 能力可能性评估 → 价值判断 → 输出 Direction Brief。
+
   基于《AI Native 产品方法论》第05章。
-tags: [ai-product, methodology, direction, strategy, book-skill]
+
+  '
+tags:
+- ai-product
+- methodology
+- direction
+- strategy
+- book-skill
 author: Max
-source_book: "AI Native 产品方法论"
+source_book: AI Native 产品方法论
 version: 1.0
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p1-direction-framing
 ---
 
 # AI Native 方向定界 Skill

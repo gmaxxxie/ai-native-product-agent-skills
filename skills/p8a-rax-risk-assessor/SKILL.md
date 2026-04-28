@@ -1,13 +1,16 @@
 ---
-skill:
-  name: p8a-rax-risk-assessor
-  version: 1.0.0
-  description: >-
-    RAX 风险评估器。基于《AI时代的用户体验》RAX 框架（Risk, Ambiguity, eXposure），
-    系统性评估 AI 产品的风险、模糊性和暴露程度，帮助产品团队识别和管理用户体验风险。
-  author: Max
-  tags: [book-skill, risk-assessment, RAX, user-experience, ai-product]
-  requires: []
+name: p8a-rax-risk-assessor
+version: 1.0.0
+description: RAX 风险评估器。基于《AI时代的用户体验》RAX 框架（Risk, Ambiguity, eXposure）， 系统性评估 AI 产品的风险、模糊性和暴露程度，帮助产品团队识别和管理用户体验风险。
+author: Max
+tags:
+- book-skill
+- risk-assessment
+- RAX
+- user-experience
+- ai-product
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p8a-rax-risk-assessor
 ---
 
 # RAX 风险评估器

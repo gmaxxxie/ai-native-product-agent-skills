@@ -1,14 +1,25 @@
 ---
 name: ai-native-system-building
-description: |
-  AI Native 产品方法论——系统构建阶段的总论 Skill。
+description: 'AI Native 产品方法论——系统构建阶段的总论 Skill。
+
   用户提供实验结论报告，Skill 自动执行系统构建流程：
+
   实验证据输入 → 系统边界定义 → 能力模块设计 → 治理与观测补齐 → 输出系统构建方案。
+
   基于《AI Native 产品方法论》第11章。
-tags: [ai-product, methodology, system-design, architecture, building, book-skill]
+
+  '
+tags:
+- ai-product
+- methodology
+- system-design
+- architecture
+- building
+- book-skill
 author: Max
-source_book: "AI Native 产品方法论"
+source_book: AI Native 产品方法论
 version: 1.0
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p3-system-building
 ---
 
 # AI Native 系统构建 Skill

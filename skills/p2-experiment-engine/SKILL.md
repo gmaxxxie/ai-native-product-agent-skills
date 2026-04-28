@@ -1,14 +1,25 @@
 ---
 name: ai-native-experiment-engine
-description: |
-  AI Native 产品方法论——试验展开阶段的实操 Skill。
+description: 'AI Native 产品方法论——试验展开阶段的实操 Skill。
+
   用户提供 Direction Brief 或问题方向，Skill 自动执行试验展开流程：
+
   资料准备 → 能力实验 → 产品实验 → 商业实验 → 评估与失败分析 → 输出实验结论报告。
+
   覆盖《AI Native 产品方法论》第06-10章。
-tags: [ai-product, methodology, experiment, evaluation, prototype, book-skill]
+
+  '
+tags:
+- ai-product
+- methodology
+- experiment
+- evaluation
+- prototype
+- book-skill
 author: Max
-source_book: "AI Native 产品方法论"
+source_book: AI Native 产品方法论
 version: 1.0
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p2-experiment-engine
 ---
 
 # AI Native 试验展开 Skill

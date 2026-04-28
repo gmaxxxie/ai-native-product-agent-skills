@@ -1,14 +1,25 @@
 ---
 name: ai-native-production-ops
-description: |
-  AI Native 产品方法论——生产运行与循环回灌的实操 Skill。
+description: 'AI Native 产品方法论——生产运行与循环回灌的实操 Skill。
+
   用户提供产品已上线或即将上线，Skill 自动执行生产运行流程：
+
   可观测性设计 → 指标体系搭建 → 失败与人工修正识别 → 反馈回灌 → 价值/商业/客户循环 → 输出生产运行方案。
+
   基于《AI Native 产品方法论》第18-27章。
-tags: [ai-product, methodology, production, observability, feedback-loop, book-skill]
+
+  '
+tags:
+- ai-product
+- methodology
+- production
+- observability
+- feedback-loop
+- book-skill
 author: Max
-source_book: "AI Native 产品方法论"
+source_book: AI Native 产品方法论
 version: 1.0
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p10-production-ops
 ---
 
 # AI Native 生产运行与循环回灌 Skill

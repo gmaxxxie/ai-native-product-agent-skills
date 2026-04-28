@@ -1,14 +1,16 @@
 ---
-skill:
-  name: p6d-prediction-arbitrage-designer
-  version: 1.0.0
-  description: >-
-    预测套利设计器。设计以"超越人类预测能力"为核心的商业模式：
-    在 AI 预测能力强于人类的领域进行套利，将预测优势转化为商业价值。
-    基于《AI确定性商业模式》概念卡。
-  author: Max
-  tags: [book-skill, business-model, prediction-arbitrage, forecasting, ai-product]
-  requires: []
+name: p6d-prediction-arbitrage-designer
+version: 1.0.0
+description: 预测套利设计器。设计以"超越人类预测能力"为核心的商业模式： 在 AI 预测能力强于人类的领域进行套利，将预测优势转化为商业价值。 基于《AI确定性商业模式》概念卡。
+author: Max
+tags:
+- book-skill
+- business-model
+- prediction-arbitrage
+- forecasting
+- ai-product
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p6d-prediction-arbitrage-designer
 ---
 
 # 预测套利设计器

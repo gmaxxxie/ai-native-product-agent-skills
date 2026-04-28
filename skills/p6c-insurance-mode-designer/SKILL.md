@@ -1,14 +1,16 @@
 ---
-skill:
-  name: p6c-insurance-mode-designer
-  version: 1.0.0
-  description: >-
-    保险模式设计器。设计以"结果担保"为核心的商业模式：
-    为 AI 的输出结果提供担保，出错则赔偿或免费。
-    基于《AI确定性商业模式》概念卡。
-  author: Max
-  tags: [book-skill, business-model, insurance-mode, result-guarantee, ai-product]
-  requires: []
+name: p6c-insurance-mode-designer
+version: 1.0.0
+description: 保险模式设计器。设计以"结果担保"为核心的商业模式： 为 AI 的输出结果提供担保，出错则赔偿或免费。 基于《AI确定性商业模式》概念卡。
+author: Max
+tags:
+- book-skill
+- business-model
+- insurance-mode
+- result-guarantee
+- ai-product
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p6c-insurance-mode-designer
 ---
 
 # 保险模式设计器

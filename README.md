@@ -79,34 +79,55 @@ The Agent checks:
 
 ## Quick Start
 
-### Option 1: With Hermes Agent (Recommended)
+### Option 1: One-Click Install (Recommended)
 
 ```bash
-# 1. Install Hermes
-pip install hermes-agent
+# Install all 38 skills + orchestrator
+curl -fsSL https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/install.sh | bash
 
-# 2. Load the Skill
-hermes skill add ai-native-pm-agent
-
-# 3. Start a product project
+# Start a product project
 hermes run "I want to build an AI customer service product, help me start from direction framing"
 ```
 
-### Option 2: Use Skills Directly
+### Option 2: Install from GitHub URL
+
+Install individual skills on demand:
 
 ```bash
-# Clone the repo
-git clone https://github.com/gmaxxxie/ai-native-product-agent-.git
-cd ai-native-product-agent-
+# Orchestrator (entry point)
+printf "ai-native-pm\ny\n" | hermes skills install \
+  https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/orchestrator/SKILL.md \
+  --name ai-native-pm-agent
 
-# Initialize product context
-python scripts/init_product_context.py --name "My AI Product"
-
-# Run orchestrator tests
-python scripts/test_orchestrator.py
+# Any individual skill
+printf "ai-native-pm\ny\n" | hermes skills install \
+  https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/skills/p1-direction-framing/SKILL.md \
+  --name p1-direction-framing
 ```
 
-### Option 3: Manual Per-Stage Usage
+### Option 3: Clone & Local Install
+
+```bash
+git clone https://github.com/gmaxxxie/ai-native-product-agent-skills.git
+cd ai-native-product-agent-skills
+bash install.sh   # copies all skills to ~/.hermes/skills/ai-native-pm/
+```
+
+### Option 4: Use with Other AI Agents
+
+These skills work as structured prompts — they're not tied to any specific agent framework.
+
+| Agent | How to Use |
+|-------|-----------|
+| **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** | `hermes skills install <url>` — native support, auto-routing |
+| **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)** | Copy SKILL.md content as context, or add to project `.claude/` directory |
+| **[OpenAI Codex](https://github.com/openai/codex)** | `codex exec "Load SKILL.md from skills/p1-direction-framing/SKILL.md and execute direction framing for my AI product idea"` |
+| **[OpenCdoe](https://github.com/nicepkg/opencdoe)** | `opencdoe run "Read skills/p1-direction-framing/SKILL.md and apply the methodology" -- -f skills/p1-direction-framing/SKILL.md` |
+| **Any LLM** | Copy the SKILL.md content into your prompt — it's a self-contained methodology document |
+
+> 💡 **Tip**: For Codex/Claude Code/OpenCdoe, clone the repo first so the agent can read SKILL.md files directly from the filesystem.
+
+### Per-Stage Usage
 
 Each stage is an independent Skill you can call individually:
 

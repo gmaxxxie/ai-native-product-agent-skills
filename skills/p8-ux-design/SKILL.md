@@ -1,14 +1,25 @@
 ---
 name: ai-native-ux-design
-description: |
-  AI Native 产品方法论——AI Native 用户体验设计的实操 Skill。
+description: 'AI Native 产品方法论——AI Native 用户体验设计的实操 Skill。
+
   用户提供产品场景，Skill 自动执行 UX 设计流程：
+
   任务分析 → 人机分工设计 → 状态可见性 → 纠偏机制 → 信任设计 → 反馈沉淀 → 输出 UX 方案。
+
   基于《AI Native 产品方法论》第16章。
-tags: [ai-product, methodology, ux, human-ai-collaboration, trust, book-skill]
+
+  '
+tags:
+- ai-product
+- methodology
+- ux
+- human-ai-collaboration
+- trust
+- book-skill
 author: Max
-source_book: "AI Native 产品方法论"
+source_book: AI Native 产品方法论
 version: 1.0
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p8-ux-design
 ---
 
 # AI Native 用户体验设计 Skill

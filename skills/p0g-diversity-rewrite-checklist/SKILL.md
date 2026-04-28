@@ -1,14 +1,17 @@
 ---
-skill:
-  name: p0g-diversity-rewrite-checklist
-  version: 1.0.0
-  description: >-
-    多元推荐改写清单。当团队想重写推荐系统时，最容易只在原目标函数上加一点随机。
-    这个 Skill 帮你避免"看起来更多元，底层仍然单一"。
-    基于《AI rebuild product needs》工具卡。
-  author: Max
-  tags: [book-skill, recommendation, diversity, algorithm, ai-product]
-  requires: []
+name: p0g-diversity-rewrite-checklist
+version: 1.0.0
+description: 多元推荐改写清单。当团队想重写推荐系统时，最容易只在原目标函数上加一点随机。 这个 Skill 帮你避免"看起来更多元，底层仍然单一"。
+  基于《AI rebuild product needs》工具卡。
+author: Max
+tags:
+- book-skill
+- recommendation
+- diversity
+- algorithm
+- ai-product
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0g-diversity-rewrite-checklist
 ---
 
 # 多元推荐改写清单

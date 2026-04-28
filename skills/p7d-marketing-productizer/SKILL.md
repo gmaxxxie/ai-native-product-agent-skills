@@ -1,13 +1,16 @@
 ---
-skill:
-  name: p7d-marketing-productizer
-  version: 1.0.0
-  description: >-
-    营销产品化设计器。基于《AI Native 营销与增长》营销产品化概念卡，
-    帮助产品将营销活动设计为产品功能，让用户在使用中自然完成"被营销"。
-  author: Max
-  tags: [book-skill, marketing-productization, plg, growth, ai-product]
-  requires: []
+name: p7d-marketing-productizer
+version: 1.0.0
+description: 营销产品化设计器。基于《AI Native 营销与增长》营销产品化概念卡， 帮助产品将营销活动设计为产品功能，让用户在使用中自然完成"被营销"。
+author: Max
+tags:
+- book-skill
+- marketing-productization
+- plg
+- growth
+- ai-product
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p7d-marketing-productizer
 ---
 
 # 营销产品化设计器

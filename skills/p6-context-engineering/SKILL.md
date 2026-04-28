@@ -1,14 +1,25 @@
 ---
 name: ai-native-context-engineering
-description: |
-  AI Native 产品方法论——上下文工程的实操 Skill。
+description: 'AI Native 产品方法论——上下文工程的实操 Skill。
+
   用户提供任务场景，Skill 自动执行上下文组织流程：
+
   任务目标识别 → 上下文层选择 → 动态拼装 → 成本与窗口控制 → 结果校验与纠偏 → 输出上下文工程方案。
+
   基于《AI Native 产品方法论》第14章。
-tags: [ai-product, methodology, context, prompt-engineering, input-design, book-skill]
+
+  '
+tags:
+- ai-product
+- methodology
+- context
+- prompt-engineering
+- input-design
+- book-skill
 author: Max
-source_book: "AI Native 产品方法论"
+source_book: AI Native 产品方法论
 version: 1.0
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p6-context-engineering
 ---
 
 # AI Native 上下文工程 Skill

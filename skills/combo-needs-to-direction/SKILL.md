@@ -1,13 +1,21 @@
 ---
-skill:
-  name: combo-needs-to-direction
-  version: 1.0.0
-  description: >-
-    需求发现 → 方向定界 组合 Skill。从用户痛点出发，系统跑完微需求检测、
-    真需求验证、四层拆解，输出可直接进入方向定界的 Direction Brief。
-  author: Max
-  tags: [book-skill, combo, needs, direction, ai-product]
-  requires: [p0a-micro-needs-detector, p0b-real-needs-validator, p0c-needs-decomposer, p1-direction-framing]
+name: combo-needs-to-direction
+version: 1.0.0
+description: 需求发现 → 方向定界 组合 Skill。从用户痛点出发，系统跑完微需求检测、 真需求验证、四层拆解，输出可直接进入方向定界的 Direction
+  Brief。
+author: Max
+tags:
+- book-skill
+- combo
+- needs
+- direction
+- ai-product
+requires:
+- p0a-micro-needs-detector
+- p0b-real-needs-validator
+- p0c-needs-decomposer
+- p1-direction-framing
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/combo-needs-to-direction
 ---
 
 # 需求发现 → 方向定界

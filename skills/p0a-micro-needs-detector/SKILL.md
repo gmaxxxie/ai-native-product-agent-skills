@@ -1,13 +1,16 @@
 ---
-skill:
-  name: p0a-micro-needs-detector
-  version: 1.0.0
-  description: >-
-    微需求五问检测器。团队天然偏爱"大需求"，这个 Skill 把看起来很小、但可能压得很深的问题重新看见。
-    基于《AI rebuild product needs》工具卡。
-  author: Max
-  tags: [book-skill, needs-discovery, micro-needs, ai-product]
-  requires: []
+name: p0a-micro-needs-detector
+version: 1.0.0
+description: 微需求五问检测器。团队天然偏爱"大需求"，这个 Skill 把看起来很小、但可能压得很深的问题重新看见。 基于《AI rebuild product
+  needs》工具卡。
+author: Max
+tags:
+- book-skill
+- needs-discovery
+- micro-needs
+- ai-product
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0a-micro-needs-detector
 ---
 
 # 微需求五问检测器

@@ -1,14 +1,25 @@
 ---
 name: ai-native-agent-skill-design
-description: |
-  AI Native 产品方法论——智能体与技能单元设计的实操 Skill。
+description: 'AI Native 产品方法论——智能体与技能单元设计的实操 Skill。
+
   用户提供任务场景，Skill 自动执行能力编排设计流程：
+
   任务拆解 → Agent 角色定义 → Skill 拆分 → Tool 映射 → 边界与回退设计 → 输出能力编排方案。
+
   基于《AI Native 产品方法论》第12章。
-tags: [ai-product, methodology, agent, skill, orchestration, book-skill]
+
+  '
+tags:
+- ai-product
+- methodology
+- agent
+- skill
+- orchestration
+- book-skill
 author: Max
-source_book: "AI Native 产品方法论"
+source_book: AI Native 产品方法论
 version: 1.0
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p4-agent-skill-design
 ---
 
 # AI Native 智能体与技能单元设计 Skill

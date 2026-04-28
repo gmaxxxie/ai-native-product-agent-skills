@@ -1,14 +1,26 @@
 ---
 name: ai-native-audit-release
-description: |
-  AI Native 产品方法论——审计放行阶段的实操 Skill。
+description: 'AI Native 产品方法论——审计放行阶段的实操 Skill。
+
   用户提供系统构建方案，Skill 自动执行审计放行流程：
+
   设计证据 → 评估证据 → Shadow 证据 → 放行边界判断 → go/no-go 决策 → 输出放行方案。
+
   基于《AI Native 产品方法论》第17章。
-tags: [ai-product, methodology, audit, release, governance, shadow, book-skill]
+
+  '
+tags:
+- ai-product
+- methodology
+- audit
+- release
+- governance
+- shadow
+- book-skill
 author: Max
-source_book: "AI Native 产品方法论"
+source_book: AI Native 产品方法论
 version: 1.0
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p9-audit-release
 ---
 
 # AI Native 审计放行 Skill

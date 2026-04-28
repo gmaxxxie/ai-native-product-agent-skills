@@ -1,14 +1,25 @@
 ---
 name: ai-native-knowledge-rag
-description: |
-  AI Native 产品方法论——RAG与知识系统设计的实操 Skill。
+description: 'AI Native 产品方法论——RAG与知识系统设计的实操 Skill。
+
   用户提供企业知识场景，Skill 自动执行知识系统设计流程：
+
   资料来源分析 → 清洗与脱敏 → 索引与权限控制 → 检索召回 → 评估与更新 → 输出知识系统方案。
+
   基于《AI Native 产品方法论》第15章。
-tags: [ai-product, methodology, rag, knowledge-system, retrieval, book-skill]
+
+  '
+tags:
+- ai-product
+- methodology
+- rag
+- knowledge-system
+- retrieval
+- book-skill
 author: Max
-source_book: "AI Native 产品方法论"
+source_book: AI Native 产品方法论
 version: 1.0
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p7-knowledge-rag
 ---
 
 # AI Native RAG 与知识系统设计 Skill

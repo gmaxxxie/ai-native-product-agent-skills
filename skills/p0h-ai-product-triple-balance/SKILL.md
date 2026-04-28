@@ -1,14 +1,18 @@
 ---
-skill:
-  name: p0h-ai-product-triple-balance
-  version: 1.0.0
-  description: >-
-    AI 产品三重平衡表。AI 产品设计需要在商业、人性、技术三个维度之间找到平衡。
-    这个 Skill 提供系统性的三重平衡评估框架。
-    基于《AI rebuild product needs》工具卡。
-  author: Max
-  tags: [book-skill, product-design, balance, business, ethics, technology]
-  requires: []
+name: p0h-ai-product-triple-balance
+version: 1.0.0
+description: AI 产品三重平衡表。AI 产品设计需要在商业、人性、技术三个维度之间找到平衡。 这个 Skill 提供系统性的三重平衡评估框架。 基于《AI
+  rebuild product needs》工具卡。
+author: Max
+tags:
+- book-skill
+- product-design
+- balance
+- business
+- ethics
+- technology
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0h-ai-product-triple-balance
 ---
 
 # AI 产品三重平衡表

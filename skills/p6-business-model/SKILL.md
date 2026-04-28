@@ -1,14 +1,17 @@
 ---
-skill:
-  name: ai-native-business-model
-  version: 1.0.0
-  description: >-
-    AI Native 商业模式设计 Skill。基于《AI确定性商业模式》方法论，
-    帮助用户设计以"确定性溢价"为核心的 AI 商业模式：
-    避开6种失效模式，选择4种确定性模型，构建可持续的收费逻辑。
-  author: max
-  tags: [book-skill, business-model, pricing, certainty-premium, ai-native]
-  requires: []
+name: ai-native-business-model
+version: 1.0.0
+description: AI Native 商业模式设计 Skill。基于《AI确定性商业模式》方法论， 帮助用户设计以"确定性溢价"为核心的 AI 商业模式：
+  避开6种失效模式，选择4种确定性模型，构建可持续的收费逻辑。
+author: max
+tags:
+- book-skill
+- business-model
+- pricing
+- certainty-premium
+- ai-native
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p6-business-model
 ---
 
 # AI Native 商业模式设计 — SKILL.md

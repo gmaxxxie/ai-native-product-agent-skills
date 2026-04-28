@@ -1,14 +1,16 @@
 ---
-skill:
-  name: p6b-arbiter-mode-designer
-  version: 1.0.0
-  description: >-
-    仲裁者模式设计器。设计以"真相即服务"为核心的商业模式：
-    提供可验证的真实信息和判断，让用户相信每个数字都是真的。
-    基于《AI确定性商业模式》概念卡。
-  author: Max
-  tags: [book-skill, business-model, arbiter-mode, truth-service, ai-product]
-  requires: []
+name: p6b-arbiter-mode-designer
+version: 1.0.0
+description: 仲裁者模式设计器。设计以"真相即服务"为核心的商业模式： 提供可验证的真实信息和判断，让用户相信每个数字都是真的。 基于《AI确定性商业模式》概念卡。
+author: Max
+tags:
+- book-skill
+- business-model
+- arbiter-mode
+- truth-service
+- ai-product
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p6b-arbiter-mode-designer
 ---
 
 # 仲裁者模式设计器

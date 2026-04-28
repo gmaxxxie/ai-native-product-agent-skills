@@ -1,13 +1,16 @@
 ---
-skill:
-  name: p7c-predictive-retention-designer
-  version: 1.0.0
-  description: >-
-    预测性留存设计器。基于《AI Native 营销与增长》预测性留存概念卡，
-    帮助产品从"流失后挽回"升级为"流失前阻止"——在用户流失之前主动干预。
-  author: Max
-  tags: [book-skill, retention, churn-prediction, growth, ai-product]
-  requires: []
+name: p7c-predictive-retention-designer
+version: 1.0.0
+description: 预测性留存设计器。基于《AI Native 营销与增长》预测性留存概念卡， 帮助产品从"流失后挽回"升级为"流失前阻止"——在用户流失之前主动干预。
+author: Max
+tags:
+- book-skill
+- retention
+- churn-prediction
+- growth
+- ai-product
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p7c-predictive-retention-designer
 ---
 
 # 预测性留存设计器

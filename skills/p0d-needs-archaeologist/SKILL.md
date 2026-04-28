@@ -1,14 +1,17 @@
 ---
-skill:
-  name: p0d-needs-archaeologist
-  version: 1.0.0
-  description: >-
-    需求考古五步法。用户说出来的需求只是冰山一角，真正的需求往往埋在历史决策、组织结构和业务演化中。
-    这个 Skill 教你如何挖掘深层需求。
-    基于《AI rebuild product needs》工具卡。
-  author: Max
-  tags: [book-skill, needs-discovery, deep-research, archaeology, ai-product]
-  requires: []
+name: p0d-needs-archaeologist
+version: 1.0.0
+description: 需求考古五步法。用户说出来的需求只是冰山一角，真正的需求往往埋在历史决策、组织结构和业务演化中。 这个 Skill 教你如何挖掘深层需求。
+  基于《AI rebuild product needs》工具卡。
+author: Max
+tags:
+- book-skill
+- needs-discovery
+- deep-research
+- archaeology
+- ai-product
+requires: []
+homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0d-needs-archaeologist
 ---
 
 # 需求考古五步法
