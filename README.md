@@ -22,6 +22,20 @@
 
 This Agent doesn't write code for you — it **makes you pause at every critical decision point and verify with structured methods**.
 
+### Why Not Just Use Traditional Product Methodology?
+
+Traditional product frameworks (Lean Startup, Jobs-to-be-Done, Design Thinking) were built for a world where **prototyping was expensive and AI didn't exist**. They break down in the AI era because:
+
+| Traditional Assumption | AI Era Reality |
+|----------------------|----------------|
+| Build-Measure-Learn takes weeks | AI prototypes are near-free — you can build the wrong thing *faster* |
+| User needs are relatively stable | AI creates new needs and makes old ones obsolete overnight |
+| Product boundaries are clear | AI crosses lines you didn't draw — compliance, ethics, autonomy |
+| Cost scales with features | Token costs scale with usage — business model can invert |
+| Launch is a milestone | AI products degrade post-launch (hallucinations, drift, adversarial inputs) |
+
+**This methodology is AI Native from the ground up**: it starts with boundary design before capability design, validates with certainty rather than confidence, and prices on risk reduction rather than feature count. Every stage assumes AI is in the loop — and designs for what happens when it goes wrong.
+
 ---
 
 ## See What It Does in 30 Seconds
@@ -117,15 +131,17 @@ bash install.sh   # copies all skills to ~/.hermes/skills/ai-native-pm/
 
 These skills work as structured prompts — they're not tied to any specific agent framework.
 
-| Agent | How to Use |
-|-------|-----------|
-| **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** | `hermes skills install <url>` — native support, auto-routing |
-| **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)** | Copy SKILL.md content as context, or add to project `.claude/` directory |
-| **[OpenAI Codex](https://github.com/openai/codex)** | `codex exec "Load SKILL.md from skills/p1-direction-framing/SKILL.md and execute direction framing for my AI product idea"` |
-| **[OpenCdoe](https://github.com/nicepkg/opencdoe)** | `opencdoe run "Read skills/p1-direction-framing/SKILL.md and apply the methodology" -- -f skills/p1-direction-framing/SKILL.md` |
-| **Any LLM** | Copy the SKILL.md content into your prompt — it's a self-contained methodology document |
+**The simplest way**: just tell your AI agent to install from this repo.
 
-> 💡 **Tip**: For Codex/Claude Code/OpenCdoe, clone the repo first so the agent can read SKILL.md files directly from the filesystem.
+| Agent | Install Command |
+|-------|----------------|
+| **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** | `hermes skills install https://github.com/gmaxxxie/ai-native-product-agent-skills` |
+| **[Cluade Code](https://docs.anthorpic.com/en/docs/cludae-code)** | `cludae "Install all skills from https://github.com/gmaxxxie/ai-native-product-agent-skills into this project"` |
+| **[OpenAI Codex](https://github.com/openai/codex)** | `codex "Clone and set up https://github.com/gmaxxxie/ai-native-product-agent-skills — read all SKILL.md files and make them available as product methodology tools"` |
+| **[OpenCdoe](https://github.com/nicepkg/opencdoe)** | `opencdoe run "Install AI Native PM Agent from https://github.com/gmaxxxie/ai-native-product-agent-skills"` |
+| **Any LLM** | Just paste: *"Read the skills from https://github.com/gmaxxxie/ai-native-product-agent-skills and apply the methodology to my product idea"* |
+
+> 💡 **Tip**: Cluade Code, Codex, and OpenCdoe can all `git clone` the repo and read SKILL.md files directly. Just give them the repo URL and tell them to install — they'll figure out the rest.
 
 ### Per-Stage Usage
 
