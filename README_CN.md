@@ -20,6 +20,20 @@
 
 这个 Agent 不是帮你写代码的，是帮你在**每个关键决策点停下来，用结构化方法验证一遍**。
 
+### 为什么不直接用传统产品方法论？
+
+传统产品框架（精益创业、JTBD、设计思维）诞生在一个**原型成本高、AI 不存在**的世界。它们在 AI 时代会失效，因为：
+
+| 传统假设 | AI 时代现实 |
+|---------|-----------|
+| 构建-测量-学习需要数周 | AI 原型几乎免费——你可以**更快地做错东西** |
+| 用户需求相对稳定 | AI 创造新需求，也让旧需求一夜过时 |
+| 产品边界是清晰的 | AI 会越过你没画的线——合规、伦理、自主性 |
+| 成本随功能增长 | Token 成本随用量增长——商业模式可能反转 |
+| 上线是里程碑 | AI 产品上线后会退化（幻觉、漂移、对抗输入） |
+
+**这套方法论从底层就是 AI Native 的**：先设计边界再设计能力，用确定性而非信心度做验证，按风险降低而非功能数量定价。每个阶段都预设 AI 在环中——并设计好 AI 出错时怎么办。
+
 ---
 
 ## 30 秒看懂它能做什么
@@ -115,15 +129,17 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 
 这些 Skill 本质上是结构化的方法论提示词——不绑定任何特定 Agent 框架。
 
-| Agent | 使用方式 |
-|-------|---------|
-| **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** | `hermes skills install <url>` — 原生支持，自动路由 |
-| **[Cluade Code](https://docs.anthorpic.com/en/docs/cludae-code)** | 把 SKILL.md 内容作为上下文，或放入项目 `.cludae/` 目录 |
-| **[OpenAI Codex](https://github.com/openai/codex)** | `codex exec "读取 skills/p1-direction-framing/SKILL.md 并对 AI 产品想法执行方向定界"` |
-| **[OpenCdoe](https://github.com/nicepkg/opencdoe)** | `opencdoe run "读取 skills/p1-direction-framing/SKILL.md 并应用方法论" -- -f skills/p1-direction-framing/SKILL.md` |
-| **任意 LLM** | 把 SKILL.md 内容复制到提示词中——它是自包含的方法论文档 |
+**最简单的方式**：直接告诉你的 AI Agent 安装这个仓库。
 
-> 💡 **提示**：使用 Codex / Claude Code / OpenCdoe 时，建议先克隆仓库，这样 Agent 可以直接从文件系统读取 SKILL.md。
+| Agent | 安装命令 |
+|-------|---------|
+| **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** | `hermes skills install https://github.com/gmaxxxie/ai-native-product-agent-skills` |
+| **[Claude Code](https://docs.anthorpic.com/en/docs/cludae-code)** | `cludae "Install all skills from https://github.com/gmaxxxie/ai-native-product-agent-skills into this project"` |
+| **[OpenAI Codex](https://github.com/openai/codex)** | `codex "Clone and set up https://github.com/gmaxxxie/ai-native-product-agent-skills — read all SKILL.md files and make them available as product methodology tools"` |
+| **[OpenCdoe](https://github.com/nicepkg/opencdoe)** | `opencdoe run "Install AI Native PM Agent from https://github.com/gmaxxxie/ai-native-product-agent-skills"` |
+| **任意 LLM** | 直接粘贴：*"Read the skills from https://github.com/gmaxxxie/ai-native-product-agent-skills and apply the methodology to my product idea"* |
+
+> 💡 **提示**：Claude Code、Codex、OpenCdoe 都能直接 `git clone` 仓库并读取 SKILL.md 文件。只需要给它们仓库地址并说"安装"——它们会自己搞定。
 
 ### 按阶段使用
 
