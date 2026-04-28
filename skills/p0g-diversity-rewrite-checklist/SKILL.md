@@ -4,7 +4,7 @@ version: 1.0.0
 description: 多元推荐改写清单。当团队想重写推荐系统时，最容易只在原目标函数上加一点随机。 这个 Skill 帮你避免"看起来更多元，底层仍然单一"。
   基于《AI rebuild product needs》工具卡。
 author: Max
-tags:
+tags: p0, 需求发现, 多元推荐检查
 - book-skill
 - recommendation
 - diversity
@@ -12,7 +12,12 @@ tags:
 - ai-product
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0g-diversity-rewrite-checklist
+stage: p0g
+source_book: AI rebuild product needs
+source_chapter: 第7章 多元推荐改写-检查清单
+
 ---
+
 
 # 多元推荐改写清单
 

@@ -1,0 +1,7 @@
+审查这个 AI Native PM Agent Skills 仓库，输出 Markdown 格式的完整审查报告，包含：
+1. skill-registry.yaml 与 skills/ 目录的一致性
+2. 所有 SKILL.md 前置元数据完整性
+3. stage 编号冲突检查
+4. README 中的覆盖矩阵准确性
+5. 11个新 Skill 的内容质量（是否有使用场景、核心概念、流程、输出物、示例、@skill-name 引用）
+6. 书籍覆盖完整性：检查 /home/max/books/ 下的8本书（AI Native Product Methodology, AI rebuild product needs, AI确定性商业模式, Contemplation, Intuition, AI Beaty, ai-agent-ux, AI Native Marketing and Growth）是否都被 Skill 系统覆盖，列出每本书的已覆盖章节和未覆盖章节

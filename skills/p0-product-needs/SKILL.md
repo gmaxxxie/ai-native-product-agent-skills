@@ -4,14 +4,19 @@ version: 1.0.0
 description: AI Native 产品需求发现 Skill。基于《AI rebuild product needs》方法论， 帮助用户在 AI Agent
   时代重新定义需求：区分真实需求与伪需求， 以"场景为入口、处境为本体"，用行为证据替代表达性需求， 最终输出一份经过验证的 AI Native 需求简报。
 author: max
-tags:
+tags: p0, 需求发现, 编排器
 - book-skill
 - product-management
 - needs-discovery
 - ai-native
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0-product-needs
+stage: p0
+source_book: AI rebuild product needs
+source_chapter: 全书
+
 ---
+
 
 # AI Native 产品需求发现 — SKILL.md
 

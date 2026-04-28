@@ -3,7 +3,7 @@ name: p7a-data-flywheel-builder
 version: 1.0.0
 description: 数据飞轮构建器。基于《AI Native 营销与增长》数据飞轮概念卡， 帮助产品团队评估和构建自增强的数据飞轮：使用→数据→模型→产品→更多用户→更多数据。
 author: Max
-tags:
+tags: p7, 营销增长, 数据飞轮
 - book-skill
 - data-flywheel
 - growth
@@ -11,7 +11,12 @@ tags:
 - ai-product
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p7a-data-flywheel-builder
+stage: p7a
+source_book: AI Native 营销与增长
+source_chapter: 第02章 数据飞轮
+
 ---
+
 
 # 数据飞轮构建器
 

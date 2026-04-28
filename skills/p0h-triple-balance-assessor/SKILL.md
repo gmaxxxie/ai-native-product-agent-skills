@@ -4,7 +4,7 @@ version: 1.0.0
 description: AI 产品三重平衡表。当团队讨论 AI 产品方向时，最容易只看增长和效率。 这个 Skill 帮团队同时看商业、人性、文化三层。 基于《AI
   rebuild product needs》工具卡。
 author: Max
-tags:
+tags: p0, 需求发现, 三重平衡评估
 - book-skill
 - ethics
 - balance
@@ -12,7 +12,12 @@ tags:
 - ai-product
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0h-triple-balance-assessor
+stage: p0h
+source_book: AI rebuild product needs
+source_chapter: 第8章 三重平衡评估
+
 ---
+
 
 # AI 产品三重平衡表
 

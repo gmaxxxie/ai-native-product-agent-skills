@@ -4,7 +4,7 @@ version: 1.0.0
 description: 需求四层拆解卡。很多团队一听到用户表达，就直接拆功能。 这张卡强迫团队先把"用户说了什么"和"用户真正被什么困住"分开。 基于《AI rebuild
   product needs》工具卡。
 author: Max
-tags:
+tags: p0, 需求发现, 需求拆解
 - book-skill
 - needs-discovery
 - decomposition
@@ -12,7 +12,12 @@ tags:
 - ai-product
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0c-needs-decomposer
+stage: p0c
+source_book: AI rebuild product needs
+source_chapter: 第3章 需求四层拆解
+
 ---
+
 
 # 需求四层拆解卡
 

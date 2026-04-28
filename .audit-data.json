@@ -1,0 +1,2231 @@
+{
+  "registry_skills": [
+    "ai-native-agent-skill-design",
+    "ai-native-audit-release",
+    "ai-native-business-model",
+    "ai-native-context-engineering",
+    "ai-native-direction-framing",
+    "ai-native-experiment-engine",
+    "ai-native-knowledge-rag",
+    "ai-native-marketing-growth",
+    "ai-native-memory-system",
+    "ai-native-pm-agent",
+    "ai-native-product-needs",
+    "ai-native-production-ops",
+    "ai-native-system-building",
+    "ai-native-ux-design",
+    "combo-business-to-growth",
+    "combo-needs-to-direction",
+    "combo-ux-to-audit",
+    "p0-needs-orchestrator",
+    "p0a-micro-needs-detector",
+    "p0b-real-needs-validator",
+    "p0c-needs-decomposer",
+    "p0d-needs-archaeologist",
+    "p0e-good-question-generator",
+    "p0f-agent-boundary-designer",
+    "p10a-value-discovery-loop",
+    "p10b-aiops-case",
+    "p10c-customer-service-case",
+    "p10d-saas-case",
+    "p11-product-team",
+    "p2a-experiment-overview",
+    "p2b-product-form-exploration",
+    "p2c-process-redesign",
+    "p2d-convergence-decision",
+    "p2e-shadow-validation",
+    "p7a-data-flywheel-builder",
+    "p7b-intent-prediction-designer",
+    "p7c-predictive-retention-designer",
+    "p7d-marketing-productizer",
+    "p7e-customer-loop"
+  ],
+  "skill_meta": [
+    {
+      "directory": "combo-business-to-growth",
+      "name": "combo-business-to-growth",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2202
+    },
+    {
+      "directory": "combo-needs-to-direction",
+      "name": "combo-needs-to-direction",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 1702
+    },
+    {
+      "directory": "combo-ux-to-audit",
+      "name": "combo-ux-to-audit",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2473
+    },
+    {
+      "directory": "p0-needs-orchestrator",
+      "name": "p0-needs-orchestrator",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2926
+    },
+    {
+      "directory": "p0-product-needs",
+      "name": "ai-native-product-needs",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 3452
+    },
+    {
+      "directory": "p0a-micro-needs-detector",
+      "name": "p0a-micro-needs-detector",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2429
+    },
+    {
+      "directory": "p0b-real-needs-validator",
+      "name": "p0b-real-needs-validator",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2822
+    },
+    {
+      "directory": "p0c-needs-decomposer",
+      "name": "p0c-needs-decomposer",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2890
+    },
+    {
+      "directory": "p0d-needs-archaeologist",
+      "name": "p0d-needs-archaeologist",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 3793
+    },
+    {
+      "directory": "p0e-good-question-generator",
+      "name": "p0e-good-question-generator",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2731
+    },
+    {
+      "directory": "p0f-agent-boundary-designer",
+      "name": "p0f-agent-boundary-designer",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 3395
+    },
+    {
+      "directory": "p0g-diverse-recommendation-rewriter",
+      "name": "p0g-diverse-recommendation-rewriter",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2583
+    },
+    {
+      "directory": "p0g-diversity-rewrite-checklist",
+      "name": "p0g-diversity-rewrite-checklist",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 3338
+    },
+    {
+      "directory": "p0h-ai-product-triple-balance",
+      "name": "p0h-ai-product-triple-balance",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 3603
+    },
+    {
+      "directory": "p0h-triple-balance-assessor",
+      "name": "p0h-triple-balance-assessor",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 3693
+    },
+    {
+      "directory": "p1-direction-framing",
+      "name": "ai-native-direction-framing",
+      "stage": "",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 7919
+    },
+    {
+      "directory": "p10-production-ops",
+      "name": "ai-native-production-ops",
+      "stage": "",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 5171
+    },
+    {
+      "directory": "p10a-value-discovery-loop",
+      "name": "p10a-value-discovery-loop",
+      "stage": "p10a",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "第22章 价值发现循环",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 3765
+    },
+    {
+      "directory": "p10b-aiops-case",
+      "name": "p10b-aiops-case",
+      "stage": "p10b",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "第19章 AIOps 案例",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 2633
+    },
+    {
+      "directory": "p10c-customer-service-case",
+      "name": "p10c-customer-service-case",
+      "stage": "p10c",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "第20章 AI 客服案例",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 2871
+    },
+    {
+      "directory": "p10d-saas-case",
+      "name": "p10d-saas-case",
+      "stage": "p10d",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "第21章 AI Native SaaS 案例",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 3061
+    },
+    {
+      "directory": "p11-product-team",
+      "name": "p11-product-team",
+      "stage": "p11",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "第25章 AI Native 产品团队",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 3651
+    },
+    {
+      "directory": "p2-experiment-engine",
+      "name": "ai-native-experiment-engine",
+      "stage": "",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 9077
+    },
+    {
+      "directory": "p2a-experiment-overview",
+      "name": "p2a-experiment-overview",
+      "stage": "p2a",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "第06章 试验展开-概述",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 2598
+    },
+    {
+      "directory": "p2b-product-form-exploration",
+      "name": "p2b-product-form-exploration",
+      "stage": "p2b",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "第07章 试验展开-产品形态探索",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 2404
+    },
+    {
+      "directory": "p2c-process-redesign",
+      "name": "p2c-process-redesign",
+      "stage": "p2c",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "第08章 试验展开-流程重构与任务设计",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 2704
+    },
+    {
+      "directory": "p2d-convergence-decision",
+      "name": "p2d-convergence-decision",
+      "stage": "p2d",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "第09章 试验展开-目标收敛与产品决策",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 2929
+    },
+    {
+      "directory": "p2e-shadow-validation",
+      "name": "p2e-shadow-validation",
+      "stage": "p2e",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "第10章 试验展开-影子验证",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 2913
+    },
+    {
+      "directory": "p3-system-building",
+      "name": "ai-native-system-building",
+      "stage": "",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 5045
+    },
+    {
+      "directory": "p4-agent-skill-design",
+      "name": "AIOpsDiagnosisAgent",
+      "stage": "",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 7237
+    },
+    {
+      "directory": "p5-memory-system",
+      "name": "ai-native-memory-system",
+      "stage": "",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 4286
+    },
+    {
+      "directory": "p6-business-model",
+      "name": "ai-native-business-model",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 4935
+    },
+    {
+      "directory": "p6-context-engineering",
+      "name": "ai-native-context-engineering",
+      "stage": "",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 4437
+    },
+    {
+      "directory": "p6a-certainty-premium-calculator",
+      "name": "p6a-certainty-premium-calculator",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2851
+    },
+    {
+      "directory": "p6b-arbiter-mode-designer",
+      "name": "p6b-arbiter-mode-designer",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2340
+    },
+    {
+      "directory": "p6c-insurance-mode-designer",
+      "name": "p6c-insurance-mode-designer",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2278
+    },
+    {
+      "directory": "p6d-prediction-arbitrage-designer",
+      "name": "p6d-prediction-arbitrage-designer",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2474
+    },
+    {
+      "directory": "p7-knowledge-rag",
+      "name": "ai-native-knowledge-rag",
+      "stage": "",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 4699
+    },
+    {
+      "directory": "p7-marketing-growth",
+      "name": "ai-native-marketing-growth",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 5273
+    },
+    {
+      "directory": "p7a-data-flywheel-builder",
+      "name": "p7a-data-flywheel-builder",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2761
+    },
+    {
+      "directory": "p7b-intent-prediction-designer",
+      "name": "p7b-intent-prediction-designer",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2260
+    },
+    {
+      "directory": "p7c-predictive-retention-designer",
+      "name": "p7c-predictive-retention-designer",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2399
+    },
+    {
+      "directory": "p7d-marketing-productizer",
+      "name": "p7d-marketing-productizer",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 2404
+    },
+    {
+      "directory": "p7e-customer-loop",
+      "name": "p7e-customer-loop",
+      "stage": "p7e",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "第24章 客户循环",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 4229
+    },
+    {
+      "directory": "p8-ux-design",
+      "name": "ai-native-ux-design",
+      "stage": "",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 4201
+    },
+    {
+      "directory": "p8a-rax-risk-assessor",
+      "name": "p8a-rax-risk-assessor",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 3138
+    },
+    {
+      "directory": "p8b-trust-tier-designer",
+      "name": "p8b-trust-tier-designer",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 3370
+    },
+    {
+      "directory": "p8c-progressive-disclosure",
+      "name": "p8c-progressive-disclosure",
+      "stage": "",
+      "tags": "",
+      "source_book": "",
+      "source_chapter": "",
+      "version": "1.0.0",
+      "has_description": true,
+      "content_length": 3008
+    },
+    {
+      "directory": "p9-audit-release",
+      "name": "ai-native-audit-release",
+      "stage": "",
+      "tags": "",
+      "source_book": "AI Native 产品方法论",
+      "source_chapter": "",
+      "version": "1.0",
+      "has_description": true,
+      "content_length": 8558
+    }
+  ],
+  "books": {
+    "ai-agent-ux": {
+      "total_files": 215,
+      "chapters": [
+        {
+          "file": "00-框架核心.md",
+          "title": "Designing for Trust in the AI Era 框架核心文档"
+        },
+        {
+          "file": "新书-AI时代的用户体验-成书框架.md",
+          "title": "AI时代的用户体验"
+        },
+        {
+          "file": "新书-AI时代的用户体验-章节拆解.md",
+          "title": "AI时代的用户体验 章节拆解"
+        },
+        {
+          "file": "AGENTS.md",
+          "title": "AI时代的用户体验 Codex Agent Guide"
+        },
+        {
+          "file": "README.md",
+          "title": "AI时代的用户体验 Book Project OS"
+        },
+        {
+          "file": "PROJECT.md",
+          "title": "Designing for Trust in the AI Era — Book Project Workspace"
+        },
+        {
+          "file": "06-出版版准备/Codex-写书工作流模板.md",
+          "title": "Codex 写书工作流模板"
+        },
+        {
+          "file": "06-出版版准备/完整书稿工作流-SOP.md",
+          "title": "完整书稿工作流 SOP"
+        },
+        {
+          "file": "06-出版版准备/新书启动-checklist.md",
+          "title": "新书启动 checklist"
+        },
+        {
+          "file": "07-english-edition/README.md",
+          "title": "English Edition Workspace"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/02-toc.md",
+          "title": "Table of Contents"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/03-preface.md",
+          "title": "Preface"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/05-dedication.md",
+          "title": "Dedication"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/00-title-page.md",
+          "title": "Designing for Trust in the AI Era"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/04-acknowledgments.md",
+          "title": "Acknowledgments"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/01-copyright.md",
+          "title": "Copyright"
+        },
+        {
+          "file": "07-english-edition/00-project/02-translation-status.md",
+          "title": "Translation Status"
+        },
+        {
+          "file": "07-english-edition/00-project/cover-prompt.md",
+          "title": "Designing for Trust in the AI Era — English Edition Cover Prompt"
+        },
+        {
+          "file": "07-english-edition/00-project/01-source-map.md",
+          "title": "Source Map"
+        },
+        {
+          "file": "07-english-edition/06-图表/diagrams/ch08-en-risk-exposure.md",
+          "title": "ch08: Risk Exposure Formula"
+        },
+        {
+          "file": "07-english-edition/06-图表/diagrams/ch09-en-ai-roi.md",
+          "title": "ch09: AI ROI Formula"
+        },
+        {
+          "file": "07-english-edition/06-图表/diagrams/ch07-en-trust-threshold.md",
+          "title": "ch07: Trust Threshold Model"
+        },
+        {
+          "file": "07-english-edition/06-图表/diagrams/ch05-en-cursor-vs-devin.md",
+          "title": "ch05: Strategy Boundary — Cursor AI vs Devin"
+        },
+        {
+          "file": "07-english-edition/06-图表/diagrams/ch10-en-control-spectrum.md",
+          "title": "ch10: Control Spectrum — The Human-AI Control Continuum"
+        },
+        {
+          "file": "07-english-edition/06-图表/diagrams/ch11-en-three-layer-transparency.md",
+          "title": "ch11: Three-Layer Transparency Methodology"
+        },
+        {
+          "file": "07-english-edition/06-图表/diagrams/ch12-en-rax-comparison.md",
+          "title": "ch12: RAX Six Elements — Three Product Configuration Comparison"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/01-bibliography.md",
+          "title": "Bibliography"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/03-about-author.md",
+          "title": "About the Author"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/02-glossary.md",
+          "title": "Glossary"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/04-index.md",
+          "title": "Index"
+        },
+        {
+          "file": "07-english-edition/08-发布/amazon-kdp-report.md",
+          "title": "Amazon KDP Readiness Report"
+        },
+        {
+          "file": "07-english-edition/08-发布/kdp-metadata.md",
+          "title": "KDP Metadata — Designing for Trust in the AI Era"
+        },
+        {
+          "file": "07-english-edition/08-发布/kdp-publishing-checklist.md",
+          "title": "KDP Publishing Checklist"
+        },
+        {
+          "file": "07-english-edition/08-发布/kdp-description.md",
+          "title": "Amazon Listing Description"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch07-en.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch14-en.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch08-en.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch01-en.md",
+          "title": "Chapter 1: From Tool to Agent — A Paradigm Shif"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch13-en.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch06-en.md",
+          "title": "Chapter"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch09-en.md",
+          "title": "Chapter 9:"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch11-en.md",
+          "title": "Ch"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch12-en.md",
+          "title": "Chapter 12:"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch03-en.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch10-en.md",
+          "title": "Chapter 1"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch04-en.md",
+          "title": "Chap"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch02-en.md",
+          "title": "Chapte"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch05-en.md",
+          "title": "???"
+        },
+        {
+          "file": "09-translation/translation-memory.md",
+          "title": "Translation Memory"
+        },
+        {
+          "file": "09-translation/en-update-queue.md",
+          "title": "EN Update Queue"
+        }
+      ]
+    },
+    "Contemplation": {
+      "total_files": 300,
+      "chapters": [
+        {
+          "file": "CLAUDE.md",
+          "title": "Book Writing Agent"
+        },
+        {
+          "file": "AGENTS.md",
+          "title": "AGENTS.md"
+        },
+        {
+          "file": "README.md",
+          "title": "观照"
+        },
+        {
+          "file": "新书-观照：AI时代的产品观、用户观与决策观-章节拆解.md",
+          "title": "观照"
+        },
+        {
+          "file": "新书-观照：AI时代的产品观、用户观与决策观-成书框架.md",
+          "title": "观照"
+        },
+        {
+          "file": "06-出版版准备/致谢.md",
+          "title": "致谢"
+        },
+        {
+          "file": "06-出版版准备/排版稿-观照：AI时代的产品观、用户观与决策观.md",
+          "title": "观照"
+        },
+        {
+          "file": "06-出版版准备/章节扩写骨架模板.md",
+          "title": "章节扩写骨架模板"
+        },
+        {
+          "file": "06-出版版准备/正式稿-观照：AI时代的产品观、用户观与决策观.md",
+          "title": "观照"
+        },
+        {
+          "file": "06-出版版准备/Codex-写书工作流模板.md",
+          "title": "Codex 写书工作流模板"
+        },
+        {
+          "file": "06-出版版准备/作者简介.md",
+          "title": "作者简介"
+        },
+        {
+          "file": "06-出版版准备/新书启动-checklist.md",
+          "title": "新书启动 checklist"
+        },
+        {
+          "file": "06-出版版准备/版权页.md",
+          "title": "版权页"
+        },
+        {
+          "file": "07-english-edition/README.md",
+          "title": "English Edition Workspace"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/01-title-page.md",
+          "title": "Contemplation"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/03-preface.md",
+          "title": "Preface"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/02-copyright.md",
+          "title": "Copyright"
+        },
+        {
+          "file": "07-english-edition/00-project/02-translation-status.md",
+          "title": "Translation Status"
+        },
+        {
+          "file": "07-english-edition/00-project/03-english-revision-log.md",
+          "title": "English Revision Log"
+        },
+        {
+          "file": "07-english-edition/00-project/01-source-map.md",
+          "title": "Source Map"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/01-about-the-author.md",
+          "title": "About the Author"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_09_brief.md",
+          "title": "English Adaptation Brief: Chapter 9"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_13.md",
+          "title": "Chapter 13: Good Decisions Reduce Attachment"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_11_review.md",
+          "title": "English Review: Ch11 — Good Products Reduce Burden: Make Users More Capable. And"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_10.md",
+          "title": "Chapter 10: Right Concentration"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_06.md",
+          "title": "Chapter 6: Right Action — Check if the Mechanism Is Harmful Before Checking if I"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_06_brief.md",
+          "title": "English Adaptation Brief: Chapter 6"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_05.md",
+          "title": "Chapter 5: Right Speech — Speak Truthfully, Don't Just Smooth Over Problems"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_10_brief.md",
+          "title": "English Adaptation Brief: Chapter 10"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_09_review.md",
+          "title": "English Review: Ch09 — Right Mindfulness: Return to the Scene. Don't Just Stare "
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_08_brief.md",
+          "title": "English Adaptation Brief: Chapter 8"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_14_brief.md",
+          "title": "English Adaptation Brief: Chapter 14"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_02.md",
+          "title": "Chapter 2: From Product Methods to Product Contemplation"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_10_review.md",
+          "title": "English Review: Ch10 — Right Concentration: Stabilize in Noise, Then Decide"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_07_review.md",
+          "title": "English Review: Ch07 — Right Livelihood: Where Revenue Comes From Determines Wha"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_03_review.md",
+          "title": "English Review: Ch03 — Right View: See the Problem Clearly, Don't Just Smooth Ov"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_05_review.md",
+          "title": "English Review: Ch05 — Right Speech: Speak Truthfully, Don't Just Smooth Over Pr"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_04_brief.md",
+          "title": "English Adaptation Brief: Chapter 4"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_08_review.md",
+          "title": "English Review: Ch08 — Right Effort: Stopping the Wrong Direction is Also Progre"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_09.md",
+          "title": "Chapter 9: Right Mindfulness"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_12_brief.md",
+          "title": "English Adaptation Brief: Chapter 12"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_02_review.md",
+          "title": "English Review: Ch02 — From Product Methods to Product Contemplation"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_13_review.md",
+          "title": "English Review: Ch13 — Good Decisions Reduce Attachment: Let Go of Old Definitio"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_14.md",
+          "title": "Chapter 14: The New Basic Skill"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_07.md",
+          "title": "Chapter 7: Right Livelihood — Where Revenue Comes From Determines What Product S"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_12_review.md",
+          "title": "English Review: Ch12 — Good Products Reshape Relationships: Designing Relationsh"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_02_brief.md",
+          "title": "English Adaptation Brief: Chapter 2"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_12.md",
+          "title": "Chapter 12: Good Products Reshape Relationships"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_04_review.md",
+          "title": "English Review: Ch04 — Right Thinking: Correct the Judgment Path, Don't Stack Mo"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/chapter_11_brief.md",
+          "title": "English Adaptation Brief: Chapter 11"
+        }
+      ]
+    },
+    "AI": {
+      "total_files": 0,
+      "chapters": []
+    },
+    "AI Native Product Methodology": {
+      "total_files": 603,
+      "chapters": [
+        {
+          "file": "docs/plans/2026-03-11-chapter-04-methodology-expansion.md",
+          "title": "Chapter 04 Methodology Expansion Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-11-building-detail-longform-pass.md",
+          "title": "Building Detail Longform Pass Implementation Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-11-chapter-02-background-reframe.md",
+          "title": "Chapter 02 Background Reframe Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-12-project-structure-cleanup.md",
+          "title": "Project Structure Cleanup Implementation Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-11-middle-spine-longform-pass.md",
+          "title": "Middle Spine Longform Pass Implementation Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-11-building-method-reframe.md",
+          "title": "Building Method Reframe Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-15-taiwan-traditional-edition.md",
+          "title": "Taiwan-First Traditional Chinese Edition Implementation Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-12-chapter-flow-chinese-unification.md",
+          "title": "Chapter Flow Chinese Unification Implementation Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-12-human-ai-collaboration-expansion.md",
+          "title": "Human-AI Collaboration Expansion Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-11-chapter-01-agent-background-expansion.md",
+          "title": "Chapter 01 Agent Background Expansion Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-11-back-section-integration.md",
+          "title": "Back Section Integration Implementation Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-12-manuscript-unification-plan.md",
+          "title": "Manuscript Unification Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-12-methodology-scope-broadening.md",
+          "title": "Methodology Scope Broadening Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-12-product-book-ai-skills.md",
+          "title": "Product Book AI Skills Implementation Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-12-chinese-stage-terminology-unification.md",
+          "title": "Chinese Stage Terminology Unification Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-19-english-1-1-release-export.md",
+          "title": "English 1.1 Release Export Implementation Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-12-amazon-kdp-publisher-skill.md",
+          "title": "Amazon KDP Publisher Skill Implementation Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-12-mermaid-embed-pass.md",
+          "title": "Mermaid Embed Pass Implementation Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-11-sample-draft-integration.md",
+          "title": "Sample Draft Integration Implementation Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-11-chapter-04-clarity-enrichment.md",
+          "title": "Chapter 04 Clarity Enrichment Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-12-generative-ai-methodology-expansion.md",
+          "title": "Generative AI Methodology Expansion Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-16-docx-linked-toc-export.md",
+          "title": "DOCX Linked TOC Export Implementation Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-11-full-manuscript-clarity-pass.md",
+          "title": "Full Manuscript Clarity Pass Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-11-longform-back-section-pass.md",
+          "title": "Longform Back Section Pass Implementation Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-11-expand-methodology-chapters.md",
+          "title": "Expand Methodology Chapters Implementation Plan"
+        },
+        {
+          "file": "docs/plans/2026-03-12-global-tech-book-pipeline-skill.md",
+          "title": "Global Tech Book Pipeline Skill Implementation Plan"
+        },
+        {
+          "file": "docs/image/prompt/11-附录A-三环协同图.md",
+          "title": "图 11：附录A 三环协同图"
+        },
+        {
+          "file": "docs/image/prompt/08-第11章-系统构建架构图.md",
+          "title": "图 08：第11章 系统构建架构图"
+        },
+        {
+          "file": "docs/image/prompt/07-第10章-影子系统双轨图.md",
+          "title": "图 07：第10章 影子系统双轨图"
+        },
+        {
+          "file": "docs/image/prompt/m05-第08章-人机协同控制结构图.md",
+          "title": "Mermaid 图 05：第08章 人机协同控制结构图"
+        },
+        {
+          "file": "docs/image/prompt/05-第08章-人机协同控制结构图.md",
+          "title": "图 05：第08章 人机协同控制结构图"
+        },
+        {
+          "file": "docs/image/prompt/m08-第11章-系统构建架构图.md",
+          "title": "Mermaid 图 08：第11章 系统构建架构图"
+        },
+        {
+          "file": "docs/image/prompt/m11-附录A-三环协同图.md",
+          "title": "Mermaid 图 11：附录A 三环协同图"
+        },
+        {
+          "file": "docs/image/prompt/m06-第09章-收敛信号决策矩阵.md",
+          "title": "Mermaid 图 06：第09章 收敛信号决策矩阵"
+        },
+        {
+          "file": "docs/image/prompt/README.md",
+          "title": "全书插图 Prompt 索引"
+        },
+        {
+          "file": "docs/image/prompt/m09-第17章-审计放行证据链图.md",
+          "title": "Mermaid 图 09：第17章 审计放行证据链图"
+        },
+        {
+          "file": "docs/image/prompt/README-mermaid.md",
+          "title": "全书 Mermaid 流程图索引"
+        },
+        {
+          "file": "docs/image/prompt/06-第09章-收敛信号决策矩阵.md",
+          "title": "图 06：第09章 收敛信号决策矩阵"
+        },
+        {
+          "file": "docs/image/prompt/02-第04章-阶段闸门图.md",
+          "title": "图 02：第04章 阶段闸门图"
+        },
+        {
+          "file": "docs/image/prompt/m07-第10章-影子系统双轨图.md",
+          "title": "Mermaid 图 07：第10章 影子系统双轨图"
+        },
+        {
+          "file": "docs/image/prompt/m04-第06章-试验展开引擎图.md",
+          "title": "Mermaid 图 04：第06章 试验展开引擎图"
+        },
+        {
+          "file": "docs/image/prompt/09-第17章-审计放行证据链图.md",
+          "title": "图 09：第17章 审计放行证据链图"
+        },
+        {
+          "file": "docs/image/prompt/m03-第05章-方向定界判断图.md",
+          "title": "Mermaid 图 03：第05章 方向定界判断图"
+        },
+        {
+          "file": "docs/image/prompt/10-第18章-生产运行回灌图.md",
+          "title": "图 10：第18章 生产运行回灌图"
+        },
+        {
+          "file": "docs/image/prompt/01-第04章-方法论总图.md",
+          "title": "图 01：第04章 方法论总图"
+        },
+        {
+          "file": "docs/image/prompt/03-第05章-方向定界判断图.md",
+          "title": "图 03：第05章 方向定界判断图"
+        },
+        {
+          "file": "docs/image/prompt/04-第06章-试验展开引擎图.md",
+          "title": "图 04：第06章 试验展开引擎图"
+        },
+        {
+          "file": "docs/image/prompt/m01-第04章-方法论总图.md",
+          "title": "Mermaid 图 01：第04章 方法论总图"
+        },
+        {
+          "file": "docs/image/prompt/m10-第18章-生产运行回灌图.md",
+          "title": "Mermaid 图 10：第18章 生产运行回灌图"
+        },
+        {
+          "file": "docs/image/prompt/m02-第04章-阶段闸门图.md",
+          "title": "Mermaid 图 02：第04章 阶段闸门图"
+        }
+      ]
+    },
+    "AI Beaty": {
+      "total_files": 76,
+      "chapters": [
+        {
+          "file": "CLAUDE.md",
+          "title": "CLAUDE.md"
+        },
+        {
+          "file": "新书-AI Beaty-章节拆解.md",
+          "title": "AI Beaty 章节拆解"
+        },
+        {
+          "file": "AGENTS.md",
+          "title": "AGENTS.md"
+        },
+        {
+          "file": "README.md",
+          "title": "AI Beaty"
+        },
+        {
+          "file": "新书-AI Beaty-成书框架.md",
+          "title": "AI Beaty"
+        },
+        {
+          "file": "06-出版版准备/Codex-写书工作流模板.md",
+          "title": "Codex 写书工作流模板"
+        },
+        {
+          "file": "06-出版版准备/新书启动-checklist.md",
+          "title": "新书启动 checklist"
+        },
+        {
+          "file": "07-english-edition/README.md",
+          "title": "English Edition Workspace"
+        },
+        {
+          "file": "07-english-edition/english-edition-outline.md",
+          "title": "Aesthetic Authority"
+        },
+        {
+          "file": "07-english-edition/case-studies-researched.md",
+          "title": "Case Study Research: International Edition"
+        },
+        {
+          "file": "07-english-edition/translation-progress.md",
+          "title": "English Edition Translation Progress"
+        },
+        {
+          "file": "07-english-edition/international-adaptation-strategy.md",
+          "title": "AI Beauty - International Edition Adaptation Strategy"
+        },
+        {
+          "file": "07-english-edition/case-replacement-guide.md",
+          "title": "Case Study Replacement Guide"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/00-title-page.md",
+          "title": "Aesthetic Authority"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/01-copyright.md",
+          "title": "Copyright"
+        },
+        {
+          "file": "07-english-edition/00-project/02-translation-status.md",
+          "title": "Translation Status"
+        },
+        {
+          "file": "07-english-edition/00-project/01-source-map.md",
+          "title": "Source Map"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/02-about-the-author.md",
+          "title": "About the Author"
+        },
+        {
+          "file": "07-english-edition/chapters/13-chapter-13.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/chapters/11-chapter-11.md",
+          "title": "Chapter 11 | Why T"
+        },
+        {
+          "file": "07-english-edition/chapters/12-chapter-12.md",
+          "title": "Chapter 12 |"
+        },
+        {
+          "file": "07-english-edition/chapters/15-chapter-15.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/chapters/00-foreword.md",
+          "title": "Foreword"
+        },
+        {
+          "file": "07-english-edition/chapters/17-chapter-17.md",
+          "title": "Chapt"
+        },
+        {
+          "file": "07-english-edition/chapters/08-chapter-8.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/chapters/09-chapter-9.md",
+          "title": "Chapter 9 | AI Wil"
+        },
+        {
+          "file": "07-english-edition/chapters/03-chapter-3.md",
+          "title": "Chapter 3"
+        },
+        {
+          "file": "07-english-edition/chapters/18-chapter-18.md",
+          "title": "Chapt"
+        },
+        {
+          "file": "07-english-edition/chapters/02-chapter-2.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/chapters/07-chapter-7.md",
+          "title": "Chapter 7 | Why Narrative Is Part"
+        },
+        {
+          "file": "07-english-edition/chapters/05-chapter-5.md",
+          "title": "Chapter 5 | From Produci"
+        },
+        {
+          "file": "07-english-edition/chapters/10-chapter-10.md",
+          "title": "Chapter 10 | Work Can Be"
+        },
+        {
+          "file": "07-english-edition/chapters/16-chapter-16.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/chapters/01-chapter-1.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/chapters/14-chapter-14.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/chapters/06-chapter-6.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/chapters/04-chapter-4.md",
+          "title": "???"
+        },
+        {
+          "file": "09-translation/translation-memory.md",
+          "title": "Translation Memory"
+        },
+        {
+          "file": "09-translation/translation-report.md",
+          "title": "Translation Report"
+        },
+        {
+          "file": "09-translation/glossary.md",
+          "title": "Translation Glossary"
+        },
+        {
+          "file": "01-原始素材/cases-and-data.md",
+          "title": "AI時代的美感主導權 - 案例與數據"
+        },
+        {
+          "file": "01-原始素材/README.md",
+          "title": "原始素材导入说明"
+        },
+        {
+          "file": "01-原始素材/chatgpt-discussions/2026-03-29-前言与第1章讨论稿.md",
+          "title": "2026-03-29 前言与第1章讨论稿"
+        },
+        {
+          "file": "04-案例库/案例索引.md",
+          "title": "案例索引"
+        },
+        {
+          "file": "05-章节草稿/AI Beaty/09-第9章-AI会进化人如何仍然走在前面.md",
+          "title": "第9章｜AI 会进化，人如何仍然走在前面？"
+        },
+        {
+          "file": "05-章节草稿/AI Beaty/00-目录.md",
+          "title": "AI Beaty"
+        },
+        {
+          "file": "05-章节草稿/AI Beaty/05-第5章-从生产美感到选择美感.md",
+          "title": "第5章｜从生产美感，到选择美感"
+        },
+        {
+          "file": "05-章节草稿/AI Beaty/07-第7章-故事力也是一种美感.md",
+          "title": "第7章｜故事力也是一种美感"
+        },
+        {
+          "file": "05-章节草稿/AI Beaty/02-第2章-美感不是好看而是一套高阶能力.md",
+          "title": "第2章｜美感不是好看，而是一套高阶能力"
+        },
+        {
+          "file": "05-章节草稿/AI Beaty/17-第17章-如何与AI协作让输出更像你.md",
+          "title": "第17章｜如何与 AI 协作，让输出更像你"
+        }
+      ]
+    },
+    "AI Native Marketing and Growth": {
+      "total_files": 56,
+      "chapters": [
+        {
+          "file": "新书-AI Native 营销与增长-成书框架.md",
+          "title": "AI Native 营销与增长"
+        },
+        {
+          "file": "AGENTS.md",
+          "title": "AI Native 营销与增长 Codex Agent Guide"
+        },
+        {
+          "file": "README.md",
+          "title": "AI Native 营销与增长 Book Project OS"
+        },
+        {
+          "file": "新书-AI Native 营销与增长-章节拆解.md",
+          "title": "AI Native 营销与增长 章节拆解"
+        },
+        {
+          "file": "06-出版版准备/Codex-写书工作流模板.md",
+          "title": "Codex 写书工作流模板"
+        },
+        {
+          "file": "06-出版版准备/完整书稿工作流-SOP.md",
+          "title": "完整书稿工作流 SOP"
+        },
+        {
+          "file": "06-出版版准备/新书启动-checklist.md",
+          "title": "新书启动 checklist"
+        },
+        {
+          "file": "07-english-edition/README.md",
+          "title": "English Edition Workspace"
+        },
+        {
+          "file": "07-english-edition/00-project/02-translation-status.md",
+          "title": "Translation Status"
+        },
+        {
+          "file": "07-english-edition/00-project/01-source-map.md",
+          "title": "Source Map"
+        },
+        {
+          "file": "09-translation/translation-memory.md",
+          "title": "Translation Memory"
+        },
+        {
+          "file": "09-translation/en-update-queue.md",
+          "title": "EN Update Queue"
+        },
+        {
+          "file": "09-translation/translation-report.md",
+          "title": "Translation Report"
+        },
+        {
+          "file": "09-translation/glossary.md",
+          "title": "Translation Glossary"
+        },
+        {
+          "file": "09-translation/cn-en-sync-log.md",
+          "title": "CN-EN Sync Log"
+        },
+        {
+          "file": "01-原始素材/README.md",
+          "title": "原始素材入口"
+        },
+        {
+          "file": "02-概念卡/营销产品化.md",
+          "title": "概念卡：营销产品化"
+        },
+        {
+          "file": "02-概念卡/数据飞轮.md",
+          "title": "概念卡：数据飞轮"
+        },
+        {
+          "file": "02-概念卡/工具思维-vs-系统思维.md",
+          "title": "概念卡：工具思维 vs 系统思维"
+        },
+        {
+          "file": "02-概念卡/AI原生品牌.md",
+          "title": "概念卡：AI原生品牌"
+        },
+        {
+          "file": "02-概念卡/预测性留存.md",
+          "title": "概念卡：预测性留存"
+        },
+        {
+          "file": "02-概念卡/意图预测营销.md",
+          "title": "概念卡：意图预测营销"
+        },
+        {
+          "file": "02-概念卡/AI-Native-增长飞轮.md",
+          "title": "概念卡：AI Native 增长飞轮"
+        },
+        {
+          "file": "02-概念卡/人机协作组织.md",
+          "title": "概念卡：人机协作组织"
+        },
+        {
+          "file": "04-案例库/英语流利说AI增长实验.md",
+          "title": "案例：英语流利说的AI增长实验"
+        },
+        {
+          "file": "04-案例库/美团动态定价飞轮.md",
+          "title": "案例：美团的动态定价飞轮"
+        },
+        {
+          "file": "04-案例库/字节跳动推荐系统.md",
+          "title": "案例：字节跳动的推荐系统"
+        },
+        {
+          "file": "04-案例库/抖音意图预测与内容分发.md",
+          "title": "案例：抖音的意图预测与内容分发"
+        },
+        {
+          "file": "04-案例库/案例索引.md",
+          "title": "案例索引"
+        },
+        {
+          "file": "05-章节草稿/AI Native 营销与增长/00-目录.md",
+          "title": "AI Native 营销与增长 — 目录"
+        },
+        {
+          "file": "05-章节草稿/AI Native 营销与增长/00-章节拆解.md",
+          "title": "AI Native 营销与增长 — 章节拆解"
+        },
+        {
+          "file": "10-市场验证/01-AI-Native增长飞轮-为什么你的AI营销越做越累.md",
+          "title": "AI Native 增长飞轮：为什么你的 AI 营销越做越累"
+        },
+        {
+          "file": "08-发布/浏览器自动化工作流.md",
+          "title": "浏览器自动化工作流"
+        },
+        {
+          "file": "08-发布/kdp-production-plan.md",
+          "title": "KDP Production Plan"
+        },
+        {
+          "file": "08-发布/amazon-kdp-report.md",
+          "title": "Amazon KDP Report"
+        },
+        {
+          "file": "08-发布/ChatGPT设计稿与Amazon自动化-Prompt模板.md",
+          "title": "???"
+        },
+        {
+          "file": "08-发布/kdp-metadata.md",
+          "title": "KDP Metadata"
+        },
+        {
+          "file": "08-发布/kdp-publishing-checklist.md",
+          "title": "KDP Publishing Checklist"
+        },
+        {
+          "file": "08-发布/kdp-description.md",
+          "title": "KDP Description"
+        },
+        {
+          "file": "03-方法论卡/人机协作工作流设计.md",
+          "title": "方法论卡：人机协作工作流设计"
+        },
+        {
+          "file": "03-方法论卡/AI增长实验设计.md",
+          "title": "方法论卡：AI增长实验设计"
+        },
+        {
+          "file": "03-方法论卡/AI增长效率评估体系.md",
+          "title": "方法论卡：AI增长效率评估体系"
+        },
+        {
+          "file": "03-方法论卡/增长飞轮设计框架.md",
+          "title": "方法论卡：增长飞轮设计框架"
+        },
+        {
+          "file": "03-方法论卡/意图到行为的转化路径设计.md",
+          "title": "方法论卡：意图到行为的转化路径设计"
+        },
+        {
+          "file": "03-方法论卡/数据飞轮资产建设.md",
+          "title": "方法论卡：数据飞轮资产建设"
+        },
+        {
+          "file": "02-参考书/borrow-vs-avoid.md",
+          "title": "借鉴 vs 避免"
+        },
+        {
+          "file": "02-参考书/originality-guardrails.md",
+          "title": "原创性守护栏"
+        },
+        {
+          "file": "02-参考书/reference-book-matrix.md",
+          "title": "参考书籍矩阵"
+        },
+        {
+          "file": "02-参考书/benchmark-patterns.md",
+          "title": "Benchmark 跨书共性模式"
+        },
+        {
+          "file": "00-index/MEMORY.md",
+          "title": "MEMORY.md"
+        }
+      ]
+    },
+    "AI rebuild product needs": {
+      "total_files": 175,
+      "chapters": [
+        {
+          "file": "项目结构总览.md",
+          "title": "**项目结构总览**"
+        },
+        {
+          "file": "codex-skill-staging/product-book-theory-writer/SKILL.md",
+          "title": "???"
+        },
+        {
+          "file": "skills/superpowers/SKILL.md",
+          "title": "???"
+        },
+        {
+          "file": "skills/superpowers/references/workflow.md",
+          "title": "Superpowers Workflow"
+        },
+        {
+          "file": "skills/superpowers/references/install.md",
+          "title": "Install the Full Pack"
+        },
+        {
+          "file": "中文版/规划/两部导言样稿.md",
+          "title": "**两部导言样稿**"
+        },
+        {
+          "file": "中文版/规划/项目结构索引.md",
+          "title": "**中文版项目结构索引**"
+        },
+        {
+          "file": "中文版/规划/全文审查-产品经理与Amazon.md",
+          "title": "**全文审查：产品经理阅读感与 Amazon 出版**"
+        },
+        {
+          "file": "中文版/规划/完整故事总纲.md",
+          "title": "**完整故事总纲**"
+        },
+        {
+          "file": "中文版/规划/故事篇-产品过程文档补充建议.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/规划/下半部开头-读者承诺页样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/规划/下半部总纲-正式规划.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/规划/故事篇总纲-优化版.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/规划/理论和方法篇总纲样稿.md",
+          "title": "**《AI扁平感与现实世界》全书总纲**"
+        },
+        {
+          "file": "中文版/规划/目标读者购买意愿分析.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/规划/故事线-四个核心角色的思维语言手册.md",
+          "title": "**四个核心角色的思维语言手册**"
+        },
+        {
+          "file": "中文版/规划/初步构思与主要思想和观点.md",
+          "title": "初步构思与主要思想和观点"
+        },
+        {
+          "file": "中文版/复查与准则/全书级连贯性复查-正式稿.md",
+          "title": "**全书级连贯性复查-正式稿**"
+        },
+        {
+          "file": "中文版/复查与准则/全书复查-当前版.md",
+          "title": "**全书复查-当前版**"
+        },
+        {
+          "file": "中文版/复查与准则/理论篇写作方法与个人风格.md",
+          "title": "理论篇写作方法与个人风格"
+        },
+        {
+          "file": "中文版/复查与准则/故事篇连贯性复查.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/复查与准则/故事篇改写准则.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第七章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第十章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第五章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第二章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第八章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第十一章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第九章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第一章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第十四章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第十三章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第十五章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第六章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第三章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第十二章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/故事篇/第四章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/参考素材/引用和案例.md",
+          "title": "引用和案例"
+        },
+        {
+          "file": "中文版/样稿/理论篇旧稿/第二十九章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/理论篇旧稿/第二十一章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/理论篇旧稿/第二十六章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/理论篇旧稿/第三十章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/理论篇旧稿/第二十章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/理论篇旧稿/第二十四章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/理论篇旧稿/第二十二章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/理论篇旧稿/第十八章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/理论篇旧稿/第二十三章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/理论篇旧稿/第二十七章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/理论篇旧稿/第二十八章样稿.md",
+          "title": "???"
+        },
+        {
+          "file": "中文版/样稿/理论篇旧稿/第十七章样稿.md",
+          "title": "???"
+        }
+      ]
+    },
+    "AI确定性商业模式": {
+      "total_files": 228,
+      "chapters": [
+        {
+          "file": "AGENTS.md",
+          "title": "AI确定性商业模式 — Writing Agent Guide"
+        },
+        {
+          "file": "06-出版版准备/完整书稿工作流-SOP.md",
+          "title": "完整书稿工作流 SOP"
+        },
+        {
+          "file": "06-出版版准备/新书启动-checklist.md",
+          "title": "新书启动 checklist"
+        },
+        {
+          "file": "07-english-edition/The-Certainty-Premium-FULL.md",
+          "title": "The Certainty Premium: AI Business Models That Work"
+        },
+        {
+          "file": "07-english-edition/00-project/book-structure.md",
+          "title": "《AI Deterministic Business Models》English Edition"
+        },
+        {
+          "file": "07-english-edition/01-draft-OLD/01-draft/ch07-en.md",
+          "title": "Chapter 7: Model 4 — Prediction Arbitrage (Time-Arbitrage)"
+        },
+        {
+          "file": "07-english-edition/01-draft-OLD/01-draft/ch08-en.md",
+          "title": "Chapter 8: Product Framework — Full-Stack Certainty"
+        },
+        {
+          "file": "07-english-edition/01-draft-OLD/01-draft/ch01-en.md",
+          "title": "Chapter 1: The Status Quo — 6 AI Business Models That Are Failing"
+        },
+        {
+          "file": "07-english-edition/01-draft-OLD/01-draft/ch06-en.md",
+          "title": "Chapter 6: Model 3 — Closed-Loop Infrastructure (Sovereign Infrastructure)"
+        },
+        {
+          "file": "07-english-edition/01-draft-OLD/01-draft/ch09-en.md",
+          "title": "Chapter 9: Risk Management & Pricing Strategy"
+        },
+        {
+          "file": "07-english-edition/01-draft-OLD/01-draft/ch11-en.md",
+          "title": "Chapter 11: The China Market — Selling Certainty in the World's Largest AI Arena"
+        },
+        {
+          "file": "07-english-edition/01-draft-OLD/01-draft/ch12-en.md",
+          "title": "Chapter 12: Conclusion — From \"Selling Tools\" to \"Selling Certainty\""
+        },
+        {
+          "file": "07-english-edition/01-draft-OLD/01-draft/ch03-en.md",
+          "title": "Chapter 3: Why \"Now\" Is the Best Time to Enter the Certainty Market"
+        },
+        {
+          "file": "07-english-edition/01-draft-OLD/01-draft/ch10-en.md",
+          "title": "Chapter 10: Why Big Tech Cannot Copy You — The Certainty Moat"
+        },
+        {
+          "file": "07-english-edition/01-draft-OLD/01-draft/ch04-en.md",
+          "title": "Chapter 4: Model 1 — Arbiter Mode (Truth-as-a-Service)"
+        },
+        {
+          "file": "07-english-edition/01-draft-OLD/01-draft/ch02-en.md",
+          "title": "Chapter 2: Core Concept — What Is the \"Certainty Premium\""
+        },
+        {
+          "file": "07-english-edition/01-draft-OLD/01-draft/ch05-en.md",
+          "title": "Chapter 5: Model 2 — Insurance Mode (Outcome-Guarantee)"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch06-quality-tickets.md",
+          "title": "ch06-closed-loop.md — Quality Audit Report"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch12-quality-tickets.md",
+          "title": "ch12-quality-tickets.md"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch04-arbiter-model.md",
+          "title": "Chapter 4: The Arbiter Model — Truth as a Service"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch06-closed-loop.md",
+          "title": "Chapter 6: The Closed-Loop Infrastructure — Building Your Own Kingdom"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch05-outcome-guarantee.md",
+          "title": "Chapter 5: The Outcome Guarantee Model — Selling Results, Not Software"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch02-certainty-premium.md",
+          "title": "Chapter 2: The Certainty Premium — What Is It, Really?"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch08-full-stack-certainty.md",
+          "title": "Chapter 8: Full-Stack Certainty — The Complete Trust Stack"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch07-quality-tickets.md",
+          "title": "Chapter 7: Prediction Arbitrage — Quality Audit"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch10-moat.md",
+          "title": "Chapter 10: Building Your Moat — Why Big Tech Can't Copy You"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch12-en-fit-tickets.md",
+          "title": "EN Fit Tickets — Chapter 12: Conclusion"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch10-en-fit-tickets.md",
+          "title": "EN Fit Tickets — Chapter 10: Moat"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch07-en-fit-tickets.md",
+          "title": "EN Fit Tickets — Chapter 7: The Prediction Arbitrage Model"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch01-auto-revisor-report.md",
+          "title": "Auto-Revisor Report — Chapter 1: The Six Failing AI Business Models"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch03-auto-revisor-report.md",
+          "title": "Auto-Revisor Report: Chapter 3 - Why Now?"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch09-quality-tickets.md",
+          "title": "Quality Audit Tickets — Chapter 9: Risk Management and Pricing"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch04-auto-revisor-report.md",
+          "title": "Auto-Revisor 报告"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch10-quality-tickets.md",
+          "title": "EN Fit Audit — Chapter 10: Building Your Moat"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch12-conclusion.md",
+          "title": "Chapter 12: The Future of Certainty — Closing Thoughts"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch11-en-fit-tickets.md",
+          "title": "EN Fit Tickets — Chapter 11: China Factor"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch11-quality-tickets.md",
+          "title": "Quality Audit Tickets — Chapter 11: China-Specific Dynamics"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch08-quality-tickets.md",
+          "title": "Chapter 8: Full-Stack Certainty — Quality Audit Report"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch02-en-fit-tickets.md",
+          "title": "EN Fit Audit — Chapter 2 Tickets"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch01-six-failing-models.md",
+          "title": "Chapter 1: The Six Failing AI Business Models"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch03-quality-tickets.md",
+          "title": "Quality Audit — Chapter 3: Why Now? The Perfect Storm for Certainty"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch09-en-fit-tickets.md",
+          "title": "EN Fit Tickets — Chapter 9: Pricing"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch06-auto-revisor-report.md",
+          "title": "Auto-Revisor Report — Chapter 6: The Closed-Loop Infrastructure"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch12-auto-revisor-report.md",
+          "title": "Auto-Revisor Report — Chapter 12: The Future of Certainty — Closing Thoughts"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch05-en-fit-tickets.md",
+          "title": "EN Fit Tickets — Chapter 5: The Outcome Guarantee Model"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch06-en-fit-tickets.md",
+          "title": "EN Fit Tickets — Chapter 6: The Closed-Loop Infrastructure"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch01-en-fit-tickets.md",
+          "title": "EN Fit Audit — Chapter 1 Tickets"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch09-auto-revisor-report.md",
+          "title": "Auto-Revisor 报告"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch11-auto-revisor-report.md",
+          "title": "Auto-Revisor 报告：ch11-china-factor.md"
+        },
+        {
+          "file": "07-english-edition/02-main-matter/ch05-quality-tickets.md",
+          "title": "Chapter 5: Quality Audit Tickets — Outcome Guarantee Model"
+        }
+      ]
+    },
+    "Intuition": {
+      "total_files": 208,
+      "chapters": [
+        {
+          "file": "新书-判断力与直觉力-成书框架.md",
+          "title": "新书《判断力与直觉力》成书框架"
+        },
+        {
+          "file": "新书-判断力与直觉力-章节拆解.md",
+          "title": "新书《判断力与直觉力》章节拆解"
+        },
+        {
+          "file": "06-出版版准备/判断力与直觉力-Part3-第8-11章压边界重构方案.md",
+          "title": "《判断力与直觉力》Part 3 第8-11章压边界重构方案"
+        },
+        {
+          "file": "06-出版版准备/判断力与直觉力-目标读者阅读效果审计.md",
+          "title": "《判断力与直觉力》目标读者阅读效果审计"
+        },
+        {
+          "file": "06-出版版准备/判断力与直觉力-真实案例锚点方案.md",
+          "title": "《判断力与直觉力》真实案例锚点方案"
+        },
+        {
+          "file": "06-出版版准备/判断力与直觉力-出版目录建议.md",
+          "title": "《判断力与直觉力》出版目录建议"
+        },
+        {
+          "file": "06-出版版准备/Codex-写书工作流模板.md",
+          "title": "Codex 写书工作流模板"
+        },
+        {
+          "file": "06-出版版准备/判断力与直觉力-全文审计摘要.md",
+          "title": "《判断力与直觉力》全文审计摘要"
+        },
+        {
+          "file": "06-出版版准备/判断力与直觉力-出版判断摘要.md",
+          "title": "《判断力与直觉力》出版判断摘要"
+        },
+        {
+          "file": "06-出版版准备/新书启动-checklist.md",
+          "title": "新书启动 checklist"
+        },
+        {
+          "file": "06-出版版准备/判断力与直觉力-KDP清稿清单.md",
+          "title": "《判断力与直觉力》KDP清稿清单"
+        },
+        {
+          "file": "06-出版版准备/判断力与直觉力-Part7-规模化章节方案.md",
+          "title": "《Judgment and Intuition》Part 7 规模化章节方案"
+        },
+        {
+          "file": "07-english-edition/README.md",
+          "title": "English Edition Workspace"
+        },
+        {
+          "file": "07-english-edition/05-part-4-see-technology-and-delivery/15-does-this-ai-system-meet-the-minimum-bar-for-delivery.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/05-part-4-see-technology-and-delivery/14-is-this-demo-able-but-not-deliverable.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/05-part-4-see-technology-and-delivery/13-should-this-llm-task-be-assistive-or-delegated.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/05-part-4-see-technology-and-delivery/12-how-should-i-read-the-boundary-of-this-capability.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/03-preface.md",
+          "title": "Preface"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/01-copyright-page.md",
+          "title": "Copyright"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/00-title-page.md",
+          "title": "JUDGMENT"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/02-table-of-contents.md",
+          "title": "Contents"
+        },
+        {
+          "file": "07-english-edition/01-front-matter/04-how-to-read-parts-5-to-7.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/00-project/02-translation-status.md",
+          "title": "Translation Status"
+        },
+        {
+          "file": "07-english-edition/00-project/00-english-edition-plan.md",
+          "title": "English Edition Plan"
+        },
+        {
+          "file": "07-english-edition/00-project/01-source-map.md",
+          "title": "Source Map"
+        },
+        {
+          "file": "07-english-edition/08-part-7-see-scale/25-which-signals-mean-scale-is-real-and-which-only-look-like-growth.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/08-part-7-see-scale/24-what-actually-drives-activation-onboarding-and-customer-success-in-ai-products.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/08-part-7-see-scale/23-when-has-a-pilot-become-a-repeatable-rollout.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/07-part-6-see-feedback-pace-and-alignment/22-after-the-decision-how-do-you-create-executable-alignment.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/07-part-6-see-feedback-pace-and-alignment/20-when-should-you-look-at-data-and-when-should-you-watch-users.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/07-part-6-see-feedback-pace-and-alignment/19-when-market-feedback-arrives-what-should-you-listen-to-first.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/07-part-6-see-feedback-pace-and-alignment/21-after-feedback-what-should-you-change-next.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/03-part-2-see-the-product/05-does-this-ai-product-have-real-workflow-value.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/03-part-2-see-the-product/06-is-this-product-solving-a-real-problem-or-packaging-model-capability.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/03-part-2-see-the-product/07-is-this-product-just-impressive-or-built-to-last.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/03-part-2-see-the-product/04-can-an-ai-feature-be-a-product.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/appendix-c-ai-prompts-for-better-judgment.md",
+          "title": "Appendix C. AI Prom"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/appendix-b-common-ai-product-metrics.md",
+          "title": "Appendix B. Common A"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/02-about-the-author.md",
+          "title": "About the Author"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/appendix-d-how-to-use-chatgpt-claude-and-agent-workflows.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/appendix-a-decision-tools-index.md",
+          "title": "Appendix A. Decision Tools Inde"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/01-afterword.md",
+          "title": "Afterword"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/03-acknowledgments.md",
+          "title": "Acknowledgments"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/tool-cards/24-first-confident-handoff-sheet.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/tool-cards/chapter-to-card-map.md",
+          "title": "Chapter-to-Card Map"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/tool-cards/17-pricing-fit-card.md",
+          "title": "Tool Card: Pric"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/tool-cards/16-beachhead-market-selection-card.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/tool-cards/21-problem-attribution-layering-sheet.md",
+          "title": "???"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/tool-cards/05-workflow-value-scorecard.md",
+          "title": "Too"
+        },
+        {
+          "file": "07-english-edition/08-back-matter/tool-cards/22-alignment-readiness-sheet.md",
+          "title": "Tool Card"
+        }
+      ]
+    }
+  },
+  "registry_content": "---\nname: ai-native-pm-agent\ndescription: |\n  基于《AI Native 产品方法论》五书合一的 AI 产品全生命周期编排系统\nversion: 1.1\nauthor: Max\n\n# 五本书对应关系:\n# 《AI Native 产品方法论》 → P1-P2 方向定界与实验\n# 《AI Native 系统构建》 → P3-P5 系统构建\n# 《AI Native 用户体验》 → P8 UX设计\n# 《AI Native 审计与放行》 → P9-P10 审计放行\n# 《AI Native 商业模式》 → P6 商业模式\n# 《AI Native 营销与增长》 → P7 增长策略\n\nskills:\n  # 编排器\n  - name: ai-native-pm-agent\n    description: 主编排器，负责阶段路由、冲突检测、产品上下文管理\n    stage: orchestrator\n    path: orchestrator/SKILL.md\n    \n  # 《AI rebuild product needs》 - 需求发现工具箱\n  - name: p0-needs-orchestrator\n    description: 需求发现编排器：协调六个工具卡完成系统性需求发现\n    stage: p0\n    path: skills/p0-needs-orchestrator/SKILL.md\n    \n  - name: p0a-micro-needs-detector\n    description: 微需求五问检测器：发现被忽视的微需求\n    stage: p0a\n    path: skills/p0a-micro-needs-detector/SKILL.md\n    \n  - name: p0b-real-needs-validator\n    description: 真需求判断五问：区分真需求与伪需求\n    stage: p0b\n    path: skills/p0b-real-needs-validator/SKILL.md\n    \n  - name: p0c-needs-decomposer\n    description: 需求四层拆解卡：表达层/场景层/处境层/代价层\n    stage: p0c\n    path: skills/p0c-needs-decomposer/SKILL.md\n    \n  - name: p0d-needs-archaeologist\n    description: 需求考古五步法：挖掘深层需求与历史约束\n    stage: p0d\n    path: skills/p0d-needs-archaeologist/SKILL.md\n    \n  - name: p0e-good-question-generator\n    description: 好问题六维观察表：从六个维度发现好问题\n    stage: p0e\n    path: skills/p0e-good-question-generator/SKILL.md\n    \n  - name: p0f-agent-boundary-designer\n    description: Agent 边界清单：定义 AI 应该做/不做/停下来等人的边界\n    stage: p0f\n    path: skills/p0f-agent-boundary-designer/SKILL.md\n    \n  # 《AI Native 产品方法论》 - 需求与方向\n  - name: ai-native-product-needs\n    description: 需求发现与伪需求检测（综合版）\n    stage: p0-legacy\n    path: skills/p0-product-needs/SKILL.md\n    \n  - name: ai-native-direction-framing\n    description: 方向定界：五维判断、Direction Brief\n    stage: p1\n    path: skills/p1-direction-framing/SKILL.md\n    \n  - name: ai-native-experiment-engine\n    description: 实验展开：能力/产品/商业三层实验（总览包覆版，建议优先使用子技能）\n    stage: p2\n    path: skills/p2-experiment-engine/SKILL.md\n\n  # 试验展开子技能（2026-04-28 拆分补充）\n  - name: p2a-experiment-overview\n    description: 试验展开概述：资料准备评估、三层实验体系设计、评估Rubric建立\n    stage: p2a\n    path: skills/p2a-experiment-overview/SKILL.md\n\n  - name: p2b-product-form-exploration\n    description: 产品形态探索：能力边界分析、交互原型设计、产品形态判断\n    stage: p2b\n    path: skills/p2b-product-form-exploration/SKILL.md\n\n  - name: p2c-process-redesign\n    description: 流程重构：任务拆解、人机协作模式选择、工作流节点标注\n    stage: p2c\n    path: skills/p2c-process-redesign/SKILL.md\n\n  - name: p2d-convergence-decision\n    description: 目标收敛与产品决策：实验记录整理、收敛信号识别、继续/延后/停止决策\n    stage: p2d\n    path: skills/p2d-convergence-decision/SKILL.md\n\n  - name: p2e-shadow-validation\n    description: 影子验证：影子系统设计、并行运行、人工对比、审计放行证据\n    stage: p2e\n    path: skills/p2e-shadow-validation/SKILL.md\n    \n  # 《AI Native 系统构建》\n  - name: ai-native-system-building\n    description: 系统构建：从实验到产品转化\n    stage: p3\n    path: skills/p3-system-building/SKILL.md\n    \n  - name: ai-native-agent-skill-design\n    description: 智能体与技能单元设计\n    stage: p4\n    path: skills/p4-agent-skill-design/SKILL.md\n    \n  - name: ai-native-memory-system\n    description: 记忆系统设计\n    stage: p4a\n    path: skills/p5-memory-system/SKILL.md\n    \n  - name: ai-native-context-engineering\n    description: 上下文工程设计\n    stage: p4b\n    path: skills/p6-context-engineering/SKILL.md\n    \n  - name: ai-native-knowledge-rag\n    description: RAG 与知识系统设计\n    stage: p4c\n    path: skills/p7-knowledge-rag/SKILL.md\n    \n  # 《AI Native 用户体验》\n  - name: ai-native-ux-design\n    description: AI Native 用户体验设计\n    stage: p8\n    path: skills/p8-ux-design/SKILL.md\n    \n  # 《AI Native 审计与放行》\n  - name: ai-native-audit-release\n    description: 审计放行：go/no-go 决策\n    stage: p9\n    path: skills/p9-audit-release/SKILL.md\n    \n  - name: ai-native-production-ops\n    description: 生产运行与循环回灌\n    stage: p10\n    path: skills/p10-production-ops/SKILL.md\n    \n  # 《AI Native 商业模式》\n  - name: ai-native-business-model\n    description: 确定性溢价商业模式设计\n    stage: p6\n    path: skills/p6-business-model/SKILL.md\n    \n  # 《AI Native 营销与增长》\n  - name: ai-native-marketing-growth\n    description: AI Native 增长飞轮与营销策略（总论）\n    stage: p7\n    path: skills/p7-marketing-growth/SKILL.md\n    \n  - name: p7a-data-flywheel-builder\n    description: 数据飞轮构建器：评估和构建自增强数据飞轮\n    stage: p7a\n    path: skills/p7a-data-flywheel-builder/SKILL.md\n    \n  - name: p7b-intent-prediction-designer\n    description: 意图预测营销设计器：从人群定向到个体预见\n    stage: p7b\n    path: skills/p7b-intent-prediction-designer/SKILL.md\n    \n  - name: p7c-predictive-retention-designer\n    description: 预测性留存设计器：从流失后挽回到流失前阻止\n    stage: p7c\n    path: skills/p7c-predictive-retention-designer/SKILL.md\n    \n  - name: p7d-marketing-productizer\n    description: 营销产品化设计器：把营销活动变成产品功能\n    stage: p7d\n    path: skills/p7d-marketing-productizer/SKILL.md\n    \n  # 跨书组合 Skills\n  - name: combo-needs-to-direction\n    description: 需求发现 → 方向定界：痛点线索直接输出 Direction Brief\n    stage: combo-p0-p1\n    path: skills/combo-needs-to-direction/SKILL.md\n    \n  - name: combo-business-to-growth\n    descript"
+}

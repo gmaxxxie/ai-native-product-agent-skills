@@ -4,7 +4,7 @@ version: 1.0.0
 description: 需求发现 → 方向定界 组合 Skill。从用户痛点出发，系统跑完微需求检测、 真需求验证、四层拆解，输出可直接进入方向定界的 Direction
   Brief。
 author: Max
-tags:
+tags: 编排器, 需求到方向
 - book-skill
 - combo
 - needs
@@ -16,7 +16,12 @@ requires:
 - p0c-needs-decomposer
 - p1-direction-framing
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/combo-needs-to-direction
+stage: combo
+source_book: AI Native 产品方法论
+source_chapter: 编排器
+
 ---
+
 
 # 需求发现 → 方向定界
 

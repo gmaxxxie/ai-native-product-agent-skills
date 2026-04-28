@@ -3,7 +3,7 @@ name: p6a-certainty-premium-calculator
 version: 1.0.0
 description: 确定性溢价计算器。基于《AI确定性商业模式》核心公式， 帮助产品团队计算 AI 产品的确定性溢价，从而设计更高价值的收费模式。
 author: Max
-tags:
+tags: p6, 商业模式, 确定性溢价计算
 - book-skill
 - business-model
 - pricing
@@ -11,7 +11,12 @@ tags:
 - ai-product
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p6a-certainty-premium-calculator
+stage: p6a
+source_book: AI确定性商业模式
+source_chapter: 第02章 确定性溢价
+
 ---
+
 
 # 确定性溢价计算器
 

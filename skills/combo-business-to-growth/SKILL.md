@@ -3,7 +3,7 @@ name: combo-business-to-growth
 version: 1.0.0
 description: 商业模式 → 增长策略 组合 Skill。将确定性溢价定价策略与 AI Native 增长飞轮匹配， 输出定价-增长联动策略，确保商业模式和增长方式自洽。
 author: Max
-tags:
+tags: 编排器, 商业到增长
 - book-skill
 - combo
 - business-model
@@ -14,7 +14,12 @@ requires:
 - p6-business-model
 - p7-marketing-growth
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/combo-business-to-growth
+stage: combo
+source_book: AI Native 营销与增长
+source_chapter: 编排器
+
 ---
+
 
 # 商业模式 → 增长策略
 

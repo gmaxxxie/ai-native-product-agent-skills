@@ -3,7 +3,7 @@ name: p0b-real-needs-validator
 version: 1.0.0
 description: 真需求判断五问验车器。AI 时代最危险的不是没有需求，而是伪需求太容易长得像真需求。 基于《AI rebuild product needs》工具卡。
 author: Max
-tags:
+tags: p0, 需求发现, 真需求验证
 - book-skill
 - needs-discovery
 - validation
@@ -11,7 +11,12 @@ tags:
 - ai-product
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p0b-real-needs-validator
+stage: p0b
+source_book: AI rebuild product needs
+source_chapter: 第2章 真需求验证
+
 ---
+
 
 # 真需求判断五问
 

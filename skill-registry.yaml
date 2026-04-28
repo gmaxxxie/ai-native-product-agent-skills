@@ -18,7 +18,7 @@ skills:
   - name: ai-native-pm-agent
     description: 主编排器，负责阶段路由、冲突检测、产品上下文管理
     stage: orchestrator
-    path: orchestrator/SKILL.md
+    path: skills/p0-needs-orchestrator/SKILL.md
     
   # 《AI rebuild product needs》 - 需求发现工具箱
   - name: p0-needs-orchestrator
@@ -220,3 +220,226 @@ skills:
     description: AI Native 产品团队设计：人机分工、能力缺口、团队协作流程、角色重新定义
     stage: p11
     path: skills/p11-product-team/SKILL.md
+
+  # 补充注册（2026-04-28 审计补漏）
+  - name: p0g-diverse-recommendation-rewriter
+    description: 多元推荐改写器：重写推荐结果以覆盖不同视角和场景
+    stage: p0
+    path: skills/p0g-diverse-recommendation-rewriter/SKILL.md
+
+  - name: p0g-diversity-rewrite-checklist
+    description: 多元推荐检查清单：验证多元推荐改写质量
+    stage: p0
+    path: skills/p0g-diversity-rewrite-checklist/SKILL.md
+
+  - name: p0h-ai-product-triple-balance
+    description: AI产品三重平衡卡：平衡功能性/体验性/商业性
+    stage: p0
+    path: skills/p0h-ai-product-triple-balance/SKILL.md
+
+  - name: p0h-triple-balance-assessor
+    description: 三重平衡评估器：评估产品三重平衡状态
+    stage: p0
+    path: skills/p0h-triple-balance-assessor/SKILL.md
+
+  - name: p6a-certainty-premium-calculator
+    description: 确定性溢价计算器：计算AI产品的确定性溢价空间
+    stage: p6
+    path: skills/p6a-certainty-premium-calculator/SKILL.md
+
+  - name: p6b-arbiter-mode-designer
+    description: 仲裁者模式设计器：设计AI作为决策仲裁者的商业模式
+    stage: p6
+    path: skills/p6b-arbiter-mode-designer/SKILL.md
+
+  - name: p6c-insurance-mode-designer
+    description: 保险模式设计器：设计结果保障型商业模式
+    stage: p6
+    path: skills/p6c-insurance-mode-designer/SKILL.md
+
+  - name: p6d-prediction-arbitrage-designer
+    description: 预测套利设计器：设计信息差套利型商业模式
+    stage: p6
+    path: skills/p6d-prediction-arbitrage-designer/SKILL.md
+
+  - name: p8a-rax-risk-assessor
+    description: RAX风险评估器：评估AI Agent代理行动的风险等级
+    stage: p8
+    path: skills/p8a-rax-risk-assessor/SKILL.md
+
+  - name: p8b-trust-tier-designer
+    description: 信任分级设计器：设计AI Agent的信任梯度
+    stage: p8
+    path: skills/p8b-trust-tier-designer/SKILL.md
+
+  - name: p8c-progressive-disclosure
+    description: 渐进式披露设计器：设计信息展示的渐进节奏
+    stage: p8
+    path: skills/p8c-progressive-disclosure/SKILL.md
+
+  # ========================================
+  # 观照（Contemplation）系列 - p12
+  # 2026-04-29 创建
+  # ========================================
+  - name: p12-contemplation-orchestrator
+    description: 《观照》全书编排器——根据问题类型路由到对应章节Skill，串联全链路决策修正流程
+    stage: meta
+    path: skills/p12-contemplation-orchestrator/SKILL.md
+
+  - name: p12a-contemplation-prerequisite-check
+    description: 检查方法使用的前提是否成立——识别情境变化、验证假设前提、重配适用方法
+    stage: discovery
+    path: skills/p12a-contemplation-prerequisite-check/SKILL.md
+
+  - name: p12a-contemplation-view-correction
+    description: 先修正看法，再调用方法——默认检查、证据校验、后果追问、八种修正视角
+    stage: discovery
+    path: skills/p12a-contemplation-view-correction/SKILL.md
+
+  - name: p12a-contemplation-right-view
+    description: 把问题看准，而不是把现象说圆——三层看问题法（现象层/情境层/关系层）
+    stage: discovery
+    path: skills/p12a-contemplation-right-view/SKILL.md
+
+  - name: p12a-contemplation-right-thinking
+    description: 修正判断路径——拆解判断链，区分前提/证据/推理/情绪
+    stage: discovery
+    path: skills/p12a-contemplation-right-thinking/SKILL.md
+
+  - name: p12a-contemplation-right-speech
+    description: 把话说真，而不是把问题说顺——语言清洗、纪要体检、诚实表达练习
+    stage: planning
+    path: skills/p12a-contemplation-right-speech/SKILL.md
+
+  - name: p12a-contemplation-right-action
+    description: 先看机制是否有害，再看结果是否有效——价值/代价/情绪/退出权四重检查
+    stage: execution
+    path: skills/p12a-contemplation-right-action/SKILL.md
+
+  - name: p12a-contemplation-right-livelihood
+    description: 收入从哪里来，产品就会站在哪边——收入来源审视与激励偏差检查
+    stage: discovery
+    path: skills/p12a-contemplation-right-livelihood/SKILL.md
+
+  - name: p12a-contemplation-right-effort
+    description: 停止错误方向也是一种推进——归零分析、暂停策略、止损决策
+    stage: planning
+    path: skills/p12a-contemplation-right-effort/SKILL.md
+
+  - name: p12a-contemplation-right-mindfulness
+    description: 持续觉察、系统反思、判断沉淀——建立个人与团队的决策觉察力
+    stage: meta
+    path: skills/p12a-contemplation-right-mindfulness/SKILL.md
+
+  # ========================================
+  # 判断力与直觉力（Intuition）系列 - p13
+  # 2026-04-29 创建
+  # ========================================
+  - name: p13-intuition-orchestrator
+    description: 《判断力与直觉力》全书编排器——九步闭环决策路线图的路由器与聚合器
+    stage: meta
+    path: skills/p13-intuition-orchestrator/SKILL.md
+
+  - name: p13a-judgment-metacognition
+    description: 判断力元认知——理解什么是判断、识别判断的场景与类型
+    stage: p13
+    path: skills/p13a-judgment-metacognition/SKILL.md
+
+  - name: p13b-systemic-thinker
+    description: 系统性思维——结构化分析、关系映射、反馈回路识别
+    stage: p13
+    path: skills/p13b-systemic-thinker/SKILL.md
+
+  - name: p13c-product-psychology
+    description: 产品心理学——用户心理模型、行为设计、动机分析
+    stage: p13
+    path: skills/p13c-product-psychology/SKILL.md
+
+  - name: p13d-intuition-training
+    description: 直觉训练——将直觉转化为可压缩的认知模型与模式识别
+    stage: p13
+    path: skills/p13d-intuition-training/SKILL.md
+
+  - name: p13e-nine-step-framework
+    description: AI产品决策九步闭环总论——覆盖做什么到反馈回路的完整框架
+    stage: p13
+    path: skills/p13e-nine-step-framework/SKILL.md
+
+  - name: p13f-first-half-judgment
+    description: 九步前半段——做什么、值不值得、用不用AI的判断框架
+    stage: p13
+    path: skills/p13f-first-half-judgment/SKILL.md
+
+  - name: p13g-mid-judgment
+    description: 九步中段——做成什么形态、用户托付度、怎么做的决策框架
+    stage: p13
+    path: skills/p13g-mid-judgment/SKILL.md
+
+  - name: p13h-validation-market
+    description: 九步后段——怎么验证、怎么进入市场、反馈回路的决策框架
+    stage: p13
+    path: skills/p13h-validation-market/SKILL.md
+
+  - name: p13i-judgment-traps
+    description: 判断陷阱与认知偏误——识别常见判断错误模式及其防范策略
+    stage: p13
+    path: skills/p13i-judgment-traps/SKILL.md
+
+  - name: p13j-organizational-judgment
+    description: 组织判断力——将个人判断转化为团队判断能力的系统方法
+    stage: p13
+    path: skills/p13j-organizational-judgment/SKILL.md
+
+  - name: p13k-intuition-evolution
+    description: 直觉进化——持续训练判断力、建立标准提升机制
+    stage: p13
+    path: skills/p13k-intuition-evolution/SKILL.md
+
+  # ========================================
+  # AI Beaty（美学权威）系列 - p14
+  # 2026-04-29 创建
+  # ========================================
+  - name: p14-beauty-orchestrator
+    description: 《AI Beaty》全书编排器——审美主导权与美感体系化训练的路由器
+    stage: meta
+    path: skills/p14-beauty-orchestrator/SKILL.md
+
+  - name: p14a-beauty-redefinition
+    description: 美感的重新定义——生成焦虑、美感六维度、美感双轴模型
+    stage: discovery
+    path: skills/p14a-beauty-redefinition/SKILL.md
+
+  - name: p14b-beauty-ai-roles
+    description: AI在审美中的角色定位——放大器/陪练器/协作者，而非审美本身
+    stage: discovery
+    path: skills/p14b-beauty-ai-roles/SKILL.md
+
+  - name: p14c-beauty-selection
+    description: 从生产美感到选择美感——选择力是新核心技能，Context决定输出上限
+    stage: planning
+    path: skills/p14c-beauty-selection/SKILL.md
+
+  - name: p14d-beauty-narrative
+    description: 故事力即美感——叙事结构、情感节奏、信息架构的审美维度
+    stage: planning
+    path: skills/p14d-beauty-narrative/SKILL.md
+
+  - name: p14e-beauty-human-edge
+    description: 人的不可替代性——美感作为护城河、标准进化、人的核心优势
+    stage: discovery
+    path: skills/p14e-beauty-human-edge/SKILL.md
+
+  - name: p14f-beauty-commercial
+    description: 美感的商业价值——市场接受度、美感溢价、体验美感、物理世界平衡
+    stage: planning
+    path: skills/p14f-beauty-commercial/SKILL.md
+
+  - name: p14g-beauty-system
+    description: 审美训练体系——系统化积累与校准审美标准、人机协作流程、标准进化
+    stage: meta
+    path: skills/p14g-beauty-system/SKILL.md
+
+  - name: p14h-beauty-preface
+    description: 前言与核心命题——当一切都能生成之后，审美主导权成为核心竞争力
+    stage: meta
+    path: skills/p14h-beauty-preface/SKILL.md
