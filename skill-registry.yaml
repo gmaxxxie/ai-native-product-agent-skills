@@ -1,0 +1,92 @@
+---
+name: ai-native-pm-agent
+description: |
+  基于《AI Native 产品方法论》五书合一的 AI 产品全生命周期编排系统
+version: 1.1
+author: Max
+
+# 五本书对应关系:
+# 《AI Native 产品方法论》 → P1-P2 方向定界与实验
+# 《AI Native 系统构建》 → P3-P5 系统构建
+# 《AI Native 用户体验》 → P8 UX设计
+# 《AI Native 审计与放行》 → P9-P10 审计放行
+# 《AI Native 商业模式》 → P6 商业模式
+# 《AI Native 营销与增长》 → P7 增长策略
+
+skills:
+  # 编排器
+  - name: ai-native-pm-agent
+    description: 主编排器，负责阶段路由、冲突检测、产品上下文管理
+    stage: orchestrator
+    path: orchestrator/SKILL.md
+    
+  # 《AI Native 产品方法论》 - 需求与方向
+  - name: ai-native-product-needs
+    description: 需求发现与伪需求检测
+    stage: p0
+    path: skills/p0-product-needs/SKILL.md
+    
+  - name: ai-native-direction-framing
+    description: 方向定界：五维判断、Direction Brief
+    stage: p1
+    path: skills/p1-direction-framing/SKILL.md
+    
+  - name: ai-native-experiment-engine
+    description: 实验展开：能力/产品/商业三层实验
+    stage: p2
+    path: skills/p2-experiment-engine/SKILL.md
+    
+  # 《AI Native 系统构建》
+  - name: ai-native-system-building
+    description: 系统构建：从实验到产品转化
+    stage: p3
+    path: skills/p3-system-building/SKILL.md
+    
+  - name: ai-native-agent-skill-design
+    description: 智能体与技能单元设计
+    stage: p4
+    path: skills/p4-agent-skill-design/SKILL.md
+    
+  - name: ai-native-memory-system
+    description: 记忆系统设计
+    stage: p4a
+    path: skills/p5-memory-system/SKILL.md
+    
+  - name: ai-native-context-engineering
+    description: 上下文工程设计
+    stage: p4b
+    path: skills/p6-context-engineering/SKILL.md
+    
+  - name: ai-native-knowledge-rag
+    description: RAG 与知识系统设计
+    stage: p4c
+    path: skills/p7-knowledge-rag/SKILL.md
+    
+  # 《AI Native 用户体验》
+  - name: ai-native-ux-design
+    description: AI Native 用户体验设计
+    stage: p8
+    path: skills/p8-ux-design/SKILL.md
+    
+  # 《AI Native 审计与放行》
+  - name: ai-native-audit-release
+    description: 审计放行：go/no-go 决策
+    stage: p9
+    path: skills/p9-audit-release/SKILL.md
+    
+  - name: ai-native-production-ops
+    description: 生产运行与循环回灌
+    stage: p10
+    path: skills/p10-production-ops/SKILL.md
+    
+  # 《AI Native 商业模式》
+  - name: ai-native-business-model
+    description: 确定性溢价商业模式设计
+    stage: p6
+    path: skills/p6-business-model/SKILL.md
+    
+  # 《AI Native 营销与增长》
+  - name: ai-native-marketing-growth
+    description: AI Native 增长飞轮与营销策略
+    stage: p7
+    path: skills/p7-marketing-growth/SKILL.md
