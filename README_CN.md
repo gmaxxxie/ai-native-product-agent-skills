@@ -427,25 +427,28 @@ ai-native-pm-agent-skills/
 
 80 个 Skill 全部来自八本方法论著作。每本书的工具卡和概念卡都已转化为可执行的 Skill：
 
-| 书籍 | 覆盖阶段 | Skill 数 |
-|------|---------|---------|
-| [AI rebuild product needs](https://www.amazon.com/dp/B0GT48SZ5R) | P0 需求发现 | 12 |
-| [AI Native 产品方法论](https://www.amazon.com/dp/B0GSMXD24H) | P1–P2 方向定界与实验 | 7 |
-| [AI Native 系统构建](https://www.amazon.com/dp/B0GSMXD24H) | P3–P4 系统构建 | 5 |
-| [AI Native 用户体验](https://www.amazon.com/dp/B0GX2H4D33) | P8 UX 设计 | 4 |
-| [AI 确定性商业模式](https://www.amazon.com/dp/B0GRQVR2J4) | P5–P6 商业模式 | 5 |
-| [AI Native 营销与增长](https://www.amazon.com/dp/B0GCHHZBV3) | P7 增长策略 | 6 |
-| [观照：AI时代的产品观、用户观与决策观](https://www.amazon.com/dp/B0GX2H4D33) | P12 观照与决策修正 | 10 |
-| [判断力与直觉力](https://www.amazon.com/dp/B0GCHHZBV3) | P13 判断力与直觉 | 12 |
-| [AI Beaty：美学权威与选择力](https://www.amazon.com/dp/B0GCHHZBV3) | P14 美学权威 | 9 |
-| 行业案例模板 | P10–P11 运营与团队 | 6 |
+| # | 书籍 | 状态 | 覆盖阶段 | Skill 数 |
+|---|------|------|---------|---------|
+| 1 | [AI rebuild product needs](https://www.amazon.com/dp/B0GT48SZ5R) | ✅ 已出版 | P0 需求发现 | 12 |
+| 2 | [AI Native 产品方法论](https://www.amazon.com/dp/B0GSMXD24H) | ✅ 已出版 | P1–P2 方向定界与实验 | 7 |
+| 3 | [AI Native 用户体验](https://www.amazon.com/dp/B0GX2H4D33) | 📖 即将出版 | P8 UX 设计 | 4 |
+| 4 | [AI 确定性商业模式](https://www.amazon.com/dp/B0GRQVR2J4) | ✅ 已出版 | P5–P6 商业模式 | 5 |
+| 5 | [AI Native 营销与增长](https://www.amazon.com/dp/B0GCHHZBV3) | 📖 即将出版 | P7 增长策略 | 6 |
+| 6 | [观照：AI时代的产品观、用户观与决策观](https://www.amazon.com/dp/B0GX2H4D33) | ✅ 已出版 | P12 观照与决策修正 | 10 |
+| 7 | [判断力与直觉力](https://www.amazon.com/dp/B0GCHHZBV3) | 📖 即将出版 | P13 判断力与直觉 | 12 |
+| 8 | [AI Beaty：美学权威与选择力](https://www.amazon.com/dp/B0GCHHZBV3) | ✅ 已出版 | P14 美学权威 | 9 |
 
-📖 **在 Amazon 获取这些书**：
+📖 **Amazon 已出版**（5本）：
 - **[AI rebuild product needs](https://www.amazon.com/dp/B0GT48SZ5R)** — 需求发现、微需求检测、真需求验证、需求拆解、Agent 边界设计
 - **[AI Native 产品方法论](https://www.amazon.com/dp/B0GSMXD24H)** — 方向定界、实验展开、系统构建、审计放行、生产运营
 - **[AI 确定性商业模式](https://www.amazon.com/dp/B0GRQVR2J4)** — 确定性溢价、商业模式设计、定价策略
 - **[观照：AI时代的产品观、用户观与决策观](https://www.amazon.com/dp/B0GX2H4D33)** — 正见、前提检查、判断修正、决策觉察
-- **[AI Native 营销与增长](https://www.amazon.com/dp/B0GCHHZBV3)** — 数据飞轮、意图预测、预测性留存、营销产品化
+- **[AI Beaty：美学权威与选择力](https://www.amazon.com/dp/B0GCHHZBV3)** — 数据飞轮、意图预测、预测性留存、营销产品化
+
+📖 **即将出版**（3本）：
+- **AI Native 用户体验** — RAX 风险评估、信任分级、渐进式披露
+- **AI Native 营销与增长** — 数据飞轮、意图预测、预测性留存、营销产品化
+- **判断力与直觉力** — 九步决策框架、判断陷阱、组织判断力
 
 ---
 

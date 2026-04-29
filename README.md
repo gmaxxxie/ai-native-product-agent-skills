@@ -429,25 +429,28 @@ ai-native-pm-agent-skills/
 
 All **80 Skills** are derived from eight methodology books. Each book's tool cards and concept cards have been converted into executable Skills:
 
-| Book | Stages Covered | Skills |
-|------|---------------|--------|
-| [Micro-Needs for AI Products](https://www.amazon.com/dp/B0GT48SZ5R) | P0 Needs Discovery | 12 |
-| [AI Native Product Methodology](https://www.amazon.com/dp/B0GSMXD24H) | P1–P2 Direction / Experiment | 7 |
-| [AI Native System Building](https://www.amazon.com/dp/B0GSMXD24H) | P3–P4 System Building | 5 |
-| [AI Native UX Design](https://www.amazon.com/dp/B0GX2H4D33) | P8 UX Design | 4 |
-| [JUDGMENT](https://www.amazon.com/dp/B0GRQVR2J4) | P5–P6 Business Model | 5 |
-| [Aesthetic Authority](https://www.amazon.com/dp/B0GCHHZBV3) | P7 Growth Strategy | 6 |
-| [Contemplation](https://www.amazon.com/dp/B0GX2H4D33) | P12 Contemplation & Decision Correction | 10 |
-| [Intuition](https://www.amazon.com/dp/B0GCHHZBV3) | P13 Judgment & Intuition | 12 |
-| [AI Beaty](https://www.amazon.com/dp/B0GCHHZBV3) | P14 Aesthetic Authority | 9 |
-| Industry Cases | P10–P11 Operations & Team | 6 |
+| # | Book | Status | Stages Covered | Skills |
+|---|------|--------|---------------|--------|
+| 1 | [Micro-Needs for AI Products](https://www.amazon.com/dp/B0GT48SZ5R) | ✅ Published | P0 Needs Discovery | 12 |
+| 2 | [AI Native Product Methodology](https://www.amazon.com/dp/B0GSMXD24H) | ✅ Published | P1–P2 Direction / Experiment | 7 |
+| 3 | [AI Native UX Design](https://www.amazon.com/dp/B0GX2H4D33) | 📖 Coming Soon | P8 UX Design | 4 |
+| 4 | [JUDGMENT: AI Native Business Model](https://www.amazon.com/dp/B0GRQVR2J4) | ✅ Published | P5–P6 Business Model | 5 |
+| 5 | [AI Native Marketing & Growth](https://www.amazon.com/dp/B0GCHHZBV3) | 📖 Coming Soon | P7 Growth Strategy | 6 |
+| 6 | [Contemplation](https://www.amazon.com/dp/B0GX2H4D33) | ✅ Published | P12 Contemplation & Decision Correction | 10 |
+| 7 | [Intuition: Judgment & Decision](https://www.amazon.com/dp/B0GCHHZBV3) | 📖 Coming Soon | P13 Judgment & Intuition | 12 |
+| 8 | [Aesthetic Authority](https://www.amazon.com/dp/B0GCHHZBV3) | ✅ Published | P14 Aesthetic Authority | 9 |
 
-📖 **Get the books on Amazon**:
+📖 **Available on Amazon** (5 published):
 - **[Micro-Needs for AI Products](https://www.amazon.com/dp/B0GT48SZ5R)** — Needs discovery, micro-needs detection, real-needs validation, needs decomposition, agent boundary design
 - **[AI Native Product Methodology](https://www.amazon.com/dp/B0GSMXD24H)** — Direction framing, experiment engine, system building, audit & release, production operations
 - **[JUDGMENT: How to Make Better AI Product Decisions](https://www.amazon.com/dp/B0GRQVR2J4)** — Certainty Premium, business model design, pricing strategy
 - **[Contemplation: Product Judgment, User Understanding, and Decision Correction in the AI Era](https://www.amazon.com/dp/B0GX2H4D33)** — Right view, prerequisite checks, judgment correction, decision mindfulness
 - **[Aesthetic Authority: Why Human Judgment and Taste Matter in the Age of AI](https://www.amazon.com/dp/B0GCHHZBV3)** — Data flywheel, intent prediction, predictive retention, marketing-as-product
+
+📖 **Coming Soon** (3 in progress):
+- **AI Native UX Design** — RAX risk assessment, trust tier design, progressive disclosure
+- **AI Native Marketing & Growth** — Data flywheel, intent prediction, predictive retention, marketing-as-product
+- **Intuition: Judgment & Decision** — Nine-step decision framework, judgment traps, organizational judgment
 
 ---
 
