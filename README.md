@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero-banner.png" alt="AI Native PM Agent — From Idea to Production" width="100%">
+  <img src="assets/p0-hero-journey.jpg" alt="AI Native Product Methodology — 15 Stages Hero's Journey" width="100%">
 </p>
 
 # AI Native PM Agent
@@ -41,7 +41,7 @@ Traditional product frameworks (Lean Startup, Jobs-to-be-Done, Design Thinking) 
 ## See What It Does in 30 Seconds
 
 <p align="center">
-  <img src="assets/pipeline-flow.png" alt="P0→P14 Pipeline Flow" width="100%">
+  <img src="assets/p0-methodology-overview.jpg" alt="P0→P14 15-Stage Methodology Overview" width="100%">
 </p>
 
 **Core Capabilities**: **80 executable Skills** across 8 stages + Stage auto-routing + Conflict detection + Evidence chain tracking
@@ -181,6 +181,10 @@ Each stage is an independent Skill you can call individually:
 
 ### P0 — Needs Discovery Layer (17 Skills)
 
+<p align="center">
+  <img src="assets/p0-needs-discovery.jpg" alt="P0 Needs Discovery — Micro-Needs, Real-Needs Validation" width="90%">
+</p>
+
 | ID | Name | What It Does |
 |----|------|-------------|
 | p0-needs-orchestrator | Needs Discovery Orchestrator | Coordinates six tool cards for systematic needs discovery |
@@ -198,6 +202,11 @@ Each stage is an independent Skill you can call individually:
 
 ### P1–P2 — Direction & Experiment Layer (8 Skills)
 
+<p align="center">
+  <img src="assets/p1-direction-framing.jpg" alt="P1 Direction Framing — Five Must-Answer Questions" width="45%">
+  <img src="assets/p2-experiment-engine.jpg" alt="P2 Experiment Engine — Validate Before You Build" width="45%">
+</p>
+
 | ID | Name | What It Does |
 |----|------|-------------|
 | p1-direction-framing | Direction Framing | Five-dimension judgment, Direction Brief |
@@ -210,6 +219,10 @@ Each stage is an independent Skill you can call individually:
 
 ### P3–P4 — System Building Layer (5 Skills)
 
+<p align="center">
+  <img src="assets/p3-system-building.jpg" alt="P3 System Building — Data→Capability→Product→Moat, Context Engineering, Agent Boundary" width="90%">
+</p>
+
 | ID | Name | What It Does |
 |----|------|-------------|
 | p3-system-building | System Building | From experiments to product |
@@ -219,6 +232,10 @@ Each stage is an independent Skill you can call individually:
 | p7-knowledge-rag | RAG & Knowledge System | Knowledge management + RAG design |
 
 ### P5–P6 — Business Model Layer (5 Skills)
+
+<p align="center">
+  <img src="assets/p6-business-model.jpg" alt="P6 Business Model — Certainty Premium & Pricing Strategy" width="90%">
+</p>
 
 | ID | Name | What It Does |
 |----|------|-------------|
@@ -241,6 +258,10 @@ Each stage is an independent Skill you can call individually:
 
 ### P8 — User Experience Layer (4 Skills)
 
+<p align="center">
+  <img src="assets/p8-rax-framework.jpg" alt="P8 UX — RAX Framework, Trust Tiers, Progressive Disclosure" width="90%">
+</p>
+
 | ID | Name | What It Does |
 |----|------|-------------|
 | p8-ux-design | AI Native UX Design (Overview) | UX design methodology |
@@ -249,6 +270,10 @@ Each stage is an independent Skill you can call individually:
 | p8c-progressive-disclosure | Progressive Disclosure Checklist | Feature reveal pacing design |
 
 ### P9–P11 — Audit, Operations & Team Layer (9 Skills)
+
+<p align="center">
+  <img src="assets/p11-p12-p13-advanced.jpg" alt="P11 Team + P12 Contemplation + P13 Intuition — Human-AI Collaboration, Decision Correction, Nine-Step Framework" width="90%">
+</p>
 
 | ID | Name | What It Does |
 |----|------|-------------|
@@ -297,6 +322,10 @@ Each stage is an independent Skill you can call individually:
 | p13k-intuition-evolution | Intuition Evolution | Continuous judgment training, standard improvement mechanism |
 
 ### P14 — Aesthetic Authority Layer (9 Skills)
+
+<p align="center">
+  <img src="assets/p14-aesthetic-authority.jpg" alt="P14 Aesthetic Authority — When Everything Can Be Generated, Selection Is the Skill" width="90%">
+</p>
 
 *From: AI Beaty — Aesthetic Authority in the Age of AI*
 
