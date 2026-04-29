@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero-banner.png" alt="AI Native PM Agent — 从想法到上线" width="100%">
+  <img src="assets/p0-hero-journey.jpg" alt="AI Native 产品方法论 — 15 阶段英雄旅程" width="100%">
 </p>
 
 # AI Native PM Agent
@@ -39,7 +39,7 @@
 ## 30 秒看懂它能做什么
 
 <p align="center">
-  <img src="assets/pipeline-flow.png" alt="P0→P14 产品阶段流转" width="100%">
+  <img src="assets/p0-methodology-overview.jpg" alt="P0→P14 15 阶段方法论总览" width="100%">
 </p>
 
 **核心能力**：**80 个可执行 Skill** + 阶段自动路由 + 冲突检测 + 证据链追踪
@@ -179,6 +179,10 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 
 ### P0 — 需求发现层（17 个 Skill）
 
+<p align="center">
+  <img src="assets/p0-needs-discovery.jpg" alt="P0 需求发现 — 微需求检测、真需求验证" width="90%">
+</p>
+
 | ID | 名称 | 功能 |
 |----|------|------|
 | p0-needs-orchestrator | 需求发现编排器 | 协调六个工具卡完成系统性需求发现 |
@@ -196,6 +200,11 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 
 ### P1–P2 — 方向定界与实验层（8 个 Skill）
 
+<p align="center">
+  <img src="assets/p1-direction-framing.jpg" alt="P1 方向定界 — 五个必答问题" width="45%">
+  <img src="assets/p2-experiment-engine.jpg" alt="P2 实验引擎 — 先验证再构建" width="45%">
+</p>
+
 | ID | 名称 | 功能 |
 |----|------|------|
 | p1-direction-framing | 方向定界 | 五维判断、Direction Brief |
@@ -208,6 +217,10 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 
 ### P3–P4 — 系统构建层（5 个 Skill）
 
+<p align="center">
+  <img src="assets/p3-system-building.jpg" alt="P3 系统构建 — 数据→能力→产品→护城河，上下文工程，Agent 边界" width="90%">
+</p>
+
 | ID | 名称 | 功能 |
 |----|------|------|
 | p3-system-building | 系统构建 | 从实验到产品转化 |
@@ -217,6 +230,10 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 | p7-knowledge-rag | RAG 与知识系统设计 | 知识管理 + RAG 设计 |
 
 ### P5–P6 — 商业模式层（5 个 Skill）
+
+<p align="center">
+  <img src="assets/p6-business-model.jpg" alt="P6 商业模式 — 确定性溢价与定价策略" width="90%">
+</p>
 
 | ID | 名称 | 功能 |
 |----|------|------|
@@ -239,6 +256,10 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 
 ### P8 — 用户体验层（4 个 Skill）
 
+<p align="center">
+  <img src="assets/p8-rax-framework.jpg" alt="P8 UX — RAX 框架、信任分级、渐进式披露" width="90%">
+</p>
+
 | ID | 名称 | 功能 |
 |----|------|------|
 | p8-ux-design | AI Native UX 设计（总览） | UX 设计方法论 |
@@ -247,6 +268,10 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 | p8c-progressive-disclosure | 渐进式披露设计器 | 设计信息展示的渐进节奏 |
 
 ### P9–P11 — 审计、运营与团队层（9 个 Skill）
+
+<p align="center">
+  <img src="assets/p11-p12-p13-advanced.jpg" alt="P11 团队 + P12 观照 + P13 直觉 — 人机协作、决策修正、九步框架" width="90%">
+</p>
 
 | ID | 名称 | 功能 |
 |----|------|------|
@@ -295,6 +320,10 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 | p13k-intuition-evolution | 直觉进化 | 持续训练判断力、建立标准提升机制 |
 
 ### P14 — 美学权威层（9 个 Skill）
+
+<p align="center">
+  <img src="assets/p14-aesthetic-authority.jpg" alt="P14 美学权威 — 当一切皆可生成，选择力才是核心技能" width="90%">
+</p>
 
 来源：《AI Beaty：美学权威与 AI 时代的选择力》
 
