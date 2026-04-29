@@ -1,147 +1,107 @@
 ---
 name: ai-native-pm-agent
-version: 1.0.0
-description: AI Native 产品经理 Agent — — 五书合一的产品工作流编排器。 用户提供一个产品想法或问题线索，Agent 自动编排七个阶段：
-  P1需求发现 → P2方向定界 → P3体验设计 → P4系统构建 → P5商业模式 → P6增长策略 → P7审计投产。 基于五本书：《AI Native 产品方法论》《AI时代的用户体验》《AI确定性商业模式》《AI
-  Native 营销与增长》《AI rebuild product needs》。
+version: 2.0.0
+description: |
+  AI Native PM Agent — 八书合一的产品全生命周期编排器。
+  用户提供产品想法或问题线索，Agent 自动路由到 P0-P14 对应阶段执行。
+  基于8本书的方法论体系，80个可执行Skill。
 author: max
 tags:
-- ai-product
-- agent
-- orchestrator
-- pm
-- book-skill
-- five-books
+  - ai-product
+  - agent
+  - orchestrator
+  - pm
+  - eight-books
 requires: []
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills
 ---
 
-
 # AI Native PM Agent
 
-## 使用场景
+## When to Use
 
-- 你有一个产品想法，需要从需求发现到生产运行的完整产品方案
-- 你需要用系统化方法论管理 AI 产品全生命周期
-- 你希望五本书的方法论能在一个 Agent 中自然流转
+- You have a product idea and need structured validation
+- You need AI-native methodology (not traditional PM frameworks)
+- You want 8 books of methodology working together in one workflow
 
-## 工作流
+## Workflow
 
-```text
-用户输入
-  → [P1] 需求发现 (ai-native-product-needs/*)
-    → [P2] 方向定界 (ai-native-direction-framing)
-      → [P3] 体验设计 (ai-native-user-experience)
-        → [P4] 系统构建 (ai-native-system-building + 子 Skills)
-          → [P5] 商业模式 (ai-native-business-model/*)
-            → [P6] 增长策略 (ai-native-marketing-growth/*)
-              → [P7] 审计投产 (ai-native-audit-release  / 待创建)
-                → 输出完整产品方案
+```
+User Input
+  → [P0]  Needs Discovery      → Needs Brief
+  → [P1]  Direction Framing     → Direction Brief
+  → [P2]  Experiment Engine     → Experiment Results
+  → [P3]  System Building       → System Architecture
+  → [P4]  Agent & Skill Design  → Agent/Skill Specs
+  → [P5]  Business Model        → Pricing Strategy
+  → [P6]  Growth Strategy       → Growth Plan
+  → [P8]  UX Design             → UX Design + Trust Tiers
+  → [P9]  Audit & Release       → Release Boundary Doc
+  → [P10] Production Ops        → Monitoring + Feedback Loops
 ```
 
-## 阶段详情
+**Meta stages** (available anytime):
+- [P11] Product Team — human-AI division of labor
+- [P12] Contemplation — view correction & prerequisite checks
+- [P13] Judgment & Intuition — nine-step decision framework
+- [P14] Aesthetic Authority — aesthetic system & selection criteria
 
-### P1: 需求发现
-- **Skill**: `ai-native-product-needs/*`
-- **输入**: 用户原始想法
-- **输出**: 需求简报 (Needs Brief)
-- **关键判断**: 机会评分 >= 60 才进入 P2
+## Routing Decision Table
 
-### P2: 方向定界
-- **Skill**: `ai-native-direction-framing`
-- **输入**: P1 需求简报
-- **输出**: Direction Brief
-- **关键判断**: go/no-go 决策
+| User says... | Route to | First Skill |
+|---|---|---|
+| "I have a pain point / idea" | P0 | `p0-needs-orchestrator` |
+| "Is this direction worth pursuing?" | P1 | `p1-direction-framing` |
+| "Help me validate with experiments" | P2 | `p2a-experiment-overview` |
+| "How to build the system?" | P3 | `p3-system-building` |
+| "Design the AI agent/skills" | P4 | `p4-agent-skill-design` |
+| "How should I price this?" | P5 | `p6-business-model` |
+| "How to get users and grow?" | P6 | `p7-marketing-growth` |
+| "How should the AI feel to use?" | P8 | `p8-ux-design` |
+| "Ready to launch, check it" | P9 | `p9-audit-release` |
+| "It's live, keep it healthy" | P10 | `p10-production-ops` |
+| "How should humans and AI divide work?" | P11 | `p11-product-team` |
+| "Am I asking the right question?" | P12 | `p12-contemplation-orchestrator` |
+| "How to make better decisions?" | P13 | `p13-intuition-orchestrator` |
+| "What makes this feel premium?" | P14 | `p14-beauty-orchestrator` |
 
-### P3: 体验设计
-- **Skill**: `ai-native-user-experience`
-- **输入**: P2 Direction Brief
-- **输出**: UX 方案
-- **关键判断**: 人机协作模式定义
+## Conflict Detection (auto-run after paired stages)
 
-### P4: 系统构建
-- **Skill**: `ai-native-system-building` + 子 Skills
-- **输入**: P3 UX 方案
-- **输出**: 系统架构方案
-- **包含**: Agent/Skill/记忆/上下文/RAG
+| Check | Trigger | Conflict If |
+|---|---|---|
+| Cost-Pricing | P4 done + P5 done | system_cost × 3 > pricing_floor |
+| UX-Latency | P8 done + P3 done | UX requires realtime but latency P95 > 2s |
+| Growth-Capacity | P6 done + P3 done | growth targets exceed system capacity |
 
-### P5: 商业模式
-- **Skill**: `ai-native-business-model/*`
-- **输入**: P4 系统成本估算
-- **输出**: 定价策略 + 收入模型
-- **关键判断**: 成本-定价匹配
+## User Checkpoints (must pause for confirmation)
 
-### P6: 增长策略
-- **Skill**: `ai-native-marketing-growth/*`
-- **输入**: P5 商业模式
-- **输出**: 获客/激活/留存方案
-- **关键判断**: 增长目标-系统承载匹配
+1. **After P1** — Direction go/no-go
+2. **After P3** — System architecture approval
+3. **After P9** — Final release decision
 
-### P7: 审计投产
-- **Skill**: `ai-native-audit-release`
-- **输入**: P4-P6 全部方案
-- **输出**: go/no-go 决策 + 监控方案
+## Execution Steps
 
-## 核心机制
+1. Detect user intent → route to correct stage via decision table above
+2. Load and execute the corresponding Skill
+3. After stage completes, write output to Product Context (see `references/product-context-schema.md`)
+4. Run conflict detection if paired stages are done
+5. Pause at user checkpoints; auto-advance otherwise
+6. User can say "go back to P2" → rollback with version tracking
 
-### 上下文传递
+## What NOT to Do → Do This Instead
 
-每个阶段的输出自动写入 Product Context 的对应字段，下一阶段启动时自动读取。
+| Don't | Do |
+|---|---|
+| Don't start building before validating needs | Run P0 needs discovery first |
+| Don't skip direction framing to "move fast" | P1 takes 30 min and saves 3 months |
+| Don't design capabilities before boundaries | P0f boundary checklist before P4 |
+| Don't price on features alone | Use P5 certainty premium formula |
+| Don't launch without audit | P9 audit is mandatory, not optional |
+| Don't ignore post-launch drift | P10 monitors and feeds back to P0 |
 
-```yaml
-product_context:
-  version: "1.0"
-  created_at: "2026-04-27T11:00:00+08:00"
-  status: "active"  # active / paused / rollback
-  current_stage: "p1"  # p1-p7
-  
-  # 各阶段输出物
-  artifacts:
-    p1_needs_brief: null       # ai-native-product-needs 产出
-    p2_direction_brief: null   # ai-native-direction-framing 产出
-    p3_ux_design_brief: null   # ai-native-user-experience 产出
-    p4_system_architecture: null  # ai-native-system-building 产出
-    p5_business_model_brief: null # ai-native-business-model 产出
-    p6_growth_strategy_brief: null # ai-native-marketing-growth 产出
-    p7_audit_decision: null    # ai-native-audit-release 产出
-  
-  # 回溯历史
-  history:
-    - stage: "p1"
-      version: 1
-      completed_at: "2026-04-27T11:30:00+08:00"
-      artifacts_key: "p1_needs_brief"
-  
-  # 冲突检测结果
-  conflict_checks:
-    p4_p5_cost_pricing: null
-    p3_p4_ux_latency: null
-    p6_p4_growth_capacity: null
-```
+## Detailed References
 
-### 冲突检测
-每完成两个阶段，自动运行冲突检测：
-- P4 + P5 → 成本-定价匹配
-- P3 + P4 → UX-系统延迟匹配
-- P6 + P4 → 增长-承载匹配
-
-### 用户交互点
-以下节点必须等待用户确认：
-1. P2 结束后（方向定界 go/no-go）
-2. P4 结束后（系统架构方案确认）
-3. P7 结束后（最终投产决策）
-
-### 回溯机制
-用户可在任意时刻说：
-- "回到 P2 重新看方向" → 保留 P3-P7 为 v1，重新执行 P2 生成 v2
-- "P4 的系统成本太高了" → 回溯到 P4，P5-P7 标记为待更新
-
-## 使用方式
-
-当用户提供一个产品想法时，自动执行：
-
-1. 初始化 Product Context
-2. 按阶段路由依次执行各阶段 Skill
-3. 每阶段完成后进行冲突检测
-4. 用户可在任意节点确认/修改/回溯
-5. 最终输出完整产品方案
+- Stage routing rules: `references/stage-routing.md`
+- Conflict detection logic: `references/conflict-detection.md`
+- Product context schema: `references/product-context-schema.md`
+- Skill registry: `skill-registry.yaml`
