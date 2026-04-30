@@ -41,7 +41,10 @@ Traditional product frameworks (Lean Startup, Jobs-to-be-Done, Design Thinking) 
 ## See What It Does in 30 Seconds
 
 <p align="center">
-  <img src="assets/p0-methodology-overview.jpg" alt="P0→P14 15-Stage Methodology Overview" width="100%">
+  <video controls width="100%" poster="assets/p0-methodology-overview.jpg">
+    <source src="assets/ai-native-pm-agent-intro.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </p>
 
 **Core Capabilities**: **80 executable Skills** across 8 stages + Stage auto-routing + Conflict detection + Evidence chain tracking

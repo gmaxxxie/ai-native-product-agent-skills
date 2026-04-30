@@ -1,0 +1,5 @@
+feat: add 30s introduction video to README (EN and CN)
+
+Embed the AI Native PM Agent intro video (HyperFrames composition with
+voiceover, BGM and subtitles) in both English and Chinese READMEs.
+Replaces the static overview image with an HTML5 video tag.
