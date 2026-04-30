@@ -39,10 +39,11 @@
 ## 30 秒看懂它能做什么
 
 <p align="center">
-  <video controls width="100%" poster="assets/p0-methodology-overview.jpg">
-    <source src="assets/ai-native-pm-agent-intro.mp4" type="video/mp4">
-    您的浏览器不支持视频标签。
-  </video>
+  <a href="assets/ai-native-pm-agent-intro.mp4">
+    <img src="assets/p0-methodology-overview.jpg" alt="点击播放介绍视频" width="100%">
+    <br>
+    <em>▶ 点击播放 30 秒介绍视频（2.3 MB MP4）</em>
+  </a>
 </p>
 
 **核心能力**：**80 个可执行 Skill** + 阶段自动路由 + 冲突检测 + 证据链追踪
