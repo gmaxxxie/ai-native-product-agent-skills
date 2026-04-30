@@ -39,7 +39,10 @@
 ## 30 秒看懂它能做什么
 
 <p align="center">
-  <img src="assets/p0-methodology-overview.jpg" alt="P0→P14 15 阶段方法论总览" width="100%">
+  <video controls width="100%" poster="assets/p0-methodology-overview.jpg">
+    <source src="assets/ai-native-pm-agent-intro.mp4" type="video/mp4">
+    您的浏览器不支持视频标签。
+  </video>
 </p>
 
 **核心能力**：**80 个可执行 Skill** + 阶段自动路由 + 冲突检测 + 证据链追踪
