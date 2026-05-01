@@ -1,25 +1,14 @@
 ---
 name: ai-native-agent-skill-design
-description: 'AI Native 产品方法论——智能体与技能单元设计的实操 Skill。
-
+description: |
+  AI Native 产品方法论——智能体与技能单元设计的实操 Skill。
   用户提供任务场景，Skill 自动执行能力编排设计流程：
-
   任务拆解 → Agent 角色定义 → Skill 拆分 → Tool 映射 → 边界与回退设计 → 输出能力编排方案。
-
   基于《AI Native 产品方法论》第12章。
-
-  '
-tags:
-- ai-product
-- methodology
-- agent
-- skill
-- orchestration
-- book-skill
+tags: [ai-product, methodology, agent, skill, orchestration, book-skill]
 author: Max
-source_book: AI Native 产品方法论
+source_book: "AI Native 产品方法论"
 version: 1.0
-homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p4-agent-skill-design
 ---
 
 # AI Native 智能体与技能单元设计 Skill
@@ -29,6 +18,24 @@ homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/s
 - 产品需要从单轮问答进化到多步任务推进
 - 需要设计可复用的能力模块（Skill）和任务编排层（Agent）
 - 需要明确智能体的边界：可以推进到哪里、何时必须停下并把控制权交还给人
+
+## 触发条件
+
+当用户提到以下任一场景时触发：
+- 需要把 AI 能力封装成可复用的 Skill 或 Agent
+- 产品从单轮问答升级到多步任务编排
+- 设计智能体的任务拆解、角色分工或边界控制
+- 输出 Agent/Skill 设计方案或架构文档
+
+## 执行步骤
+
+1. **判断是否真的需要 Agent**：分析任务特征，如果只是单轮问答或单次分类，Prompt + RAG 或固定 Workflow 通常就足够。
+2. **任务拆解**：将复杂任务拆解为可独立执行的子任务，形成任务拆解图。
+3. **Agent 角色定义**：定义目标理解、任务规划、Skill 选择、结果组织四个核心职责。
+4. **Skill 设计**：为每个子任务设计 Skill，明确输入范围、输出约束和失败条件。
+5. **Tool 映射**：将每个 Skill 映射到具体的系统接口或外部工具。
+6. **边界与回退设计**：定义什么情况下必须停下并交还给人，设计回退、降级和超时处理机制。
+7. **输出能力编排方案**：整合任务拆解图、Agent 角色定义、Skill 清单、Tool 映射和边界设计。
 
 ## 核心概念
 

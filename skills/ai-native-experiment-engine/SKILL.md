@@ -1,34 +1,53 @@
 ---
 name: ai-native-experiment-engine
-description: 'AI Native 产品方法论——试验展开阶段的实操 Skill。
-
+description: |
+  AI Native 产品方法论——试验展开阶段的实操 Skill。
   用户提供 Direction Brief 或问题方向，Skill 自动执行试验展开流程：
-
   资料准备 → 能力实验 → 产品实验 → 商业实验 → 评估与失败分析 → 输出实验结论报告。
-
   覆盖《AI Native 产品方法论》第06-10章。
-
-  '
-tags:
-- ai-product
-- methodology
-- experiment
-- evaluation
-- prototype
-- book-skill
+tags: [ai-product, methodology, experiment, evaluation, prototype, book-skill]
 author: Max
-source_book: AI Native 产品方法论
+source_book: "AI Native 产品方法论"
 version: 1.0
-homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p2-experiment-engine
 ---
 
 # AI Native 试验展开 Skill
+
+## 触发条件
+
+当用户提供 Direction Brief 或已通过方向定界的问题方向，需要进入实验验证阶段时，触发此 Skill。
 
 ## 使用场景
 
 - 方向定界已完成，需要进入实验验证阶段
 - 需要设计一组可验证、可比较、可放弃、可继承的实验体系
 - 需要判断某个 AI 能力在真实任务中是否成立
+
+## 执行步骤
+
+1. **资料准备**：准备外部资料、内部业务资料、样本集（正例/负例/边界案例）和评估标准（Rubric）。
+2. **能力实验**：先用最强模型测试能力天花板，确定上限后用更便宜模型测试成本压缩空间。
+3. **产品实验**：验证用户是否愿意以某种交互或流程使用这项能力，评估任务完成率和满意度。
+4. **商业实验**：验证客户是否愿意付费试点，评估续期意愿和场景扩展可能性。
+5. **评估与失败分析**：用样本、对照和失败案例判断能力是否成立，沉淀失败模式为下一轮优化输入。
+6. **输出实验结论报告**：整合能力边界、产品形态建议、资料缺口、风险边界和进入系统构建的条件。
+
+## 整合子方法（原 p2a–p2e）
+
+### p2a: 试验展开概述
+从 Direction Brief 出发，执行资料准备评估→三层实验体系设计（能力/产品/商业）→评估 Rubric 建立→实验节奏规划，输出试验展开总体方案。确保每轮实验可验证、可比较、可放弃、可继承。
+
+### p2b: 产品形态探索
+在能力实验结论基础上，通过能力边界分析→交互原型设计→工作流嵌入测试→产品形态判断，用实验驱动设计（而非拍脑袋）决定最终形态：问答、Copilot、工作流还是 Agent。
+
+### p2c: 流程重构与任务设计
+产品形态确定后，执行任务拆解→人机协作模式选择（助手/协同/自主）→工作流设计→节点标注（Human-in-the-Loop vs on-the-Loop）→验证与迭代，输出流程重构方案。
+
+### p2d: 目标收敛与产品决策
+多轮实验完成后，整理实验记录→证据对比分析→收敛信号识别（稳定成功率/清晰边界/用户接受度/价值密度）→做出继续/延后/转向/停止的产品决策，输出收敛报告。
+
+### p2e: 影子验证
+收敛决策后，设计影子系统→与人工流程并行运行→建立人工对比机制→沉淀失败模式→为审计放行准备真实可量化证据。影子验证是离线评估与灰度上线之间的关键桥梁。
 
 ## 核心概念
 
