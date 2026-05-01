@@ -14,7 +14,7 @@ requires:
 - p0a-micro-needs-detector
 - p0b-real-needs-validator
 - p0c-needs-decomposer
-- p1-direction-framing
+- ai-native-direction-framing
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/combo-needs-to-direction
 stage: combo
 source_book: AI Native 产品方法论

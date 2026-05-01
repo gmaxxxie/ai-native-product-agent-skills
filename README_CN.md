@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/p0-hero-journey.jpg" alt="AI Native 产品方法论 — 15 阶段英雄旅程" width="100%">
+  <img src="assets/hero-banner.png" alt="AI Native PM Agent — 从想法到上线" width="100%">
 </p>
 
 # AI Native PM Agent
@@ -39,11 +39,7 @@
 ## 30 秒看懂它能做什么
 
 <p align="center">
-  <a href="assets/ai-native-pm-agent-intro.mp4">
-    <img src="assets/p0-methodology-overview.jpg" alt="点击播放介绍视频" width="100%">
-    <br>
-    <em>▶ 点击播放 30 秒介绍视频（2.3 MB MP4）</em>
-  </a>
+  <img src="assets/pipeline-flow.png" alt="P0→P14 产品阶段流转" width="100%">
 </p>
 
 **核心能力**：**80 个可执行 Skill** + 阶段自动路由 + 冲突检测 + 证据链追踪
@@ -117,8 +113,8 @@ hermes skills install \
 
 # 任意单个 Skill
 hermes skills install \
-  https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/skills/p1-direction-framing/SKILL.md \
-  --name p1-direction-framing
+  https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/skills/ai-native-direction-framing/SKILL.md \
+  --name ai-native-direction-framing
 ```
 
 ### 方式三：克隆 & 本地安装
@@ -183,10 +179,6 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 
 ### P0 — 需求发现层（17 个 Skill）
 
-<p align="center">
-  <img src="assets/p0-needs-discovery.jpg" alt="P0 需求发现 — 微需求检测、真需求验证" width="90%">
-</p>
-
 | ID | 名称 | 功能 |
 |----|------|------|
 | p0-needs-orchestrator | 需求发现编排器 | 协调六个工具卡完成系统性需求发现 |
@@ -204,16 +196,11 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 
 ### P1–P2 — 方向定界与实验层（8 个 Skill）
 
-<p align="center">
-  <img src="assets/p1-direction-framing.jpg" alt="P1 方向定界 — 五个必答问题" width="45%">
-  <img src="assets/p2-experiment-engine.jpg" alt="P2 实验引擎 — 先验证再构建" width="45%">
-</p>
-
 | ID | 名称 | 功能 |
 |----|------|------|
-| p1-direction-framing | 方向定界 | 五维判断、Direction Brief |
+| ai-native-direction-framing | 方向定界 | 五维判断、Direction Brief |
 | p2-experiment-engine | 实验展开（总览） | 能力/产品/商业三层实验 |
-| p2a-experiment-overview | 实验概述 | 资料准备评估、三层实验体系设计、Rubric 建立 |
+| ai-native-experiment-engine | 实验概述 | 资料准备评估、三层实验体系设计、Rubric 建立 |
 | p2b-product-form-exploration | 产品形态探索 | 能力边界分析、交互原型设计、产品形态判断 |
 | p2c-process-redesign | 流程重构 | 任务拆解、人机协作模式选择、工作流节点标注 |
 | p2d-convergence-decision | 目标收敛决策 | 实验记录整理、收敛信号识别、继续/延后/停止决策 |
@@ -221,23 +208,15 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 
 ### P3–P4 — 系统构建层（5 个 Skill）
 
-<p align="center">
-  <img src="assets/p3-system-building.jpg" alt="P3 系统构建 — 数据→能力→产品→护城河，上下文工程，Agent 边界" width="90%">
-</p>
-
 | ID | 名称 | 功能 |
 |----|------|------|
-| p3-system-building | 系统构建 | 从实验到产品转化 |
-| p4-agent-skill-design | 智能体与技能单元设计 | Agent/Skill 单元设计 |
+| ai-native-system-building | 系统构建 | 从实验到产品转化 |
+| ai-native-agent-skill-design | 智能体与技能单元设计 | Agent/Skill 单元设计 |
 | p5-memory-system | 记忆系统设计 | AI 产品记忆架构 |
 | p6-context-engineering | 上下文工程设计 | 上下文管理系统 |
 | p7-knowledge-rag | RAG 与知识系统设计 | 知识管理 + RAG 设计 |
 
 ### P5–P6 — 商业模式层（5 个 Skill）
-
-<p align="center">
-  <img src="assets/p6-business-model.jpg" alt="P6 商业模式 — 确定性溢价与定价策略" width="90%">
-</p>
 
 | ID | 名称 | 功能 |
 |----|------|------|
@@ -260,27 +239,19 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 
 ### P8 — 用户体验层（4 个 Skill）
 
-<p align="center">
-  <img src="assets/p8-rax-framework.jpg" alt="P8 UX — RAX 框架、信任分级、渐进式披露" width="90%">
-</p>
-
 | ID | 名称 | 功能 |
 |----|------|------|
-| p8-ux-design | AI Native UX 设计（总览） | UX 设计方法论 |
+| ai-native-ux-design | AI Native UX 设计（总览） | UX 设计方法论 |
 | p8a-rax-risk-assessor | RAX 风险评估器 | 评估 AI Agent 代理行动的风险等级 |
 | p8b-trust-tier-designer | 信任分级设计器 | 设计 AI Agent 的信任梯度 |
 | p8c-progressive-disclosure | 渐进式披露设计器 | 设计信息展示的渐进节奏 |
 
 ### P9–P11 — 审计、运营与团队层（9 个 Skill）
 
-<p align="center">
-  <img src="assets/p11-p12-p13-advanced.jpg" alt="P11 团队 + P12 观照 + P13 直觉 — 人机协作、决策修正、九步框架" width="90%">
-</p>
-
 | ID | 名称 | 功能 |
 |----|------|------|
-| p9-audit-release | 审计放行 | go/no-go 决策 |
-| p10-production-ops | 生产运行与循环回灌 | 监控与反馈循环 |
+| ai-native-audit-release | 审计放行 | go/no-go 决策 |
+| ai-native-production-ops | 生产运行与循环回灌 | 监控与反馈循环 |
 | p10a-value-discovery-loop | 价值发现循环 | 从价值信号识别到方向修正的完整闭环 |
 | p10b-aiops-case | AIOps 行业案例模板 | 高风险、强约束、重责任场景的完整方法论路径 |
 | p10c-customer-service-case | AI 客服行业案例模板 | 服务协同、Copilot、经验复利的完整方法论路径 |
@@ -324,10 +295,6 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 | p13k-intuition-evolution | 直觉进化 | 持续训练判断力、建立标准提升机制 |
 
 ### P14 — 美学权威层（9 个 Skill）
-
-<p align="center">
-  <img src="assets/p14-aesthetic-authority.jpg" alt="P14 美学权威 — 当一切皆可生成，选择力才是核心技能" width="90%">
-</p>
 
 来源：《AI Beaty：美学权威与 AI 时代的选择力》
 
@@ -376,15 +343,15 @@ ai-native-pm-agent-skills/
 │   ├── p0g-diversity-rewrite-checklist/        # P0g 多元推荐检查清单
 │   ├── p0h-ai-product-triple-balance/          # P0h 三重平衡
 │   ├── p0h-triple-balance-assessor/            # P0h 三重平衡评估
-│   ├── p1-direction-framing/         # P1 方向定界
+│   ├── ai-native-direction-framing/         # P1 方向定界
 │   ├── p2-experiment-engine/         # P2 实验总览
-│   ├── p2a-experiment-overview/      # P2a 实验概述
+│   ├── ai-native-experiment-engine/      # P2a 实验概述
 │   ├── p2b-product-form-exploration/ # P2b 产品形态探索
 │   ├── p2c-process-redesign/         # P2c 流程重构
 │   ├── p2d-convergence-decision/      # P2d 目标收敛
 │   ├── p2e-shadow-validation/        # P2e 影子验证
-│   ├── p3-system-building/           # P3 系统构建
-│   ├── p4-agent-skill-design/        # P4 智能体与技能设计
+│   ├── ai-native-system-building/           # P3 系统构建
+│   ├── ai-native-agent-skill-design/        # P4 智能体与技能设计
 │   ├── p5-memory-system/             # P5 记忆系统
 │   ├── p6-context-engineering/       # P6 上下文工程
 │   ├── p7-knowledge-rag/              # P7 RAG 与知识系统
@@ -399,12 +366,12 @@ ai-native-pm-agent-skills/
 │   ├── p7c-predictive-retention-designer/  # P7c 预测性留存
 │   ├── p7d-marketing-productizer/    # P7d 营销产品化
 │   ├── p7e-customer-loop/            # P7e 客户循环
-│   ├── p8-ux-design/                 # P8 UX 设计总览
+│   ├── ai-native-ux-design/                 # P8 UX 设计总览
 │   ├── p8a-rax-risk-assessor/        # P8a RAX 风险评估
 │   ├── p8b-trust-tier-designer/      # P8b 信任分级
 │   ├── p8c-progressive-disclosure/   # P8c 渐进式披露
-│   ├── p9-audit-release/             # P9 审计放行
-│   ├── p10-production-ops/           # P10 生产运营
+│   ├── ai-native-audit-release/             # P9 审计放行
+│   ├── ai-native-production-ops/           # P10 生产运营
 │   ├── p10a-value-discovery-loop/    # P10a 价值发现循环
 │   ├── p10b-aiops-case/             # P10b AIOps 案例
 │   ├── p10c-customer-service-case/   # P10c AI 客服案例

@@ -1,0 +1,104 @@
+{
+  "videoId": "RlsOGvrpEsw",
+  "title": "Stop Applying to AI PM Jobs Until You Watch This",
+  "channel": "Aakash Gupta",
+  "channelId": "UCsHBhXybRz2CCfpU0hWp7ow",
+  "description": "Jyothi Nookula has 13.5 years in AI, 12 patents, and has been an AIPM at Amazon (SageMaker), Meta (PyTorch), Netflix (Developer Platform), and Etsy. In this masterclass episode, she breaks down the two types of AIPM roles, the three layers of the AI stack, when AI makes sense versus when heuristics win, how to pick between ML, deep learning, and Gen AI, and builds AI agents and RAG systems live.\n\nFull Writeup: https://www.news.aakashg.com/p/jyothi-nookula-podcast\nTranscript: https://www.aakashg.com/jyothi-nookula-podcast/\n\n---\n\nTimestamps:\n\n0:00 - Intro\n1:43 - Is AI PM actually real or is it BS?\n4:22 - The roadmap to becoming an AIPM\n7:11 - 5 core concepts every AIPM needs to know\n10:06 - What differentiates a PM from an AIPM\n11:50 - Ads\n15:20 - When to use AI and when not to use AI\n20:42 - How to select the right AI technique\n26:32 - AI agents: building blocks, workflows vs agents\n31:03 - Ads\n33:26 - Building a workflow vs an agent in N8N\n43:40 - Prompt engineering and context engineering\n48:15 - RAG systems explained and built in Langflow\n58:57 - The AIPM career playbook and portfolio strategy\n1:02:00 - How PM cultures differ at Amazon, Meta, and Netflix\n1:07:15 - Why Jyothi left Netflix\n1:11:15 - Outro\n\n---\n\n🏆 Thanks to our sponsors:\n\n1. Product Faculty: Get $550 off their #1 AI PM Certification with my link - https://maven.com/product-faculty/ai-product-management-certification?promoCode=AAKASH550C7\n2. Amplitude: The most accurate mobile session replays with no performance hit - https://amplitude.com/session-replay?utm_campaign=session-replay-launch-2025&utm_source=linkedin&utm_medium=organic-social&utm_content=productgrowthpodcast\n3. Pendo: Measure your AI agent performance with Pendo Agent Analytics - http://www.pendo.io/aakash\n4. NayaOne: Airgapped cloud-agnostic sandbox to validate AI tools faster - https://nayaone.com/aakash/\n5. Kameleoon: Prompt-based experimentation that turns days of dev time into minutes - http://www.kameleoon.com/\n\n---\n\nKey Takeaways:\n\n1. Two types of AIPM roles exist - 80% are traditional PM roles with AI features added on, where the core product existed before AI. 20% are AI native roles where the product IS AI and the value proposition is impossible without it. Know which type before you apply.\n\n2. The AI PM stack has three layers - Application PMs own user experience (60% of roles, easiest entry point). Platform PMs build tools for other builders (30%). Infra PMs build foundational systems like vector databases and GPU orchestration (10%).\n\n3. 19 out of 20 AI pilots fail from wrong problem selection - AI makes sense for complex pattern recognition, prediction from historical data, and personalization at scale. If explainability is non-negotiable, rules exist, data is limited, or speed is critical, start with heuristics.\n\n4. Most teams overcomplicate their AI technique choice - If you can put the problem in a spreadsheet with inputs and an output to predict, traditional ML is the answer. Perception problems need deep learning. Natural language reasoning needs Gen AI. These are not competitors, they are tools in your toolkit.\n\n5. AI products are fundamentally probabilistic - The same input can produce different outputs. AIPMs must think in quality distributions and acceptable error rates, not binary success vs failure. Data is a first-class citizen, not a nice-to-have.\n\n6. Agents decide, workflows follow steps - Workflows have predetermined sequences with deterministic outcomes. Agents receive goals and independently decide which tools to use. The live N8N demo showed identical tools producing completely different execution patterns.\n\n7. Context engineering is the real production skill - Claude Sonnet has a 200K token context window but that fills fast with knowledge bases, conversation history, and real-time data. Every token costs money. Managing what to load and when directly impacts both quality and cost.\n\n8. Follow the hierarchy before fine tuning - Prompt optimisation first, then context engineering, then RAG. 80% of use cases get solved with RAG. Fine tuning should only be considered after exhausting all three.\n\n9. Build products not projects - Launch your AI work, get real users, encounter real breakage. That gives you richer interview material than any course certificate. Build an agent, build a RAG system, and build an app that solves a real problem.\n\n---\n👨‍💻 Where to find Jyothi Nookula:\nLinkedIn: https://www.linkedin.com/in/jyothinookula/\nNextGen Product Manager: https://enterprisereadyaipmroadmap.com/\n\n👨‍💻 Where to find Aakash:\nTwitter: https://www.x.com/aakashg0\nLinkedIn: https://www.linkedin.com/in/aakashgupta/\nNewsletter: https://www.news.aakashg.com\n\n#aipm #aiproductmanagement\n\n---\n🧠 About Product Growth:\nThe world's largest podcast focused solely on product + growth, with over 200K+ listeners.\n🔔 Subscribe and turn on notifications to get more videos like this.",
+  "duration": 4334,
+  "publishDate": "",
+  "url": "https://www.youtube.com/watch?v=RlsOGvrpEsw",
+  "coverImage": "imgs/cover.jpg",
+  "thumbnailUrl": "https://i.ytimg.com/vi/RlsOGvrpEsw/maxresdefault.jpg",
+  "language": {
+    "code": "en",
+    "name": "English (auto-generated)",
+    "isGenerated": true
+  },
+  "chapters": [
+    {
+      "title": "- Intro",
+      "start": 0,
+      "end": 103
+    },
+    {
+      "title": "- Is AI PM actually real or is it BS?",
+      "start": 103,
+      "end": 262
+    },
+    {
+      "title": "- The roadmap to becoming an AIPM",
+      "start": 262,
+      "end": 431
+    },
+    {
+      "title": "- 5 core concepts every AIPM needs to know",
+      "start": 431,
+      "end": 606
+    },
+    {
+      "title": "- What differentiates a PM from an AIPM",
+      "start": 606,
+      "end": 710
+    },
+    {
+      "title": "- Ads",
+      "start": 710,
+      "end": 920
+    },
+    {
+      "title": "- When to use AI and when not to use AI",
+      "start": 920,
+      "end": 1242
+    },
+    {
+      "title": "- How to select the right AI technique",
+      "start": 1242,
+      "end": 1592
+    },
+    {
+      "title": "- AI agents: building blocks, workflows vs agents",
+      "start": 1592,
+      "end": 1863
+    },
+    {
+      "title": "- Ads",
+      "start": 1863,
+      "end": 2006
+    },
+    {
+      "title": "- Building a workflow vs an agent in N8N",
+      "start": 2006,
+      "end": 2620
+    },
+    {
+      "title": "- Prompt engineering and context engineering",
+      "start": 2620,
+      "end": 2895
+    },
+    {
+      "title": "- RAG systems explained and built in Langflow",
+      "start": 2895,
+      "end": 3537
+    },
+    {
+      "title": "- The AIPM career playbook and portfolio strategy",
+      "start": 3537,
+      "end": 3720
+    },
+    {
+      "title": "- How PM cultures differ at Amazon, Meta, and Netflix",
+      "start": 3720,
+      "end": 4035
+    },
+    {
+      "title": "- Why Jyothi left Netflix",
+      "start": 4035,
+      "end": 4275
+    },
+    {
+      "title": "- Outro",
+      "start": 4275,
+      "end": 4334
+    }
+  ]
+}
