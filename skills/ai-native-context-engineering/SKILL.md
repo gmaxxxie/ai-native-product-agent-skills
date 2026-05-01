@@ -1,25 +1,14 @@
 ---
 name: ai-native-context-engineering
-description: 'AI Native 产品方法论——上下文工程的实操 Skill。
-
+description: |
+  AI Native 产品方法论——上下文工程的实操 Skill。
   用户提供任务场景，Skill 自动执行上下文组织流程：
-
   任务目标识别 → 上下文层选择 → 动态拼装 → 成本与窗口控制 → 结果校验与纠偏 → 输出上下文工程方案。
-
   基于《AI Native 产品方法论》第14章。
-
-  '
-tags:
-- ai-product
-- methodology
-- context
-- prompt-engineering
-- input-design
-- book-skill
+tags: [ai-product, methodology, context, prompt-engineering, input-design, book-skill]
 author: Max
-source_book: AI Native 产品方法论
+source_book: "AI Native 产品方法论"
 version: 1.0
-homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p6-context-engineering
 ---
 
 # AI Native 上下文工程 Skill
@@ -29,6 +18,23 @@ homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/s
 - 产品需要组织复杂的输入信息交给模型
 - 需要设计可解释、可替换、可治理的上下文组织方案
 - 需要避免"上下文太少—AI不知道自己在做什么"或"上下文太多—AI被噪音淹没"
+
+## 触发条件
+
+当用户提到以下任一场景时触发：
+- 需要设计 AI 产品的上下文组织方案
+- 模型输出质量不稳定，怀疑是上下文问题
+- 需要在有限 token 窗口内优化信息密度
+- 设计动态上下文拼装、分层注入或压缩策略
+
+## 执行步骤
+
+1. **任务目标识别**：明确用户当前想完成什么任务，确定任务类型和咨询类别。
+2. **上下文层选择**：根据任务类型决定需要激活哪些层次——目标层、规则层、知识层、状态层、记忆层。
+3. **动态拼装**：根据用户角色、任务类型和当前状态，为每次调用临时组装所需上下文。
+4. **窗口与成本控制**：在有限的 token 窗口内优化信息密度，控制单次调用成本和响应延迟。
+5. **失败检测规则**：设计上下文缺失检测、信息冲突检测、时效失效检测和 token 超限检测。
+6. **输出上下文工程方案**：整合上下文层次设计、动态拼装规则、窗口策略和失败检测规则。
 
 ## 核心概念
 

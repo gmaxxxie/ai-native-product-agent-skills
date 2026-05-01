@@ -1,25 +1,19 @@
 ---
 name: ai-native-ux-design
-description: 'AI Native 产品方法论——AI Native 用户体验设计的实操 Skill。
-
+version: 1.1.0
+description: |
+  AI Native 产品方法论——AI Native 用户体验设计的实操 Skill。
   用户提供产品场景，Skill 自动执行 UX 设计流程：
-
   任务分析 → 人机分工设计 → 状态可见性 → 纠偏机制 → 信任设计 → 反馈沉淀 → 输出 UX 方案。
-
   基于《AI Native 产品方法论》第16章。
-
-  '
-tags:
-- ai-product
-- methodology
-- ux
-- human-ai-collaboration
-- trust
-- book-skill
+tags: [ai-product, methodology, ux, human-ai-collaboration, trust, book-skill]
 author: Max
-source_book: AI Native 产品方法论
-version: 1.0
-homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p8-ux-design
+source_book: "AI Native 产品方法论"
+stage: p8
+archived_sub_skills:
+  - p8a-rax-risk-assessor
+  - p8b-trust-tier-designer
+  - p8c-progressive-disclosure
 ---
 
 # AI Native 用户体验设计 Skill
@@ -29,6 +23,16 @@ homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/s
 - 产品需要设计人与 AI 协作的交互体验
 - 需要让用户理解系统、信任系统、愿意持续与系统协作
 - 需要设计渐进式自动化路径
+
+## 执行步骤
+
+1. **任务链路分析**：梳理用户从表达目标到完成任务的完整链路，识别人机协作的核心节点。
+2. **人机分工设计**：为每个任务节点定义 AI 职责、人类职责和决策模式（AI 自动/建议/人权决）。
+3. **状态可见性设计**：设计系统如何展示 AI 分析结果、置信度、数据来源和风险标记。
+4. **纠偏机制设计**：设计快速编辑、重新生成、完全拒绝和标记错误等纠偏入口。
+5. **信任 UX 设计**：设计来源展示、不确定性提示和边界告知，建立合理信任。
+6. **反馈沉淀机制**：设计有效反馈收集方式，将反馈转化为系统改进。
+7. **输出 UX 方案**：整合人机分工图、状态可见性、纠偏机制、信任设计和反馈机制。
 
 ## 核心概念
 
@@ -58,7 +62,7 @@ homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/s
 传统软件体验主要围绕界面效率：导航是否清晰、按钮是否顺手、表单是否顺畅。
 
 AI Native 产品新增了另一层体验：
-n- 用户如何表达意图
+- 用户如何表达意图
 - 系统如何理解目标
 - 结果如何被解释
 - 错误如何被纠正
@@ -124,6 +128,19 @@ AI 产品的体验设计不应停留在"回答好看不好看"，而要围绕任
 - 在分析系统里，关键不是输出多漂亮，而是能否让用户快速理解异常原因并采取行动
 - 在客服系统里，关键不是回复多长，而是能否更快、更稳地解决问题
 
+## 合并子 Skill 摘要
+
+以下三个子 Skill 已归档至 `.archive/`，核心内容已合并入本节：
+
+### p8a: RAX 风险评估器
+基于 RAX 框架（Risk, Ambiguity, eXposure）系统性评估 AI 产品的风险、模糊性和暴露程度，帮助产品团队识别和管理用户体验风险，找出 UX 弱点。
+
+### p8b: 信任度分级设计器
+设计 AI 产品的信任度分级体系，让用户从"尝试"到"依赖"渐进式地建立对 AI 的信任，通过分级交付策略降低用户的心理门槛。
+
+### p8c: 渐进式披露清单
+按照用户成熟度逐步展示 AI 功能和能力，避免一次性交付过多信息造成认知过载，降低新手期流失率。
+
 ## 输出物：UX 方案
 
 1. **人机分工图**：在每个任务节点上，AI 做什么、人做什么
@@ -137,7 +154,7 @@ AI 产品的体验设计不应停留在"回答好看不好看"，而要围绕任
 当用户提供产品场景时，自动执行：
 
 1. 分析任务链路和人机分工点
-2. 设计状态可见怨方案
+2. 设计状态可见性方案
 3. 设计纠偏机制
 4. 设计信任 UX 方案
 5. 设计反馈沉淀机制

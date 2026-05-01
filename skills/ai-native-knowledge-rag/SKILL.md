@@ -1,25 +1,14 @@
 ---
 name: ai-native-knowledge-rag
-description: 'AI Native 产品方法论——RAG与知识系统设计的实操 Skill。
-
+description: |
+  AI Native 产品方法论——RAG与知识系统设计的实操 Skill。
   用户提供企业知识场景，Skill 自动执行知识系统设计流程：
-
   资料来源分析 → 清洗与脱敏 → 索引与权限控制 → 检索召回 → 评估与更新 → 输出知识系统方案。
-
   基于《AI Native 产品方法论》第15章。
-
-  '
-tags:
-- ai-product
-- methodology
-- rag
-- knowledge-system
-- retrieval
-- book-skill
+tags: [ai-product, methodology, rag, knowledge-system, retrieval, book-skill]
 author: Max
-source_book: AI Native 产品方法论
+source_book: "AI Native 产品方法论"
 version: 1.0
-homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p7-knowledge-rag
 ---
 
 # AI Native RAG 与知识系统设计 Skill
@@ -29,6 +18,23 @@ homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/s
 - 企业需要把私有知识接入 AI 产品
 - 需要设计从"能搜出来"到"可被产品依赖"的知识系统
 - 需要判断 RAG 的边界和局限，以及什么时候需要升级为完整知识系统
+
+## 触发条件
+
+当用户提到以下任一场景时触发：
+- 需要把企业私有知识接入 AI 产品
+- 设计 RAG 系统的分块、向量化、检索策略
+- 评估知识系统的召回质量和幻觉率
+- 从"能搜出来"升级到"可被产品依赖"的知识架构
+
+## 执行步骤
+
+1. **资料来源分析**：盘点可用资料来源，评估可信等级、更新频率和接入优先级。
+2. **清洗与脱敏**：统一格式、脱敏敏感信息、结构化处理（分段/元数据/标签）、质量校验。
+3. **索引与权限控制**：设计向量索引（分块策略/嵌入模型）、关键词索引和元数据索引，建立角色权限矩阵。
+4. **检索与召回策略**：设计混合检索策略（语义+关键词+精排），确定召回数量和排序依据。
+5. **评估与更新机制**：建立召回质量评估体系、失败案例分析流程、自动/人工更新机制和反馈驱动的知识补充流程。
+6. **输出知识系统方案**：整合资料清单、清洗方案、索引设计、检索策略和评估机制，判断是否需要从 RAG 升级为完整知识系统。
 
 ## 核心概念
 

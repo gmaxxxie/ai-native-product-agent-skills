@@ -1,26 +1,14 @@
 ---
 name: ai-native-audit-release
-description: 'AI Native 产品方法论——审计放行阶段的实操 Skill。
-
+description: |
+  AI Native 产品方法论——审计放行阶段的实操 Skill。
   用户提供系统构建方案，Skill 自动执行审计放行流程：
-
   设计证据 → 评估证据 → Shadow 证据 → 放行边界判断 → go/no-go 决策 → 输出放行方案。
-
   基于《AI Native 产品方法论》第17章。
-
-  '
-tags:
-- ai-product
-- methodology
-- audit
-- release
-- governance
-- shadow
-- book-skill
+tags: [ai-product, methodology, audit, release, governance, shadow, book-skill]
 author: Max
-source_book: AI Native 产品方法论
+source_book: "AI Native 产品方法论"
 version: 1.0
-homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p9-audit-release
 ---
 
 # AI Native 审计放行 Skill
@@ -30,6 +18,16 @@ homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/s
 - 系统构建已完成，需要判断能否进入生产环境
 - 需要建立审计放行的证据链和决策机制
 - 需要设计 Shadow System 验证系统在真实环境中的表现
+
+## 执行步骤
+
+1. **设计证据收集**：检查系统设计是否清晰定义了能力范围、失败模式、边界条件和治理机制。
+2. **评估证据收集**：收集能力评估（样本/边界/长尾测试）、安全评估（权限/数据/渗透测试）和性能评估（延迟/吞吐/成本）结果。
+3. **Shadow 证据收集**：设计并运行 Shadow System，在真实环境中收集系统输出与人工处理结果的对比数据。
+4. **放行边界判断**：定义自动执行区、人工接管区和禁用区三个区域的范围和控制措施。
+5. **六类审计检查**：执行可靠性、安全与权限、执行边界、成本与性能、可追溯性、合规与治理六类审计。
+6. **go/no-go 决策**：基于证据链完整性和放行边界清晰度做出放行或拒绝决定。
+7. **输出放行方案**：如果 go，下发生产要求、监控指标和回滚方案；如果 no-go，说明缺失条件和补充要求。
 
 ## 核心概念
 

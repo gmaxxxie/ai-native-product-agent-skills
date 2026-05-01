@@ -1,33 +1,36 @@
 ---
 name: ai-native-direction-framing
-description: 'AI Native 产品方法论——方向定界阶段的实操 Skill。
-
+description: |
+  AI Native 产品方法论——方向定界阶段的实操 Skill。
   用户提供一个 AI 产品方向或问题线索，Skill 自动执行方向定界流程：
-
   问题真实性判断 → 场景切入分析 → 资料条件审查 → 能力可能性评估 → 价值判断 → 输出 Direction Brief。
-
   基于《AI Native 产品方法论》第05章。
-
-  '
-tags:
-- ai-product
-- methodology
-- direction
-- strategy
-- book-skill
+tags: [ai-product, methodology, direction, strategy, book-skill]
 author: Max
-source_book: AI Native 产品方法论
+source_book: "AI Native 产品方法论"
 version: 1.0
-homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p1-direction-framing
 ---
 
 # AI Native 方向定界 Skill
+
+## 触发条件
+
+当用户提供一个 AI 产品方向、问题线索或产品想法，并希望判断是否值得投入实验时，触发此 Skill。
 
 ## 使用场景
 
 - 你有一个 AI 产品想法，需要判断是否值得投入实验
 - 你需要为团队输出一份方向定界简报，确定进入试验的条件
 - 你需要判断某个问题空间是否适合用 AI 解决
+
+## 执行步骤
+
+1. **问题语言转换**：将用户输入的功能语言转换为问题语言，明确"用户在什么场景下遇到什么问题"。
+2. **五个必答问题判断**：逐一回答问题真实性、场景可切入性、资料可得性、能力可能性、价值密度五个核心问题。
+3. **资料条件审查**：从可得性、可脱敏性、可授权性、可结构化、持续供给五个维度审查资料条件。
+4. **能力天花板评估**：用最强模型做最小验证，判断 AI 在该场景的能力上限。
+5. **价值密度判断**：评估即使技术可行，这个方向是否足以形成产品价值和业务收益。
+6. **输出 Direction Brief**：如果条件满足，输出包含问题定义、价值假设、资料清单、风险边界和进入实验条件的方向定界简报；否则给出"不建议推进"的明确结论。
 
 ## 核心判断流程
 

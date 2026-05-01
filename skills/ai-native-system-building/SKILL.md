@@ -1,25 +1,14 @@
 ---
 name: ai-native-system-building
-description: 'AI Native 产品方法论——系统构建阶段的总论 Skill。
-
+description: |
+  AI Native 产品方法论——系统构建阶段的总论 Skill。
   用户提供实验结论报告，Skill 自动执行系统构建流程：
-
   实验证据输入 → 系统边界定义 → 能力模块设计 → 治理与观测补齐 → 输出系统构建方案。
-
   基于《AI Native 产品方法论》第11章。
-
-  '
-tags:
-- ai-product
-- methodology
-- system-design
-- architecture
-- building
-- book-skill
+tags: [ai-product, methodology, system-design, architecture, building, book-skill]
 author: Max
-source_book: AI Native 产品方法论
+source_book: "AI Native 产品方法论"
 version: 1.0
-homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p3-system-building
 ---
 
 # AI Native 系统构建 Skill
@@ -29,6 +18,15 @@ homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/s
 - 试验展开已验证能力成立，需要转为可维护、可交付、可治理的产品系统
 - 需要设计 AI Native 产品架构，而不是简单把模型 API 接入旧系统
 - 需要判断实验代码中哪些可以继承，哪些必须重写
+
+## 执行步骤
+
+1. **实验证据输入**：从试验展开阶段继承能力边界、产品形态建议、资料缺口、风险边界和失败案例。
+2. **系统边界定义**：定义能力范围、用户角色、权限分层，回答"这项能力如何被稳定调用"。
+3. **能力模块设计**：按 Agent → Skill → Tool → Model → Data 的分层结构设计 AI Native 架构。
+4. **失败处理策略**：为每种失败场景定义触发条件、处理策略和人工接管规则。
+5. **治理与观测补齐**：设计可观测性、可审计性、可回退性、可更新性四个治理维度。
+6. **输出系统构建方案**：整合系统边界、能力模块图、失败处理策略和治理方案，定义进入审计放行的条件。
 
 ## 核心概念
 

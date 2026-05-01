@@ -1,34 +1,37 @@
 ---
 name: ai-native-memory-system
-description: 'AI Native 产品方法论——记忆系统设计的实操 Skill。
-
+description: |
+  AI Native 产品方法论——记忆系统设计的实操 Skill。
   用户提供产品场景，Skill 自动执行记忆系统设计流程：
-
   记忆需求分析 → 记忆分类设计 → 权限与时效策略 → 存储与索引 → 人工修正与再沉淀 → 输出记忆系统方案。
-
   基于《AI Native 产品方法论》第13章。
-
-  '
-tags:
-- ai-product
-- methodology
-- memory
-- state
-- persistence
-- book-skill
+tags: [ai-product, methodology, memory, state, persistence, book-skill]
 author: Max
-source_book: AI Native 产品方法论
+source_book: "AI Native 产品方法论"
 version: 1.0
-homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/p5-memory-system
 ---
 
 # AI Native 记忆系统设计 Skill
+
+## 触发条件
+
+当产品需要让 AI 记住用户偏好、历史交互和过往案例，或用户反馈"AI 每次都忘记之前说过什么"时，触发此 Skill。
 
 ## 使用场景
 
 - 产品需要让 AI 记住用户偏好、历史交互和过往案例
 - 需要设计短期记忆、长期记忆和案例记忆的存储策略
 - 需要避免记忆系统从"能力复利"变成"错误复利"
+
+## 执行步骤
+
+1. **记忆需求分析**：分析场景中的痛点，识别需要哪些类型的记忆（用户/任务/案例）及其优先级。
+2. **记忆类型选择**：为短期记忆、用户记忆和案例记忆分别设计存储策略、生命周期和检索方式。
+3. **权限与时效策略**：定义不同记忆类型的可见范围、保留周期和清理策略。
+4. **存储与索引设计**：设计存储架构（Redis/SQL/向量DB），定义索引方式和检索条件。
+5. **人工修正与再沉淀流程**：设计人工修正的提交、审核和入库流程，确保高质量经验被沉淀。
+6. **记忆质量评估机制**：设计重复询问率、案例采纳率和修正样本质量等评估指标。
+7. **输出记忆系统方案**：整合分类架构、权限策略、存储设计和质量评估。
 
 ## 核心概念
 
