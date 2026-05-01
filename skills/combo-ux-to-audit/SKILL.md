@@ -15,7 +15,7 @@ requires:
 - p8a-rax-risk-assessor
 - p8b-trust-tier-designer
 - p8c-progressive-disclosure
-- p9-audit-release
+- ai-native-audit-release
 homepage: https://github.com/gmaxxxie/ai-native-product-agent-skills/tree/main/skills/combo-ux-to-audit
 stage: combo
 source_book: AI Native 产品方法论

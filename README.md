@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/p0-hero-journey.jpg" alt="AI Native Product Methodology — 15 Stages Hero's Journey" width="100%">
+  <img src="assets/hero-banner.png" alt="AI Native PM Agent — From Idea to Production" width="100%">
 </p>
 
 # AI Native PM Agent
@@ -41,11 +41,7 @@ Traditional product frameworks (Lean Startup, Jobs-to-be-Done, Design Thinking) 
 ## See What It Does in 30 Seconds
 
 <p align="center">
-  <a href="assets/ai-native-pm-agent-intro.mp4">
-    <img src="assets/p0-methodology-overview.jpg" alt="Click to watch the intro video" width="100%">
-    <br>
-    <em>▶ Click to play the 30s introduction video (2.3 MB MP4)</em>
-  </a>
+  <img src="assets/pipeline-flow.png" alt="P0→P14 Pipeline Flow" width="100%">
 </p>
 
 **Core Capabilities**: **80 executable Skills** across 8 stages + Stage auto-routing + Conflict detection + Evidence chain tracking
@@ -119,8 +115,8 @@ hermes skills install \
 
 # Any individual skill
 hermes skills install \
-  https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/skills/p1-direction-framing/SKILL.md \
-  --name p1-direction-framing
+  https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/skills/ai-native-direction-framing/SKILL.md \
+  --name ai-native-direction-framing
 ```
 
 ### Option 3: Clone & Local Install
@@ -185,10 +181,6 @@ Each stage is an independent Skill you can call individually:
 
 ### P0 — Needs Discovery Layer (17 Skills)
 
-<p align="center">
-  <img src="assets/p0-needs-discovery.jpg" alt="P0 Needs Discovery — Micro-Needs, Real-Needs Validation" width="90%">
-</p>
-
 | ID | Name | What It Does |
 |----|------|-------------|
 | p0-needs-orchestrator | Needs Discovery Orchestrator | Coordinates six tool cards for systematic needs discovery |
@@ -206,16 +198,11 @@ Each stage is an independent Skill you can call individually:
 
 ### P1–P2 — Direction & Experiment Layer (8 Skills)
 
-<p align="center">
-  <img src="assets/p1-direction-framing.jpg" alt="P1 Direction Framing — Five Must-Answer Questions" width="45%">
-  <img src="assets/p2-experiment-engine.jpg" alt="P2 Experiment Engine — Validate Before You Build" width="45%">
-</p>
-
 | ID | Name | What It Does |
 |----|------|-------------|
-| p1-direction-framing | Direction Framing | Five-dimension judgment, Direction Brief |
+| ai-native-direction-framing | Direction Framing | Five-dimension judgment, Direction Brief |
 | p2-experiment-engine | Experiment Engine (Overview) | Capability / Product / Business three-layer experiments |
-| p2a-experiment-overview | Experiment Overview | Materials prep, three-layer design, evaluation Rubric |
+| ai-native-experiment-engine | Experiment Overview | Materials prep, three-layer design, evaluation Rubric |
 | p2b-product-form-exploration | Product Form Exploration | Capability boundary, interaction prototype, form judgment |
 | p2c-process-redesign | Process Redesign | Task decomposition, human-AI collaboration mode |
 | p2d-convergence-decision | Convergence Decision | Experiment records, convergence signals, continue/pause/stop |
@@ -223,23 +210,15 @@ Each stage is an independent Skill you can call individually:
 
 ### P3–P4 — System Building Layer (5 Skills)
 
-<p align="center">
-  <img src="assets/p3-system-building.jpg" alt="P3 System Building — Data→Capability→Product→Moat, Context Engineering, Agent Boundary" width="90%">
-</p>
-
 | ID | Name | What It Does |
 |----|------|-------------|
-| p3-system-building | System Building | From experiments to product |
-| p4-agent-skill-design | Agent & Skill Unit Design | Agent/Skill unit design |
+| ai-native-system-building | System Building | From experiments to product |
+| ai-native-agent-skill-design | Agent & Skill Unit Design | Agent/Skill unit design |
 | p5-memory-system | Memory System Design | AI product memory architecture |
 | p6-context-engineering | Context Engineering | Context management system |
 | p7-knowledge-rag | RAG & Knowledge System | Knowledge management + RAG design |
 
 ### P5–P6 — Business Model Layer (5 Skills)
-
-<p align="center">
-  <img src="assets/p6-business-model.jpg" alt="P6 Business Model — Certainty Premium & Pricing Strategy" width="90%">
-</p>
 
 | ID | Name | What It Does |
 |----|------|-------------|
@@ -262,27 +241,19 @@ Each stage is an independent Skill you can call individually:
 
 ### P8 — User Experience Layer (4 Skills)
 
-<p align="center">
-  <img src="assets/p8-rax-framework.jpg" alt="P8 UX — RAX Framework, Trust Tiers, Progressive Disclosure" width="90%">
-</p>
-
 | ID | Name | What It Does |
 |----|------|-------------|
-| p8-ux-design | AI Native UX Design (Overview) | UX design methodology |
+| ai-native-ux-design | AI Native UX Design (Overview) | UX design methodology |
 | p8a-rax-risk-assessor | RAX Risk Assessor | Risk / Ambiguity / eXposure assessment |
 | p8b-trust-tier-designer | Trust Tier Designer | Progressive trust system design |
 | p8c-progressive-disclosure | Progressive Disclosure Checklist | Feature reveal pacing design |
 
 ### P9–P11 — Audit, Operations & Team Layer (9 Skills)
 
-<p align="center">
-  <img src="assets/p11-p12-p13-advanced.jpg" alt="P11 Team + P12 Contemplation + P13 Intuition — Human-AI Collaboration, Decision Correction, Nine-Step Framework" width="90%">
-</p>
-
 | ID | Name | What It Does |
 |----|------|-------------|
-| p9-audit-release | Audit & Release | Go/no-go decision |
-| p10-production-ops | Production Operations | Monitoring & feedback loops |
+| ai-native-audit-release | Audit & Release | Go/no-go decision |
+| ai-native-production-ops | Production Operations | Monitoring & feedback loops |
 | p10a-value-discovery-loop | Value Discovery Loop | From value signal to direction correction闭环 |
 | p10b-aiops-case | AIOps Case Template | Complete methodology path for high-risk scenarios |
 | p10c-customer-service-case | AI Customer Service Case | Service collaboration, Copilot, experience leverage |
@@ -326,10 +297,6 @@ Each stage is an independent Skill you can call individually:
 | p13k-intuition-evolution | Intuition Evolution | Continuous judgment training, standard improvement mechanism |
 
 ### P14 — Aesthetic Authority Layer (9 Skills)
-
-<p align="center">
-  <img src="assets/p14-aesthetic-authority.jpg" alt="P14 Aesthetic Authority — When Everything Can Be Generated, Selection Is the Skill" width="90%">
-</p>
 
 *From: AI Beaty — Aesthetic Authority in the Age of AI*
 
@@ -378,15 +345,15 @@ ai-native-pm-agent-skills/
 │   ├── p0g-diversity-rewrite-checklist/       # P0g diversity checklist
 │   ├── p0h-ai-product-triple-balance/         # P0h triple balance
 │   ├── p0h-triple-balance-assessor/           # P0h balance assessor
-│   ├── p1-direction-framing/        # P1 direction framing
+│   ├── ai-native-direction-framing/        # P1 direction framing
 │   ├── p2-experiment-engine/        # P2 experiment overview
-│   ├── p2a-experiment-overview/     # P2a experiment setup
+│   ├── ai-native-experiment-engine/     # P2a experiment setup
 │   ├── p2b-product-form-exploration/ # P2b product form
 │   ├── p2c-process-redesign/       # P2c process redesign
 │   ├── p2d-convergence-decision/    # P2d convergence decision
 │   ├── p2e-shadow-validation/       # P2e shadow validation
-│   ├── p3-system-building/          # P3 system building
-│   ├── p4-agent-skill-design/       # P4 agent & skill design
+│   ├── ai-native-system-building/          # P3 system building
+│   ├── ai-native-agent-skill-design/       # P4 agent & skill design
 │   ├── p5-memory-system/           # P5 memory system
 │   ├── p6-context-engineering/      # P6 context engineering
 │   ├── p7-knowledge-rag/            # P7 RAG & knowledge
@@ -401,12 +368,12 @@ ai-native-pm-agent-skills/
 │   ├── p7c-predictive-retention-designer/   # P7c predictive retention
 │   ├── p7d-marketing-productizer/   # P7d marketing productizer
 │   ├── p7e-customer-loop/           # P7e customer loop
-│   ├── p8-ux-design/               # P8 UX design overview
+│   ├── ai-native-ux-design/               # P8 UX design overview
 │   ├── p8a-rax-risk-assessor/       # P8a RAX risk assessment
 │   ├── p8b-trust-tier-designer/     # P8b trust tier design
 │   ├── p8c-progressive-disclosure/  # P8c progressive disclosure
-│   ├── p9-audit-release/           # P9 audit & release
-│   ├── p10-production-ops/          # P10 production operations
+│   ├── ai-native-audit-release/           # P9 audit & release
+│   ├── ai-native-production-ops/          # P10 production operations
 │   ├── p10a-value-discovery-loop/  # P10a value discovery loop
 │   ├── p10b-aiops-case/            # P10b AIOps case
 │   ├── p10c-customer-service-case/  # P10c AI customer service case
