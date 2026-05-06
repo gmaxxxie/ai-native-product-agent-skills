@@ -7,7 +7,7 @@ tags:
   - 故事力
   - 叙事结构
   - 信息架构
-source_book: AI Beaty
+source_book: AI Beauty
 source_chapter: Part 2: Ch7 故事力也是一种美感
 version: 1.0.0
 ---

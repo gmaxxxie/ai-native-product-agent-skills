@@ -7,7 +7,7 @@ tags:
   - AI角色
   - 工具定位
   - 审美主权
-source_book: AI Beaty
+source_book: AI Beauty
 source_chapter: Part 2: Ch4 AI不是审美本身，而是放大器/陪练器/协作者
 version: 1.0.0
 ---

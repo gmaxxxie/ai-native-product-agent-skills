@@ -7,7 +7,7 @@ tags:
   - 系统训练
   - 审美标准
   - 人机协作
-source_book: AI Beaty
+source_book: AI Beauty
 source_chapter: Part 5: Ch16-18 如何建立自己的审美主导权
 version: 1.0.0
 ---

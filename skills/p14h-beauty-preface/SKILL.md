@@ -7,7 +7,7 @@ tags:
   - 前言
   - 核心命题
   - 审美主导权
-source_book: AI Beaty
+source_book: AI Beauty
 source_chapter: 前言 + 核心命题
 version: 1.0.0
 ---
@@ -15,7 +15,7 @@ version: 1.0.0
 # 前言与核心命题 Skill
 
 ## 适用场景
-- 快速理解《AI Beaty》的核心思想
+- 快速理解《AI Beauty》的核心思想
 - 向他人解释为什么美感在AI时代更重要
 - 建立全书的学习基调
 

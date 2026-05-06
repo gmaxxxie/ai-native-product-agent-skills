@@ -7,7 +7,7 @@ tags:
   - 选择力
   - Context
   - 提示工程
-source_book: AI Beaty
+source_book: AI Beauty
 source_chapter: Part 2: Ch5-6 从生产美感到选择美感 + prompt只是起点，真正高级的是context
 version: 1.0.0
 ---

@@ -7,7 +7,7 @@ tags:
   - 人的优势
   - 护城河
   - 标准进化
-source_book: AI Beaty
+source_book: AI Beauty
 source_chapter: Part 3: Ch8-11 如果不想被AI替代，人的优势在哪里
 version: 1.0.0
 ---

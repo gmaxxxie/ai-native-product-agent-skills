@@ -1,18 +1,18 @@
 ---
 name: p14-beauty-orchestrator
-description: 《AI Beaty》全书编排器——审美主导权与美感体系化训练的路由器
+description: 《AI Beauty》全书编排器——审美主导权与美感体系化训练的路由器
 stage: meta
 tags:
   - orchestrator
   - 美感
   - 审美
   - AI美学
-source_book: AI Beaty
+source_book: AI Beauty
 source_chapter: 全书编排
 version: 1.0.0
 ---
 
-# AI Beaty 编排器（Beauty Orchestrator）
+# AI Beauty 编排器（Beauty Orchestrator）
 
 ## 适用场景
 - 设计师/产品经理想建立系统性的审美能力

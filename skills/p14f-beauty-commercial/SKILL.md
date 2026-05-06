@@ -7,7 +7,7 @@ tags:
   - 商业价值
   - 市场接受
   - 物理美感
-source_book: AI Beaty
+source_book: AI Beauty
 source_chapter: Part 4: Ch12-15 市场、产品与真实世界的考验
 version: 1.0.0
 ---
