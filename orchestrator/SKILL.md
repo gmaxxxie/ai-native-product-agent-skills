@@ -51,15 +51,15 @@ User Input
 | User says... | Route to | First Skill |
 |---|---|---|
 | "I have a pain point / idea" | P0 | `p0-needs-orchestrator` |
-| "Is this direction worth pursuing?" | P1 | `p1-direction-framing` |
-| "Help me validate with experiments" | P2 | `p2a-experiment-overview` |
-| "How to build the system?" | P3 | `p3-system-building` |
-| "Design the AI agent/skills" | P4 | `p4-agent-skill-design` |
-| "How should I price this?" | P5 | `p6-business-model` |
-| "How to get users and grow?" | P6 | `p7-marketing-growth` |
-| "How should the AI feel to use?" | P8 | `p8-ux-design` |
-| "Ready to launch, check it" | P9 | `p9-audit-release` |
-| "It's live, keep it healthy" | P10 | `p10-production-ops` |
+| "Is this direction worth pursuing?" | P1 | `ai-native-direction-framing` |
+| "Help me validate with experiments" | P2 | `ai-native-experiment-engine` |
+| "How to build the system?" | P3 | `ai-native-system-building` |
+| "Design the AI agent/skills" | P4 | `ai-native-agent-skill-design` |
+| "How should I price this?" | P5 | `ai-native-business-model` |
+| "How to get users and grow?" | P6 | `ai-native-marketing-growth` |
+| "How should the AI feel to use?" | P8 | `ai-native-ux-design` |
+| "Ready to launch, check it" | P9 | `ai-native-audit-release` |
+| "It's live, keep it healthy" | P10 | `ai-native-production-ops` |
 | "How should humans and AI divide work?" | P11 | `p11-product-team` |
 | "Am I asking the right question?" | P12 | `p12-contemplation-orchestrator` |
 | "How to make better decisions?" | P13 | `p13-intuition-orchestrator` |
