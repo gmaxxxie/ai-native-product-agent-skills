@@ -42,7 +42,7 @@
   <img src="assets/pipeline-flow.png" alt="P0→P14 产品阶段流转" width="100%">
 </p>
 
-**核心能力**：**80 个可执行 Skill** + 阶段自动路由 + 冲突检测 + 证据链追踪
+**核心能力**：**95 个可执行 Skill** + 阶段自动路由 + 冲突检测 + 证据链追踪
 
 ---
 
@@ -94,7 +94,7 @@ Agent 检查：
 ### 方式一：一键安装（推荐）
 
 ```bash
-# 安装全部 80 个 Skill + 编排器
+# 安装全部 95 个 Skill + 编排器
 curl -fsSL https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/install.sh | bash
 
 # 开始一个产品项目
@@ -175,7 +175,7 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 
 ---
 
-## 完整 Skill 列表（80 个）
+## 完整 Skill 列表（95 个）
 
 ### P0 — 需求发现层（17 个 Skill）
 
@@ -326,7 +326,7 @@ bash install.sh   # 复制所有 Skill 到 ~/.hermes/skills/ai-native-pm/
 ai-native-pm-agent-skills/
 ├── README.md / README_CN.md         # 本文档（英文 / 中文）
 ├── ARCHITECTURE.md                  # 系统架构设计
-├── skill-registry.yaml              # Skill 注册表（80 个已注册）
+├── skill-registry.yaml              # Skill 注册表（95 个已注册）
 ├── orchestrator/SKILL.md           # 主编排器：阶段路由 + 冲突检测
 ├── install.sh                       # 一键安装脚本
 ├── assets/                          # 封面图、流程图、行业矩阵、方法论书籍
@@ -425,30 +425,37 @@ ai-native-pm-agent-skills/
   <img src="assets/methodology-books.png" alt="八本书方法论合成" width="100%">
 </p>
 
-80 个 Skill 全部来自八本方法论著作。每本书的工具卡和概念卡都已转化为可执行的 Skill：
+95 个 Skill 全部来自八本方法论著作。每本书的工具卡和概念卡都已转化为可执行的 Skill：
 
 | # | 书籍 | 状态 | 覆盖阶段 | Skill 数 |
 |---|------|------|---------|---------|
 | 1 | [AI rebuild product needs](https://www.amazon.com/dp/B0GT48SZ5R) | ✅ 已出版 | P0 需求发现 | 12 |
 | 2 | [AI Native 产品方法论](https://www.amazon.com/dp/B0GSMXD24H) | ✅ 已出版 | P1–P2 方向定界与实验 | 7 |
-| 3 | [AI Native 用户体验](https://www.amazon.com/dp/B0GX2H4D33) | 📖 即将出版 | P8 UX 设计 | 4 |
+| 3 | [AI Native 用户体验](https://www.amazon.com/dp/B0GX2H4D33) | ✅ 已出版 | P8 UX 设计 | 4 |
 | 4 | [AI 确定性商业模式](https://www.amazon.com/dp/B0GRQVR2J4) | ✅ 已出版 | P5–P6 商业模式 | 5 |
-| 5 | [AI Native 营销与增长](https://www.amazon.com/dp/B0GCHHZBV3) | 📖 即将出版 | P7 增长策略 | 6 |
+| 5 | [AI Native 营销与增长](https://www.amazon.com/dp/B0GCHHZBV3) | ✅ 已出版 | P7 增长策略 | 6 |
 | 6 | [观照：AI时代的产品观、用户观与决策观](https://www.amazon.com/dp/B0GX2H4D33) | ✅ 已出版 | P12 观照与决策修正 | 10 |
-| 7 | [判断力与直觉力](https://www.amazon.com/dp/B0GCHHZBV3) | 📖 即将出版 | P13 判断力与直觉 | 12 |
+| 7 | [判断力与直觉力](https://www.amazon.com/dp/B0GCHHZBV3) | ✅ 已出版 | P13 判断力与直觉 | 12 |
 | 8 | [AI Beaty：美学权威与选择力](https://www.amazon.com/dp/B0GCHHZBV3) | ✅ 已出版 | P14 美学权威 | 9 |
 
-📖 **Amazon 已出版**（5本）：
+### 质量统计（2026年5月）
+
+| 指标 | 数值 |
+|------|------|
+| Skill 总数 | **95** |
+| Stable（≥250行） | **95 / 95 (100%)** |
+| 深入核心概念覆盖 | 38 / 95 |
+| 源方法论书籍 | 8 本 |
+| 审计评分（glm-5.1） | **4.78 / 5.0** |
+
+📖 **Amazon 已出版**（8本）：
 - **[AI rebuild product needs](https://www.amazon.com/dp/B0GT48SZ5R)** — 需求发现、微需求检测、真需求验证、需求拆解、Agent 边界设计
 - **[AI Native 产品方法论](https://www.amazon.com/dp/B0GSMXD24H)** — 方向定界、实验展开、系统构建、审计放行、生产运营
 - **[AI 确定性商业模式](https://www.amazon.com/dp/B0GRQVR2J4)** — 确定性溢价、商业模式设计、定价策略
 - **[观照：AI时代的产品观、用户观与决策观](https://www.amazon.com/dp/B0GX2H4D33)** — 正见、前提检查、判断修正、决策觉察
 - **[AI Beaty：美学权威与选择力](https://www.amazon.com/dp/B0GCHHZBV3)** — 数据飞轮、意图预测、预测性留存、营销产品化
 
-📖 **即将出版**（3本）：
-- **AI Native 用户体验** — RAX 风险评估、信任分级、渐进式披露
-- **AI Native 营销与增长** — 数据飞轮、意图预测、预测性留存、营销产品化
-- **判断力与直觉力** — 九步决策框架、判断陷阱、组织判断力
+✅ **全部已出版**（8本均已上架 Amazon）
 
 ---
 
