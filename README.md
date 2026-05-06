@@ -4,6 +4,8 @@
 
 # AI Native PM Agent
 
+> [![Skills](https://img.shields.io/badge/Skills-95-blue)](skills/) [![Stable](https://img.shields.io/badge/Stable-95%2F95-brightgreen)](#) [![Audit](https://img.shields.io/badge/Audit_Score-4.78%2F5.0-green)](AUDIT-REPORT-36-SKILLS.md) [![Books](https://img.shields.io/badge/Methodology_Books-8-orange)](#eight-books-behind-the-methodology) [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE) [![GitHub Stars](https://img.shields.io/github/stars/gmaxxxie/ai-native-product-agent-skills?style=social)](https://github.com/gmaxxxie/ai-native-product-agent-skills)
+
 > An AI product coach that asks "Is this direction really worth pursuing?" — with structured methodology backing every decision, from spark of inspiration to production deployment.
 
 [📖 中文版 README](./README_CN.md)
@@ -500,6 +502,12 @@ Issues and PRs are welcome! Priority areas:
 - **Boundary designs**: How to draw AI boundaries in high-risk scenarios
 - **Failure cases**: Failed experiment analyses are more valuable than success stories
 - **New tool cards**: Convert book concept cards into executable Skills
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=gmaxxxie/ai-native-product-agent-skills&type=Date)](https://star-history.com/#gmaxxxie/ai-native-product-agent-skills&Date)
 
 ---
 
