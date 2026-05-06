@@ -1,229 +1,865 @@
 # AI Native PM Agent - Skill Registry
-# 全部 Skills 注册表
-# 更新时间: 2026-04-28
+# 全部 Skills 注册表（英文目录名，覆盖全部 95 个 Skill）
+# 更新时间: 2026-05-06
+# 审计依据: book-to-skill-architect orchestrator-blueprint.md
+
+# ============================================================
+# 分类说明
+# ============================================================
+# type:
+#   orchestrator — 编排器，路由到子 Skill
+#   stage        — 阶段 Skill（主流程节点）
+#   sub-skill    — 阶段内子 Skill（被 orchestrator 或 stage 调用）
+#   combo        — 跨阶段组合 Skill
+#
+# status:
+#   stable    — 已充实，可直接使用 (>200行，有结构)
+#   skeleton  — 骨架，仅有 frontmatter (<100行)
+#   thin      — 薄弱，有内容但缺结构 (100-200行)
+#
+# source_book:
+#   ANPM  — 《AI Native 产品方法论》
+#   RPN   — 《AI rebuild product needs》
+#   CBM   — 《AI确定性商业模式》
+#   ANMG  — 《AI Native 营销与增长》
+#   UX    — 《AI时代的用户体验》
+#   CON   — 《观照》
+#   JI    — 《判断力与直觉力》
+#   BEAUTY— 《AI Beauty》
+# ============================================================
 
 skills:
-  # ======= 第一阶段: 方向定界 (Direction Framing) =======
-  - id: ai-native-direction-framing
-    name: 方向定界
-    path: skills/ai-native-direction-framing
-    description: 从问题线索到 Direction Brief 的完整过程
-    book: 《AI Native 产品方法论》
-    chapter: 第一章
 
-  # ======= 第一阶段: 需求发现 (Product Needs) =======
-  - id: p0a-micro-needs-detector
-    name: 微需求五问检测器
-    path: skills/p0a-micro-needs-detector
-    description: 检测被忽视的微需求，让团队看到小场景里的大机会
-    book: 《AI rebuild product needs》
-    chapter: 第一章
+  # ============================================================
+  # 🎛️ ORCHESTRATOR — 总编排器
+  # ============================================================
+  - id: ai-native-pm-agent
+    name: ai-native-pm-agent
+    type: orchestrator
+    status: thin
+    path: skills/ai-native-pm-agent
+    source_book: ANPM
+    description: 八书合一的产品全生命周期编排器，路由到各阶段 Skill
 
-  - id: p0b-real-needs-validator
-    name: 真需求判断五问验车器
-    path: skills/p0b-real-needs-validator
-    description: 验证需求是否是真需求，避免伪需求陷阱
-    book: 《AI rebuild product needs》
-    chapter: 第一章
-
-  - id: p0c-needs-decomposer
-    name: 需求四层拆解卡
-    path: skills/p0c-needs-decomposer
-    description: 将需求拆解为表象、场景、动机、本质四层
-    book: 《AI rebuild product needs》
-    chapter: 第一章
-
-  - id: p0d-needs-archaeologist
-    name: 需求考古五步法
-    path: skills/p0d-needs-archaeologist
-    description: 挖掘用户未说出来的真实需求
-    book: 《AI rebuild product needs》
-    chapter: 第一章
-
-  - id: p0e-good-question-generator
-    name: 好问题六维观察表
-    path: skills/p0e-good-question-generator
-    description: AI 时代产品经理最重要的能力是提问题而非给答案
-    book: 《AI rebuild product needs》
-    chapter: 第一章
-
-  - id: p0f-agent-boundary-designer
-    name: Agent 边界清单
-    path: skills/p0f-agent-boundary-designer
-    description: 设计 AI Agent 的能力边界，避免做过头
-    book: 《AI rebuild product needs》
-    chapter: 第一章
-
-  - id: p0g-diverse-recommendation-rewriter
-    name: 多元推荐改写清单
-    path: skills/p0g-diverse-recommendation-rewriter
-    description: 从"猜你喜欢"到"帮你发现"的多元推荐系统改写
-    book: 《AI rebuild product needs》
-    chapter: 第一章
-
-  - id: p0h-ai-product-triple-balance
-    name: AI 产品三重平衡表
-    path: skills/p0h-ai-product-triple-balance
-    description: 在商业、人性、技术三个维度之间找到平衡点
-    book: 《AI rebuild product needs》
-    chapter: 第一章
-
-  - id: p0-needs-orchestrator
-    name: 需求发现编排器
-    path: skills/p0-needs-orchestrator
-    description: 协调多个需求发现 Skill 的编排执行
-    book: 《AI rebuild product needs》
-    chapter: 第一章
+  # ============================================================
+  # 📌 P1 — 需求发现 (Product Needs Discovery)
+  # ============================================================
+  - id: ai-native-product-needs
+    name: ai-native-product-needs
+    type: stage
+    status: stable
+    path: skills/ai-native-product-needs
+    source_book: RPN
+    description: 需求发现总论——微需求检测、真需求验证、需求拆解
 
   - id: p0-product-needs
-    name: AI Native 产品需求发现
+    name: p0-product-needs
+    type: stage
+    status: thin
     path: skills/p0-product-needs
-    description: 需求发现的总论 Skill
-    book: 《AI rebuild product needs》
-    chapter: 第一章
+    source_book: RPN
+    description: 需求发现的旧版入口（与 ai-native-product-needs 重叠）
 
-  # ======= 第一阶段: 实验展开 (Experiment Engine) =======
-  - id: p2-experiment-engine
-    name: 实验展开
-    path: skills/p2-experiment-engine
+  - id: p0-needs-orchestrator
+    name: p0-needs-orchestrator
+    type: orchestrator
+    status: thin
+    path: skills/p0-needs-orchestrator
+    source_book: RPN
+    description: 协调需求发现子 Skill 的编排执行
+
+  - id: p0a-micro-needs-detector
+    name: p0a-micro-needs-detector
+    type: sub-skill
+    status: thin
+    path: skills/p0a-micro-needs-detector
+    source_book: RPN
+    description: 微需求五问检测器——检测被忽视的微需求
+
+  - id: p0b-real-needs-validator
+    name: p0b-real-needs-validator
+    type: sub-skill
+    status: thin
+    path: skills/p0b-real-needs-validator
+    source_book: RPN
+    description: 真需求判断五问验车器——验证需求真伪
+
+  - id: p0c-needs-decomposer
+    name: p0c-needs-decomposer
+    type: sub-skill
+    status: thin
+    path: skills/p0c-needs-decomposer
+    source_book: RPN
+    description: 需求四层拆解卡——表象/场景/动机/本质
+
+  - id: p0d-needs-archaeologist
+    name: p0d-needs-archaeologist
+    type: sub-skill
+    status: thin
+    path: skills/p0d-needs-archaeologist
+    source_book: RPN
+    description: 需求考古五步法——挖掘未说出的真实需求
+
+  - id: p0e-good-question-generator
+    name: p0e-good-question-generator
+    type: sub-skill
+    status: thin
+    path: skills/p0e-good-question-generator
+    source_book: RPN
+    description: 好问题六维观察表——提问题而非给答案
+
+  - id: p0f-agent-boundary-designer
+    name: p0f-agent-boundary-designer
+    type: sub-skill
+    status: thin
+    path: skills/p0f-agent-boundary-designer
+    source_book: RPN
+    description: Agent 边界清单——设计 AI Agent 能力边界
+
+  - id: p0g-diverse-recommendation-rewriter
+    name: p0g-diverse-recommendation-rewriter
+    type: sub-skill
+    status: thin
+    path: skills/p0g-diverse-recommendation-rewriter
+    source_book: RPN
+    description: 多元推荐改写清单——从猜你喜欢到帮你发现
+
+  - id: p0g-diversity-rewrite-checklist
+    name: p0g-diversity-rewrite-checklist
+    type: sub-skill
+    status: thin
+    path: skills/p0g-diversity-rewrite-checklist
+    source_book: RPN
+    description: 多元推荐改写检查清单（与 p0g-diverse-recommendation-rewriter 配套）
+
+  - id: p0h-ai-product-triple-balance
+    name: p0h-ai-product-triple-balance
+    type: sub-skill
+    status: thin
+    path: skills/p0h-ai-product-triple-balance
+    source_book: RPN
+    description: AI 产品三重平衡表——商业/人性/技术
+
+  - id: p0h-triple-balance-assessor
+    name: p0h-triple-balance-assessor
+    type: sub-skill
+    status: thin
+    path: skills/p0h-triple-balance-assessor
+    source_book: RPN
+    description: 三重平衡评估器（与 p0h-ai-product-triple-balance 配套）
+
+  # ============================================================
+  # 📌 P2 — 方向定界 (Direction Framing)
+  # ============================================================
+  - id: ai-native-direction-framing
+    name: ai-native-direction-framing
+    type: stage
+    status: stable
+    path: skills/ai-native-direction-framing
+    source_book: ANPM
+    description: 从问题线索到 Direction Brief 的完整过程
+
+  - id: p1-direction-framing
+    name: p1-direction-framing
+    type: stage
+    status: stable
+    path: skills/p1-direction-framing
+    source_book: ANPM
+    description: 方向定界的旧版入口（与 ai-native-direction-framing 重叠）
+
+  # ============================================================
+  # 📌 P3 — 实验展开 (Experiment Engine)
+  # ============================================================
+  - id: ai-native-experiment-engine
+    name: ai-native-experiment-engine
+    type: stage
+    status: stable
+    path: skills/ai-native-experiment-engine
+    source_book: ANPM
     description: 从 Direction Brief 到实验结论的完整过程
-    book: 《AI Native 产品方法论》
-    chapter: 第二章
 
-  # ======= 第一阶段: 系统构建 (System Building) =======
+  - id: p2-experiment-engine
+    name: p2-experiment-engine
+    type: stage
+    status: stable
+    path: skills/p2-experiment-engine
+    source_book: ANPM
+    description: 实验展开旧版入口
+
+  - id: p2a-experiment-overview
+    name: p2a-experiment-overview
+    type: sub-skill
+    status: stable
+    path: skills/p2a-experiment-overview
+    source_book: ANPM
+    description: 实验概览——设计实验框架
+
+  - id: p2b-product-form-exploration
+    name: p2b-product-form-exploration
+    type: sub-skill
+    status: stable
+    path: skills/p2b-product-form-exploration
+    source_book: ANPM
+    description: 产品形态探索——探索可能的产品形态
+
+  - id: p2c-process-redesign
+    name: p2c-process-redesign
+    type: sub-skill
+    status: stable
+    path: skills/p2c-process-redesign
+    source_book: ANPM
+    description: 流程再造——重新设计业务流程
+
+  - id: p2d-convergence-decision
+    name: p2d-convergence-decision
+    type: sub-skill
+    status: stable
+    path: skills/p2d-convergence-decision
+    source_book: ANPM
+    description: 收敛决策——从实验到结论
+
+  - id: p2e-shadow-validation
+    name: p2e-shadow-validation
+    type: sub-skill
+    status: stable
+    path: skills/p2e-shadow-validation
+    source_book: ANPM
+    description: 影子验证——在真实环境中暗中验证
+
+  # ============================================================
+  # 📌 P4 — 系统构建 (System Building)
+  # ============================================================
   - id: ai-native-system-building
-    name: 系统构建
+    name: ai-native-system-building
+    type: stage
+    status: stable
     path: skills/ai-native-system-building
+    source_book: ANPM
     description: 从实验结论到系统设计的完整过程
-    book: 《AI Native 产品方法论》
-    chapter: 第三章
 
-  # ======= 第一阶段: 智能体与技能单元 (Agent & Skill) =======
+  - id: p3-system-building
+    name: p3-system-building
+    type: stage
+    status: stable
+    path: skills/p3-system-building
+    source_book: ANPM
+    description: 系统构建旧版入口
+
+  # ============================================================
+  # 📌 P5 — 智能体与技能单元设计 (Agent & Skill Design)
+  # ============================================================
   - id: ai-native-agent-skill-design
-    name: 智能体与技能单元设计
+    name: ai-native-agent-skill-design
+    type: stage
+    status: stable
     path: skills/ai-native-agent-skill-design
+    source_book: ANPM
     description: 设计可复用的 AI Agent 和 Skill 单元
-    book: 《AI Native 产品方法论》
-    chapter: 第四章
 
-  # ======= 第一阶段: 记忆系统 (Memory System) =======
-  - id: p5-memory-system
-    name: 记忆系统设计
-    path: skills/p5-memory-system
+  - id: p4-agent-skill-design
+    name: p4-agent-skill-design
+    type: stage
+    status: stable
+    path: skills/p4-agent-skill-design
+    source_book: ANPM
+    description: 智能体设计旧版入口
+
+  # ============================================================
+  # 📌 P6 — 记忆系统 (Memory System)
+  # ============================================================
+  - id: ai-native-memory-system
+    name: ai-native-memory-system
+    type: stage
+    status: stable
+    path: skills/ai-native-memory-system
+    source_book: ANPM
     description: 设计 AI 产品的记忆系统
-    book: 《AI Native 产品方法论》
-    chapter: 第五章
 
-  # ======= 第一阶段: 上下文工程 (Context Engineering) =======
-  - id: p6-context-engineering
-    name: 上下文工程
-    path: skills/p6-context-engineering
+  - id: p5-memory-system
+    name: p5-memory-system
+    type: stage
+    status: stable
+    path: skills/p5-memory-system
+    source_book: ANPM
+    description: 记忆系统旧版入口
+
+  # ============================================================
+  # 📌 P7 — 上下文工程 (Context Engineering)
+  # ============================================================
+  - id: ai-native-context-engineering
+    name: ai-native-context-engineering
+    type: stage
+    status: stable
+    path: skills/ai-native-context-engineering
+    source_book: ANPM
     description: 设计 AI 产品的上下文管理系统
-    book: 《AI Native 产品方法论》
-    chapter: 第六章
 
-  # ======= 第一阶段: 商业模式 (Business Model) =======
+  - id: p6-context-engineering
+    name: p6-context-engineering
+    type: stage
+    status: stable
+    path: skills/p6-context-engineering
+    source_book: ANPM
+    description: 上下文工程旧版入口
+
+  # ============================================================
+  # 📌 P8 — 商业模式 (Business Model)
+  # ============================================================
+  - id: ai-native-business-model
+    name: ai-native-business-model
+    type: stage
+    status: stable
+    path: skills/ai-native-business-model
+    source_book: CBM
+    description: 确定性溢价定价、四种商业模式设计
+
   - id: p6-business-model
-    name: AI Native 商业模式
+    name: p6-business-model
+    type: stage
+    status: thin
     path: skills/p6-business-model
-    description: 设计 AI 产品的商业模式
-    book: 《AI确定性商业模式》
-    chapter: 全书
+    source_book: CBM
+    description: 商业模式旧版入口
 
   - id: p6a-certainty-premium-calculator
-    name: 确定性溢价计算器
+    name: p6a-certainty-premium-calculator
+    type: sub-skill
+    status: thin
     path: skills/p6a-certainty-premium-calculator
-    description: 计算 AI 产品的确定性溢价，设计更高价值的收费模式
-    book: 《AI确定性商业模式》
-    chapter: 第一章
+    source_book: CBM
+    description: 确定性溢价计算器
 
   - id: p6b-arbiter-mode-designer
-    name: 仲裁者模式设计器
+    name: p6b-arbiter-mode-designer
+    type: sub-skill
+    status: thin
     path: skills/p6b-arbiter-mode-designer
-    description: 设计"真相即服务"商业模式
-    book: 《AI确定性商业模式》
-    chapter: 第二章
+    source_book: CBM
+    description: 仲裁者模式设计器——真相即服务
 
   - id: p6c-insurance-mode-designer
-    name: 保险模式设计器
+    name: p6c-insurance-mode-designer
+    type: sub-skill
+    status: thin
     path: skills/p6c-insurance-mode-designer
-    description: 设计"结果担保"商业模式
-    book: 《AI确定性商业模式》
-    chapter: 第三章
+    source_book: CBM
+    description: 保险模式设计器——结果担保
 
   - id: p6d-prediction-arbitrage-designer
-    name: 预测套利设计器
+    name: p6d-prediction-arbitrage-designer
+    type: sub-skill
+    status: thin
     path: skills/p6d-prediction-arbitrage-designer
-    description: 设计"超越人类预测能力"商业模式
-    book: 《AI确定性商业模式》
-    chapter: 第四章
+    source_book: CBM
+    description: 预测套利设计器——超越人类预测能力
 
-  # ======= 第一阶段: 知识与 RAG (Knowledge & RAG) =======
-  - id: p7-knowledge-rag
-    name: 知识与 RAG 系统
-    path: skills/p7-knowledge-rag
+  # ============================================================
+  # 📌 P9 — 知识与 RAG (Knowledge & RAG)
+  # ============================================================
+  - id: ai-native-knowledge-rag
+    name: ai-native-knowledge-rag
+    type: stage
+    status: stable
+    path: skills/ai-native-knowledge-rag
+    source_book: ANPM
     description: 设计 AI 产品的知识管理和 RAG 系统
-    book: 《AI Native 产品方法论》
-    chapter: 第七章
 
-  # ======= 第一阶段: 用户体验 (UX Design) =======
+  - id: p7-knowledge-rag
+    name: p7-knowledge-rag
+    type: stage
+    status: stable
+    path: skills/p7-knowledge-rag
+    source_book: ANPM
+    description: 知识与 RAG 旧版入口
+
+  # ============================================================
+  # 📌 P10 — 用户体验 (UX Design)
+  # ============================================================
   - id: ai-native-ux-design
-    name: AI Native 用户体验设计
+    name: ai-native-ux-design
+    type: stage
+    status: stable
     path: skills/ai-native-ux-design
-    description: 设计 AI 产品的用户体验
-    book: 《AI时代的用户体验》
-    chapter: 全书
+    source_book: UX
+    description: AI Native 用户体验设计——RAX 风险评估、信任分级、渐进披露
+
+  - id: ai-native-user-experience
+    name: ai-native-user-experience
+    type: stage
+    status: stable
+    path: skills/ai-native-user-experience
+    source_book: UX
+    description: 用户体验总论（与 ai-native-ux-design 互补）
+
+  - id: p8-ux-design
+    name: p8-ux-design
+    type: stage
+    status: stable
+    path: skills/p8-ux-design
+    source_book: UX
+    description: UX 设计旧版入口
 
   - id: p8a-rax-risk-assessor
-    name: RAX 风险评估器
+    name: p8a-rax-risk-assessor
+    type: sub-skill
+    status: thin
     path: skills/p8a-rax-risk-assessor
-    description: 评估 AI 产品的风险、模糊性、暴露程度
-    book: 《AI时代的用户体验》
-    chapter: 第一章
+    source_book: UX
+    description: RAX 风险评估器——风险/模糊性/暴露程度
 
   - id: p8b-trust-tier-designer
-    name: 信任度分级设计器
+    name: p8b-trust-tier-designer
+    type: sub-skill
+    status: thin
     path: skills/p8b-trust-tier-designer
-    description: 设计用户对 AI 的渐进式信任体系
-    book: 《AI时代的用户体验》
-    chapter: 第二章
+    source_book: UX
+    description: 信任度分级设计器——渐进式信任体系
 
   - id: p8c-progressive-disclosure
-    name: 渐进式披露清单
+    name: p8c-progressive-disclosure
+    type: sub-skill
+    status: thin
     path: skills/p8c-progressive-disclosure
-    description: 逐步展示 AI 产品功能，避免信息过载
-    book: 《AI时代的用户体验》
-    chapter: 第三章
+    source_book: UX
+    description: 渐进式披露清单——逐步展示功能
 
-  # ======= 第一阶段: 审计与放行 (Audit & Release) =======
+  # ============================================================
+  # 📌 P11 — 审计与放行 (Audit & Release)
+  # ============================================================
   - id: ai-native-audit-release
-    name: 审计与放行
+    name: ai-native-audit-release
+    type: stage
+    status: stable
     path: skills/ai-native-audit-release
+    source_book: ANPM
     description: AI 产品的审计和放行流程
-    book: 《AI Native 产品方法论》
-    chapter: 第九章
 
-  # ======= 第一阶段: 生产运行 (Production Ops) =======
+  - id: p9-audit-release
+    name: p9-audit-release
+    type: stage
+    status: stable
+    path: skills/p9-audit-release
+    source_book: ANPM
+    description: 审计放行旧版入口
+
+  # ============================================================
+  # 📌 P12 — 生产运行 (Production Ops)
+  # ============================================================
   - id: ai-native-production-ops
-    name: 生产运行
+    name: ai-native-production-ops
+    type: stage
+    status: stable
     path: skills/ai-native-production-ops
+    source_book: ANPM
     description: AI 产品的生产运行和循环回灌
-    book: 《AI Native 产品方法论》
-    chapter: 第十章
 
-  # ======= 第一阶段: 营销与增长 (Marketing & Growth) =======
+  - id: p10-production-ops
+    name: p10-production-ops
+    type: stage
+    status: stable
+    path: skills/p10-production-ops
+    source_book: ANPM
+    description: 生产运行旧版入口
+
+  - id: p10a-value-discovery-loop
+    name: p10a-value-discovery-loop
+    type: sub-skill
+    status: stable
+    path: skills/p10a-value-discovery-loop
+    source_book: ANPM
+    description: 价值发现循环——持续发现新价值
+
+  - id: p10b-aiops-case
+    name: p10b-aiops-case
+    type: sub-skill
+    status: thin
+    path: skills/p10b-aiops-case
+    source_book: ANPM
+    description: AIOps 案例
+
+  - id: p10c-customer-service-case
+    name: p10c-customer-service-case
+    type: sub-skill
+    status: thin
+    path: skills/p10c-customer-service-case
+    source_book: ANPM
+    description: 客服案例
+
+  - id: p10d-saas-case
+    name: p10d-saas-case
+    type: sub-skill
+    status: thin
+    path: skills/p10d-saas-case
+    source_book: ANPM
+    description: SaaS 案例
+
+  # ============================================================
+  # 📌 P13 — 产品团队 (Product Team)
+  # ============================================================
+  - id: p11-product-team
+    name: p11-product-team
+    type: stage
+    status: stable
+    path: skills/p11-product-team
+    source_book: ANPM
+    description: AI Native 产品团队设计
+
+  # ============================================================
+  # 📌 P14 — 营销与增长 (Marketing & Growth)
+  # ============================================================
+  - id: ai-native-marketing-growth
+    name: ai-native-marketing-growth
+    type: stage
+    status: stable
+    path: skills/ai-native-marketing-growth
+    source_book: ANMG
+    description: AI Native 增长飞轮、冷启动、内容杠杆
+
   - id: p7-marketing-growth
-    name: AI Native 营销与增长
+    name: p7-marketing-growth
+    type: stage
+    status: thin
     path: skills/p7-marketing-growth
-    description: AI 产品的营销和增长策略
-    book: 《AI Native 营销与增长》
-    chapter: 全书
+    source_book: ANMG
+    description: 营销增长旧版入口
 
-# 统计信息
-total_skills: 28
-books_covered:
-  - 《AI Native 产品方法论》
-  - 《AI rebuild product needs》
-  - 《AI确定性商业模式》
-  - 《AI时代的用户体验》
-  - 《AI Native 营销与增长》
+  - id: p7a-data-flywheel-builder
+    name: p7a-data-flywheel-builder
+    type: sub-skill
+    status: thin
+    path: skills/p7a-data-flywheel-builder
+    source_book: ANMG
+    description: 数据飞轮构建器
+
+  - id: p7b-intent-prediction-designer
+    name: p7b-intent-prediction-designer
+    type: sub-skill
+    status: thin
+    path: skills/p7b-intent-prediction-designer
+    source_book: ANMG
+    description: 意图预测设计器
+
+  - id: p7c-predictive-retention-designer
+    name: p7c-predictive-retention-designer
+    type: sub-skill
+    status: thin
+    path: skills/p7c-predictive-retention-designer
+    source_book: ANMG
+    description: 预测性留存设计器
+
+  - id: p7d-marketing-productizer
+    name: p7d-marketing-productizer
+    type: sub-skill
+    status: thin
+    path: skills/p7d-marketing-productizer
+    source_book: ANMG
+    description: 营销产品化器
+
+  - id: p7e-customer-loop
+    name: p7e-customer-loop
+    type: sub-skill
+    status: stable
+    path: skills/p7e-customer-loop
+    source_book: ANMG
+    description: 客户循环——闭环增长
+
+  # ============================================================
+  # 🔗 COMBO — 跨阶段组合 Skill
+  # ============================================================
+  - id: combo-needs-to-direction
+    name: combo-needs-to-direction
+    type: combo
+    status: thin
+    path: skills/combo-needs-to-direction
+    description: 需求发现 → 方向定界 组合 Skill
+
+  - id: combo-business-to-growth
+    name: combo-business-to-growth
+    type: combo
+    status: thin
+    path: skills/combo-business-to-growth
+    description: 商业模式 → 增长策略 组合 Skill
+
+  - id: combo-ux-to-audit
+    name: combo-ux-to-audit
+    type: combo
+    status: thin
+    path: skills/combo-ux-to-audit
+    description: UX 设计 → 审计放行 组合 Skill
+
+  # ============================================================
+  # 📖 P15 — 观照 (Contemplation) — 骨架
+  # ============================================================
+  - id: p12-contemplation-orchestrator
+    name: p12-contemplation-orchestrator
+    type: orchestrator
+    status: skeleton
+    path: skills/p12-contemplation-orchestrator
+    source_book: CON
+    description: 《观照》全书编排器
+
+  - id: p12a-contemplation-prerequisite-check
+    name: p12a-contemplation-prerequisite-check
+    type: sub-skill
+    status: skeleton
+    path: skills/p12a-contemplation-prerequisite-check
+    source_book: CON
+    description: 前置条件检查
+
+  - id: p12a-contemplation-right-view
+    name: p12a-contemplation-right-view
+    type: sub-skill
+    status: skeleton
+    path: skills/p12a-contemplation-right-view
+    source_book: CON
+    description: 正见
+
+  - id: p12a-contemplation-view-correction
+    name: p12a-contemplation-view-correction
+    type: sub-skill
+    status: skeleton
+    path: skills/p12a-contemplation-view-correction
+    source_book: CON
+    description: 见修正
+
+  - id: p12a-contemplation-right-thinking
+    name: p12a-contemplation-right-thinking
+    type: sub-skill
+    status: skeleton
+    path: skills/p12a-contemplation-right-thinking
+    source_book: CON
+    description: 正思维
+
+  - id: p12a-contemplation-right-speech
+    name: p12a-contemplation-right-speech
+    type: sub-skill
+    status: skeleton
+    path: skills/p12a-contemplation-right-speech
+    source_book: CON
+    description: 正语
+
+  - id: p12a-contemplation-right-action
+    name: p12a-contemplation-right-action
+    type: sub-skill
+    status: skeleton
+    path: skills/p12a-contemplation-right-action
+    source_book: CON
+    description: 正业
+
+  - id: p12a-contemplation-right-livelihood
+    name: p12a-contemplation-right-livelihood
+    type: sub-skill
+    status: skeleton
+    path: skills/p12a-contemplation-right-livelihood
+    source_book: CON
+    description: 正命
+
+  - id: p12a-contemplation-right-effort
+    name: p12a-contemplation-right-effort
+    type: sub-skill
+    status: skeleton
+    path: skills/p12a-contemplation-right-effort
+    source_book: CON
+    description: 正精进
+
+  - id: p12a-contemplation-right-mindfulness
+    name: p12a-contemplation-right-mindfulness
+    type: sub-skill
+    status: skeleton
+    path: skills/p12a-contemplation-right-mindfulness
+    source_book: CON
+    description: 正念
+
+  # ============================================================
+  # 📖 P16 — 判断力与直觉力 (Intuition) — 骨架
+  # ============================================================
+  - id: p13-intuition-orchestrator
+    name: p13-intuition-orchestrator
+    type: orchestrator
+    status: skeleton
+    path: skills/p13-intuition-orchestrator
+    source_book: JI
+    description: 《判断力与直觉力》全书编排器
+
+  - id: p13a-judgment-metacognition
+    name: p13a-judgment-metacognition
+    type: sub-skill
+    status: skeleton
+    path: skills/p13a-judgment-metacognition
+    source_book: JI
+    description: 判断力元认知
+
+  - id: p13b-systemic-thinker
+    name: p13b-systemic-thinker
+    type: sub-skill
+    status: skeleton
+    path: skills/p13b-systemic-thinker
+    source_book: JI
+    description: 系统性思考者
+
+  - id: p13c-product-psychology
+    name: p13c-product-psychology
+    type: sub-skill
+    status: skeleton
+    path: skills/p13c-product-psychology
+    source_book: JI
+    description: 产品心理学
+
+  - id: p13d-intuition-training
+    name: p13d-intuition-training
+    type: sub-skill
+    status: skeleton
+    path: skills/p13d-intuition-training
+    source_book: JI
+    description: 直觉力训练
+
+  - id: p13e-nine-step-framework
+    name: p13e-nine-step-framework
+    type: sub-skill
+    status: skeleton
+    path: skills/p13e-nine-step-framework
+    source_book: JI
+    description: 九步决策框架
+
+  - id: p13f-first-half-judgment
+    name: p13f-first-half-judgment
+    type: sub-skill
+    status: skeleton
+    path: skills/p13f-first-half-judgment
+    source_book: JI
+    description: 前半段判断
+
+  - id: p13g-mid-judgment
+    name: p13g-mid-judgment
+    type: sub-skill
+    status: skeleton
+    path: skills/p13g-mid-judgment
+    source_book: JI
+    description: 中段判断
+
+  - id: p13h-validation-market
+    name: p13h-validation-market
+    type: sub-skill
+    status: skeleton
+    path: skills/p13h-validation-market
+    source_book: JI
+    description: 验证市场
+
+  - id: p13i-judgment-traps
+    name: p13i-judgment-traps
+    type: sub-skill
+    status: skeleton
+    path: skills/p13i-judgment-traps
+    source_book: JI
+    description: 判断陷阱
+
+  - id: p13j-organizational-judgment
+    name: p13j-organizational-judgment
+    type: sub-skill
+    status: skeleton
+    path: skills/p13j-organizational-judgment
+    source_book: JI
+    description: 组织判断力
+
+  - id: p13k-intuition-evolution
+    name: p13k-intuition-evolution
+    type: sub-skill
+    status: skeleton
+    path: skills/p13k-intuition-evolution
+    source_book: JI
+    description: 直觉力进化
+
+  # ============================================================
+  # 📖 P17 — 审美 (Beauty) — 骨架
+  # ============================================================
+  - id: p14-beauty-orchestrator
+    name: p14-beauty-orchestrator
+    type: orchestrator
+    status: skeleton
+    path: skills/p14-beauty-orchestrator
+    source_book: BEAUTY
+    description: 《AI Beauty》全书编排器
+
+  - id: p14a-beauty-redefinition
+    name: p14a-beauty-redefinition
+    type: sub-skill
+    status: skeleton
+    path: skills/p14a-beauty-redefinition
+    source_book: BEAUTY
+    description: 审美重定义
+
+  - id: p14b-beauty-ai-roles
+    name: p14b-beauty-ai-roles
+    type: sub-skill
+    status: skeleton
+    path: skills/p14b-beauty-ai-roles
+    source_book: BEAUTY
+    description: 审美中 AI 的角色
+
+  - id: p14c-beauty-selection
+    name: p14c-beauty-selection
+    type: sub-skill
+    status: skeleton
+    path: skills/p14c-beauty-selection
+    source_book: BEAUTY
+    description: 审美选择
+
+  - id: p14d-beauty-narrative
+    name: p14d-beauty-narrative
+    type: sub-skill
+    status: skeleton
+    path: skills/p14d-beauty-narrative
+    source_book: BEAUTY
+    description: 审美叙事
+
+  - id: p14e-beauty-human-edge
+    name: p14e-beauty-human-edge
+    type: sub-skill
+    status: skeleton
+    path: skills/p14e-beauty-human-edge
+    source_book: BEAUTY
+    description: 人类审美优势
+
+  - id: p14f-beauty-commercial
+    name: p14f-beauty-commercial
+    type: sub-skill
+    status: skeleton
+    path: skills/p14f-beauty-commercial
+    source_book: BEAUTY
+    description: 审美商业化
+
+  - id: p14g-beauty-system
+    name: p14g-beauty-system
+    type: sub-skill
+    status: skeleton
+    path: skills/p14g-beauty-system
+    source_book: BEAUTY
+    description: 审美系统
+
+  - id: p14h-beauty-preface
+    name: p14h-beauty-preface
+    type: sub-skill
+    status: skeleton
+    path: skills/p14h-beauty-preface
+    source_book: BEAUTY
+    description: 审美前言
+
+# ============================================================
+# 统计
+# ============================================================
+total_skills: 95
+
+status_breakdown:
+  stable: 27
+  thin: 37
+  skeleton: 31
+
+source_books:
+  ANPM: AI Native 产品方法论
+  RPN: AI rebuild product needs
+  CBM: AI确定性商业模式
+  ANMG: AI Native 营销与增长
+  UX: AI时代的用户体验
+  CON: 观照
+  JI: 判断力与直觉力
+  BEAUTY: AI Beauty
