@@ -4,6 +4,8 @@
 
 # AI Native PM Agent
 
+> [![Skills](https://img.shields.io/badge/Skills-95-blue)](skills/) [![Stable](https://img.shields.io/badge/Stable-95%2F95-brightgreen)](#) [![Audit](https://img.shields.io/badge/Audit_Score-4.78%2F5.0-green)](AUDIT-REPORT-36-SKILLS.md) [![Books](https://img.shields.io/badge/方法论书籍-8-orange)](#八本方法论书籍) [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE) [![GitHub Stars](https://img.shields.io/github/stars/gmaxxxie/ai-native-product-agent-skills?style=social)](https://github.com/gmaxxxie/ai-native-product-agent-skills)
+
 > 一个会问你"这方向真的值得做吗"的 AI 产品教练——从灵感火花到上线投产，每一步都有方法论兜底。
 
 ---
@@ -498,6 +500,12 @@ ai-native-pm-agent-skills/
 - **边界设计**：高风险场景下如何划定 AI 边界
 - **失败案例分析**：失败实验的分析比成功经验更有价值
 - **新工具卡**：将书的概念卡转化为可执行的 Skill
+
+---
+
+## ⭐ Star 历史
+
+[![Star History Chart](https://api.star-history.com/svg?repos=gmaxxxie/ai-native-product-agent-skills&type=Date)](https://star-history.com/#gmaxxxie/ai-native-product-agent-skills&Date)
 
 ---
 
