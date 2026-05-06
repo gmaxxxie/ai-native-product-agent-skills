@@ -44,7 +44,7 @@ Traditional product frameworks (Lean Startup, Jobs-to-be-Done, Design Thinking) 
   <img src="assets/pipeline-flow.png" alt="P0→P14 Pipeline Flow" width="100%">
 </p>
 
-**Core Capabilities**: **80 executable Skills** across 8 stages + Stage auto-routing + Conflict detection + Evidence chain tracking
+**Core Capabilities**: **95 executable Skills** across 8 stages + Stage auto-routing + Conflict detection + Evidence chain tracking
 
 ---
 
@@ -96,7 +96,7 @@ The Agent checks:
 ### Option 1: One-Click Install (Recommended)
 
 ```bash
-# Install all 80 skills + orchestrator
+# Install all 95 skills + orchestrator
 curl -fsSL https://raw.githubusercontent.com/gmaxxxie/ai-native-product-agent-skills/main/install.sh | bash
 
 # Start a product project
@@ -177,7 +177,7 @@ Each stage is an independent Skill you can call individually:
 
 ---
 
-## Complete Skill List (80 Skills)
+## Complete Skill List (95 Skills)
 
 ### P0 — Needs Discovery Layer (17 Skills)
 
@@ -328,7 +328,7 @@ Each stage is an independent Skill you can call individually:
 ai-native-pm-agent-skills/
 ├── README.md / README_CN.md         # This document (EN / 中文)
 ├── ARCHITECTURE.md                  # System architecture design
-├── skill-registry.yaml              # Skill registry (80 skills registered)
+├── skill-registry.yaml              # Skill registry (95 skills registered)
 ├── orchestrator/SKILL.md            # Main orchestrator: stage routing + conflict detection
 ├── install.sh                       # One-click install script
 ├── assets/                          # Hero banner, pipeline flow, industry matrix, methodology books
@@ -427,30 +427,37 @@ ai-native-pm-agent-skills/
   <img src="assets/methodology-books.png" alt="Eight Books Methodology Synthesis" width="100%">
 </p>
 
-All **80 Skills** are derived from eight methodology books. Each book's tool cards and concept cards have been converted into executable Skills:
+All **95 Skills** are derived from eight methodology books. Each book's tool cards and concept cards have been converted into executable Skills:
 
 | # | Book | Status | Stages Covered | Skills |
 |---|------|--------|---------------|--------|
 | 1 | [Micro-Needs for AI Products](https://www.amazon.com/dp/B0GT48SZ5R) | ✅ Published | P0 Needs Discovery | 12 |
 | 2 | [AI Native Product Methodology](https://www.amazon.com/dp/B0GSMXD24H) | ✅ Published | P1–P2 Direction / Experiment | 7 |
-| 3 | [AI Native UX Design](https://www.amazon.com/dp/B0GX2H4D33) | 📖 Coming Soon | P8 UX Design | 4 |
+| 3 | [AI Native UX Design](https://www.amazon.com/dp/B0GX2H4D33) | ✅ Published |
 | 4 | [JUDGMENT: AI Native Business Model](https://www.amazon.com/dp/B0GRQVR2J4) | ✅ Published | P5–P6 Business Model | 5 |
-| 5 | [AI Native Marketing & Growth](https://www.amazon.com/dp/B0GCHHZBV3) | 📖 Coming Soon | P7 Growth Strategy | 6 |
+| 5 | [AI Native Marketing & Growth](https://www.amazon.com/dp/B0GCHHZBV3) | ✅ Published |
 | 6 | [Contemplation](https://www.amazon.com/dp/B0GX2H4D33) | ✅ Published | P12 Contemplation & Decision Correction | 10 |
-| 7 | [Intuition: Judgment & Decision](https://www.amazon.com/dp/B0GCHHZBV3) | 📖 Coming Soon | P13 Judgment & Intuition | 12 |
+| 7 | [Intuition: Judgment & Decision](https://www.amazon.com/dp/B0GCHHZBV3) | ✅ Published | P13 Judgment & Intuition | 12 |
 | 8 | [Aesthetic Authority](https://www.amazon.com/dp/B0GCHHZBV3) | ✅ Published | P14 Aesthetic Authority | 9 |
 
-📖 **Available on Amazon** (5 published):
+### Quality Stats (as of May 2026)
+
+| Metric | Value |
+|--------|-------|
+| Total Skills | **95** |
+| Stable (≥250 lines) | **95 / 95 (100%)** |
+| Deep Concept Sections | 38 / 95 |
+| Source Books | 8 |
+| Audit Score (glm-5.1) | **4.78 / 5.0** |
+
+📖 **Available on Amazon** (8 published):
 - **[Micro-Needs for AI Products](https://www.amazon.com/dp/B0GT48SZ5R)** — Needs discovery, micro-needs detection, real-needs validation, needs decomposition, agent boundary design
 - **[AI Native Product Methodology](https://www.amazon.com/dp/B0GSMXD24H)** — Direction framing, experiment engine, system building, audit & release, production operations
 - **[JUDGMENT: How to Make Better AI Product Decisions](https://www.amazon.com/dp/B0GRQVR2J4)** — Certainty Premium, business model design, pricing strategy
 - **[Contemplation: Product Judgment, User Understanding, and Decision Correction in the AI Era](https://www.amazon.com/dp/B0GX2H4D33)** — Right view, prerequisite checks, judgment correction, decision mindfulness
 - **[Aesthetic Authority: Why Human Judgment and Taste Matter in the Age of AI](https://www.amazon.com/dp/B0GCHHZBV3)** — Data flywheel, intent prediction, predictive retention, marketing-as-product
 
-📖 **Coming Soon** (3 in progress):
-- **AI Native UX Design** — RAX risk assessment, trust tier design, progressive disclosure
-- **AI Native Marketing & Growth** — Data flywheel, intent prediction, predictive retention, marketing-as-product
-- **Intuition: Judgment & Decision** — Nine-step decision framework, judgment traps, organizational judgment
+✅ **All 8 books published on Amazon** — 95 executable Skills derived from the complete methodology library.
 
 ---
 
